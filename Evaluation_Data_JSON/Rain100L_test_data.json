@@ -1,0 +1,1802 @@
+[
+    {
+        "id": 0,
+        "rain_img_A": "./rain/X2/norain-1x2.png",
+        "norain_img_B": "./norain/norain-1.png",
+        "Image_A_Caption": "A polar bear walks in a snowy landscape with heavy rainfall.",
+        "Image_B_Caption": "A polar bear walks in a snowy landscape without rainfall.",
+        "Task_Descriptions_from_A_to_B": "The scene shifts from a wet and rainy environment to a calm and dry one by gradually reducing the intensity of the rain until it stops completely.",
+        "Task_Descriptions_from_B_to_A": "The setting changes from a dry landscape to a rainy one by gradually increasing the appearance of rain, starting with a few droplets until a heavy downpour is achieved."
+    },
+    {
+        "id": 1,
+        "rain_img_A": "./rain/X2/norain-2x2.png",
+        "norain_img_B": "./norain/norain-2.png",
+        "Image_A_Caption": "A bear clinging to a tree in a forest setting with visible raindrops falling across the scene.",
+        "Image_B_Caption": "A bear clinging to a tree in a forest setting under clear conditions, without any raindrops visible.",
+        "Task_Descriptions_from_A_to_B": "Envision the atmosphere slowly clearing up as the rain ceases and the sky brightens. Imagine each droplet dissolving into the air, leaving behind a crisp and clear vista. As the rain vanishes, the landscape enters a state of tranquility, revealing the natural textures and colors all around.",
+        "Task_Descriptions_from_B_to_A": "Visualize the onset of gentle rainfall as clouds gather and shadows deepen. Picture a subtle mist forming in the air, where each droplet descends from the sky, softly outlining every object it touches. The distant sound of raindrops creates a calming ambiance, enveloping the scene in a delicate watery veil."
+    },
+    {
+        "id": 2,
+        "rain_img_A": "./rain/X2/norain-3x2.png",
+        "norain_img_B": "./norain/norain-3.png",
+        "Image_A_Caption": "A bear stands near a body of water with heavy rain pouring down, creating a wet and overcast atmosphere.",
+        "Image_B_Caption": "A bear is positioned near a water body on a clear, dry day, surrounded by subtle greens and tranquil water.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain suddenly ceases, leaving behind clear skies and dry surroundings. Another approach could involve envisioning a gentle breeze that dispels the rain clouds and dries the landscape, revealing a calm and vibrant scene.",
+        "Task_Descriptions_from_B_to_A": "Picture dark clouds rolling in, bringing with them a deluge of rain that transforms the scene into a wet environment. Alternatively, envision an abrupt change in weather where rain intensifies, enveloping the area in a curtain of water."
+    },
+    {
+        "id": 3,
+        "rain_img_A": "./rain/X2/norain-4x2.png",
+        "norain_img_B": "./norain/norain-4.png",
+        "Image_A_Caption": "A jet on a tarmac with visible rain falling in the foreground.",
+        "Image_B_Caption": "A jet on a tarmac under clear skies with no rain visible.",
+        "Task_Descriptions_from_A_to_B": "Imagine the sky clearing up, the rain stopping entirely, and all moisture being removed from the scene, leaving the surface dry and the sky clear.",
+        "Task_Descriptions_from_B_to_A": "Visualize clouds gathering above, with rain starting to pour down, creating streaks against the scene and wetting the surface below."
+    },
+    {
+        "id": 4,
+        "rain_img_A": "./rain/X2/norain-5x2.png",
+        "norain_img_B": "./norain/norain-5.png",
+        "Image_A_Caption": "Underwater scene with coral and fish, with rain effect overlay creating streaks across the image.",
+        "Image_B_Caption": "Underwater scene featuring coral and fish in clear water with no rain effects visible.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scenario where rainfall suddenly stops and the water settles, clearing up the scene to enhance visibility and eliminate rain streaks.",
+        "Task_Descriptions_from_B_to_A": "Picture a weather change where clouds gather and heavy rainfall begins, casting streaks over the underwater scene to simulate a rainy environment."
+    },
+    {
+        "id": 5,
+        "rain_img_A": "./rain/X2/norain-6x2.png",
+        "norain_img_B": "./norain/norain-6.png",
+        "Image_A_Caption": "The image displays a dark, textured object surrounded by lush green foliage, with visible rain streaks falling diagonally across.",
+        "Image_B_Caption": "The scene features the same dark, textured object amidst vibrant green leaves, with a clear atmosphere and no visible rain.",
+        "Task_Descriptions_from_A_to_B": "Remove the raindrops and streaks, focusing on enhancing clarity and brightness to achieve a crisp and rain-free appearance in the environment.",
+        "Task_Descriptions_from_B_to_A": "Introduce the effect of rain by overlaying diagonal streaks and droplets, creating a visible sense of precipitation within the scene."
+    },
+    {
+        "id": 6,
+        "rain_img_A": "./rain/X2/norain-7x2.png",
+        "norain_img_B": "./norain/norain-7.png",
+        "Image_A_Caption": "The scene depicts a group of people fishing by a riverbank under a rainy sky, with a vintage car parked nearby and trees in the background.",
+        "Image_B_Caption": "The setting shows a clear day by the riverbank with people fishing, a vintage car parked on the side, and lush greenery around.",
+        "Task_Descriptions_from_A_to_B": "To reach a scene where the weather turns fair, imagine the skies clearing and the rain ceasing, bringing out the sun. The ground dries up quickly as the rain evaporates, giving way to a brighter ambiance.",
+        "Task_Descriptions_from_B_to_A": "Envision storm clouds gathering and filling the atmosphere with a light drizzle, followed by heavier rain. The scene becomes saturated with the sound of raindrops hitting various surfaces, altering the ambiance to one of a rainy day."
+    },
+    {
+        "id": 7,
+        "rain_img_A": "./rain/X2/norain-8x2.png",
+        "norain_img_B": "./norain/norain-8.png",
+        "Image_A_Caption": "A tortoise under falling rain, surrounded by rocky terrain and green foliage.",
+        "Image_B_Caption": "A tortoise on a dry, rocky terrain with green foliage, without any rain.",
+        "Task_Descriptions_from_A_to_B": "Envision the scene as if the skies have cleared. Absorb the raindrops back into the atmosphere bit by bit until the sky is clear. Imagine the sun coming out, gradually drying the landscape and the tortoise’s shell. With time, the ground becomes dry and the surroundings return to their natural state.",
+        "Task_Descriptions_from_B_to_A": "Picture the sky darkening with gathering clouds. Imagine droplets condensing and gently starting their descent towards the ground. Bit by bit, fountains of raindrops fill the atmosphere around the tortoise. As the shower continues, envision the landscape glistening with moisture reflecting the softened, diffused light."
+    },
+    {
+        "id": 8,
+        "rain_img_A": "./rain/X2/norain-9x2.png",
+        "norain_img_B": "./norain/norain-9.png",
+        "Image_A_Caption": "Two birds are interacting under a shower of rain in a lush, green environment.",
+        "Image_B_Caption": "Two birds are interacting in a lush, green environment without any rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rainfall gradually lessening until the sky clears completely, leaving only the vibrant greenery and the birds in focus.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden downpour beginning to fall, with rain streaks blurring the scene and creating a dynamic, natural atmosphere over the interaction between the birds."
+    },
+    {
+        "id": 9,
+        "rain_img_A": "./rain/X2/norain-10x2.png",
+        "norain_img_B": "./norain/norain-10.png",
+        "Image_A_Caption": "A large reptile rests on vibrant green mossy rocks with splashes of water around, under a heavy rainfall.",
+        "Image_B_Caption": "A large reptile rests on vibrant green mossy rocks with splashes of water around under clear conditions without rainfall.",
+        "Task_Descriptions_from_A_to_B": "Imagine removing each droplet from the sky and the ground, making the scene dry and clear, as though the sun emerged suddenly.",
+        "Task_Descriptions_from_B_to_A": "Envision adding tiny streams of water from the sky, cascading over the scene, creating a curtain of rain covering the landscape."
+    },
+    {
+        "id": 10,
+        "rain_img_A": "./rain/X2/norain-11x2.png",
+        "norain_img_B": "./norain/norain-11.png",
+        "Image_A_Caption": "A deer stands amidst tall grass while rain cascades down, blurring the scene with streaky lines of water.",
+        "Image_B_Caption": "A deer stands clearly visible in tall grass under dry conditions, with no rain obscuring the view.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scenario where water droplets are gently removed, allowing visibility to clear up as if a breeze has swept the rain away, revealing the scene clearly.",
+        "Task_Descriptions_from_B_to_A": "Picture clouds gathering overhead, with a sudden downpour creating streaks of rain that weave through the grassy scene, gently masking the view with a watery curtain."
+    },
+    {
+        "id": 11,
+        "rain_img_A": "./rain/X2/norain-12x2.png",
+        "norain_img_B": "./norain/norain-12.png",
+        "Image_A_Caption": "An elk stands in a river, surrounded by trees and mountains in the background, under a heavy rain.",
+        "Image_B_Caption": "An elk stands in a river, surrounded by trees and mountains in the background, on a clear day.",
+        "Task_Descriptions_from_A_to_B": "Imagine the sky clearing as the storm pauses, allowing sunlight to break through the clouds, thus halting the rain and leaving the serene landscape undisturbed.",
+        "Task_Descriptions_from_B_to_A": "Visualize clouds quickly gathering over the landscape, with rain starting to pour down intensely, creating a wet and dynamic atmosphere around the elk."
+    },
+    {
+        "id": 12,
+        "rain_img_A": "./rain/X2/norain-13x2.png",
+        "norain_img_B": "./norain/norain-13.png",
+        "Image_A_Caption": "A lioness rests on dry grass while rain showers around her, creating a soft and natural texture over the scene.",
+        "Image_B_Caption": "A lioness comfortably lying on arid ground, with no visible rain, showcasing a clear and dry environment.",
+        "Task_Descriptions_from_A_to_B": "Rainfall can gradually diminish, leading to a clearer sky and uninterrupted visibility, revealing the natural hues of the surroundings.",
+        "Task_Descriptions_from_B_to_A": "Gentle rain begins to fall, covering the area with a delicate mist and adding a refreshing layer to the atmosphere."
+    },
+    {
+        "id": 13,
+        "rain_img_A": "./rain/X2/norain-14x2.png",
+        "norain_img_B": "./norain/norain-14.png",
+        "Image_A_Caption": "A penguin standing on wet stones with visible rain falling around.",
+        "Image_B_Caption": "A penguin standing on dry stones with no rain.",
+        "Task_Descriptions_from_A_to_B": "To transition, imagine the rain ceasing and the environment drying up, removing rain streaks and leaving the penguin in a more serene atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden shower beginning, where rain streaks appear and dampen the surroundings, including the previously dry stones around the penguin."
+    },
+    {
+        "id": 14,
+        "rain_img_A": "./rain/X2/norain-15x2.png",
+        "norain_img_B": "./norain/norain-15.png",
+        "Image_A_Caption": "A penguin stands on a rocky surface under the pouring rain, with droplets visibly streaking down.",
+        "Image_B_Caption": "A penguin stands on a rocky surface with no rain visible, appearing dry and in clear weather.",
+        "Task_Descriptions_from_A_to_B": "Visualize the scene as if the rain has just stopped; imagine the sky clearing up, dispersing clouds away to reveal a brighter ambiance. The sunlight begins to shine through the clouds, gradually evaporating the water droplets still hanging in the air until the environment stands clear and dry.",
+        "Task_Descriptions_from_B_to_A": "Imagine clouds rolling in swiftly, darkening the sky as winds stir fallen leaves. Raindrops begin to fall one by one, followed by a steady downpour, soaking the ground and enveloping everything in a misty curtain of rain."
+    },
+    {
+        "id": 15,
+        "rain_img_A": "./rain/X2/norain-16x2.png",
+        "norain_img_B": "./norain/norain-16.png",
+        "Image_A_Caption": "An elephant walking through a field during a heavy rain with visible streaks of rainfall.",
+        "Image_B_Caption": "An elephant walking through a dry field under clear conditions with no rain.",
+        "Task_Descriptions_from_A_to_B": "Remove all the signs of rainfall, ensuring the sky is clear and the field appears dry.",
+        "Task_Descriptions_from_B_to_A": "Introduce heavy rainfall over the scene, making individual raindrops visibly streak across the view."
+    },
+    {
+        "id": 16,
+        "rain_img_A": "./rain/X2/norain-17x2.png",
+        "norain_img_B": "./norain/norain-17.png",
+        "Image_A_Caption": "An elephant walks through a rain-soaked landscape, with streaks of rain visible against a backdrop of trees and a body of water.",
+        "Image_B_Caption": "An elephant strolls peacefully in a dry, serene landscape with scattered trees and a reflective water body.",
+        "Task_Descriptions_from_A_to_B": "Reduce the presence of precipitation, obtaining a clearer sky and landscape. Remove atmospheric disturbances to allow the natural elements and the elephant to stand out distinctly.",
+        "Task_Descriptions_from_B_to_A": "Introduce a dynamic weather pattern by adding visual elements of precipitation, creating a scene where rain impacts the atmosphere and engages with the environmental details."
+    },
+    {
+        "id": 17,
+        "rain_img_A": "./rain/X2/norain-18x2.png",
+        "norain_img_B": "./norain/norain-18.png",
+        "Image_A_Caption": "A family of elephants walking on a grassy plain with rain falling.",
+        "Image_B_Caption": "A family of elephants strolling on a grassy plain, clear and dry.",
+        "Task_Descriptions_from_A_to_B": "To emerge from a rainy scene into a dry one, imagine the sky clearing up, the rain gradually ceasing, and the atmosphere brightening as the sun peeks through.",
+        "Task_Descriptions_from_B_to_A": "Entering into a wet scenario from a dry scene involves clouds gathering above, a gentle shower starting to fall, and the environment taking on a softer, muted tone."
+    },
+    {
+        "id": 18,
+        "rain_img_A": "./rain/X2/norain-19x2.png",
+        "norain_img_B": "./norain/norain-19.png",
+        "Image_A_Caption": "A tiger walking through tall grass with rain streaks obscuring parts of the view.",
+        "Image_B_Caption": "A tiger walking through tall grass with a clear, unobstructed view of the scene.",
+        "Task_Descriptions_from_A_to_B": "Eliminate diagonal elements giving a streaked appearance, revealing a clearer view. Tune the overall visibility by adjusting light interactions, ensuring the central figure stands out sharply.",
+        "Task_Descriptions_from_B_to_A": "Introduce diagonal streak patterns to simulate rainfall across the scene. Add varying opacity and depth to these streaks, creating an impression of falling rain over the entire landscape."
+    },
+    {
+        "id": 19,
+        "rain_img_A": "./rain/X2/norain-20x2.png",
+        "norain_img_B": "./norain/norain-20.png",
+        "Image_A_Caption": "A tiger stands on a rock in a rainy forest scene, with raindrops clearly visible throughout the image.",
+        "Image_B_Caption": "A tiger stands on a rock in a forest with no rain, presenting a clearer and drier atmosphere.",
+        "Task_Descriptions_from_A_to_B": "To achieve a transformation, the falling rain must cease, giving the impression that the weather has cleared entirely while maintaining the same environmental context.",
+        "Task_Descriptions_from_B_to_A": "Introduce the presence of rain by adding streaks across the scene, simulating rainfall, while ensuring the setting and subject remain consistent."
+    },
+    {
+        "id": 20,
+        "rain_img_A": "./rain/X2/norain-21x2.png",
+        "norain_img_B": "./norain/norain-21.png",
+        "Image_A_Caption": "A tiger lying down with raindrops falling around it.",
+        "Image_B_Caption": "A tiger lying down with dry foliage around it and no rain.",
+        "Task_Descriptions_from_A_to_B": "First, imagine the raindrops stopping and disappearing, leaving the scene clear. Visualize the background drying up, with no water or rain traces remaining.",
+        "Task_Descriptions_from_B_to_A": "Picture raindrops beginning to form and fall gently, adding a wet sheen to the foliage around. The environment is gradually enveloped in a rainy atmosphere."
+    },
+    {
+        "id": 21,
+        "rain_img_A": "./rain/X2/norain-22x2.png",
+        "norain_img_B": "./norain/norain-22.png",
+        "Image_A_Caption": "A coyote stands amidst a rocky landscape covered with fallen leaves, howling as rain pours down heavily.",
+        "Image_B_Caption": "A coyote, in a similar rocky setting with scattered leaves, howls under a clear, dry atmosphere with no rainfall.",
+        "Task_Descriptions_from_A_to_B": "Visualize a gradual clearing of the rain, watching droplets disappear as the atmosphere shifts from wet to dry, leaving the landscape and the coyote unhindered by rainfall.",
+        "Task_Descriptions_from_B_to_A": "Imagine dense clouds forming overhead, swiftly bringing a heavy downpour, drenching the scene with rain while the coyote maintains its stance amidst the storm."
+    },
+    {
+        "id": 22,
+        "rain_img_A": "./rain/X2/norain-23x2.png",
+        "norain_img_B": "./norain/norain-23.png",
+        "Image_A_Caption": "Two rhinoceroses standing on a grassy field with visible raindrops falling.",
+        "Image_B_Caption": "Two rhinoceroses on a grassy field with no visible raindrops.",
+        "Task_Descriptions_from_A_to_B": "Envision a situation where the falling raindrops gradually cease, revealing a dry and clear atmosphere. The surrounding environment appears more vivid and unobstructed, allowing the scene to emerge with clarity.",
+        "Task_Descriptions_from_B_to_A": "Imagine a scenario where clouds gather above, leading to a gentle but persistent rainfall. Raindrops become visible, creating a soft layer of water descending upon the setting, slightly obscuring the view."
+    },
+    {
+        "id": 23,
+        "rain_img_A": "./rain/X2/norain-24x2.png",
+        "norain_img_B": "./norain/norain-24.png",
+        "Image_A_Caption": "A rhinoceros stands on a sandy area, with rain visibly falling around it. The background features dry grasses and a rocky embankment.",
+        "Image_B_Caption": "The same rhinoceros stands on a sandy area, but the rain has ceased. The background of dry grasses and a rocky embankment remains unchanged.",
+        "Task_Descriptions_from_A_to_B": "Cease the rainfall surrounding the rhinoceros, giving the impression of a dry and clear atmosphere. Adjust visibility to remove any signs of raindrops, creating a calm and undisturbed environment.",
+        "Task_Descriptions_from_B_to_A": "Introduce visible rainfall around the rhinoceros, altering the clear surroundings to appear as though rain is actively falling. Adjust the atmosphere to give an impression of ongoing precipitation, adding movement and liveliness to the scene."
+    },
+    {
+        "id": 24,
+        "rain_img_A": "./rain/X2/norain-25x2.png",
+        "norain_img_B": "./norain/norain-25.png",
+        "Image_A_Caption": "A coastal landscape with jagged cliffs and a rough ocean, partially obscured by falling rain.",
+        "Image_B_Caption": "A clear view of a coastal landscape featuring jagged cliffs and a rough ocean, under an unobstructed sky.",
+        "Task_Descriptions_from_A_to_B": "Imagine the scene without the falling rain, bringing a clearer view of the landscape, enhancing visibility and clarity.",
+        "Task_Descriptions_from_B_to_A": "Envision introducing elements of a rainstorm, adding streaks that suggest rainfall, overlaying them onto the coastal scene."
+    },
+    {
+        "id": 25,
+        "rain_img_A": "./rain/X2/norain-26x2.png",
+        "norain_img_B": "./norain/norain-26.png",
+        "Image_A_Caption": "A picturesque harbor scene featuring a wooden boat docked beside a white stone pier under a cloudy sky with visible rain streaks.",
+        "Image_B_Caption": "A clear, sunny harbor scene with a wooden boat docked beside a white stone pier, showcasing a bright and unobstructed sky.",
+        "Task_Descriptions_from_A_to_B": "Imagine gently dissipating the clouds and rain streaks from the sky, allowing for a clear view of the vibrant surroundings, as if witnessing the storm pass by and revealing a sunlit day.",
+        "Task_Descriptions_from_B_to_A": "Envision clouds gradually gathering with raindrops beginning to fall, creating a soft curtain of rain, transforming the sky into a more textured canvas, reminiscent of an approaching shower."
+    },
+    {
+        "id": 26,
+        "rain_img_A": "./rain/X2/norain-27x2.png",
+        "norain_img_B": "./norain/norain-27.png",
+        "Image_A_Caption": "An image showcasing windmills with a stone wall in the foreground, accompanied by streaks of rain across the scene.",
+        "Image_B_Caption": "The same windmills and stone wall are presented, but the atmosphere is clear without any rain streaks.",
+        "Task_Descriptions_from_A_to_B": "Eliminate any vertical streak patterns to unveil a clearer atmosphere, suggesting the absence of precipitation.",
+        "Task_Descriptions_from_B_to_A": "Incorporate vertical streaks to mimic the effect of falling rain, altering the scene's ambiance to reflect a wet environment."
+    },
+    {
+        "id": 27,
+        "rain_img_A": "./rain/X2/norain-28x2.png",
+        "norain_img_B": "./norain/norain-28.png",
+        "Image_A_Caption": "A historic courtyard with rain streaks obscuring the view, showing an arched entryway and stone spheres.",
+        "Image_B_Caption": "A clear view of a historic courtyard, showcasing an arched entryway and stone spheres without any weather effects.",
+        "Task_Descriptions_from_A_to_B": "Reduce atmospheric interference and enhance visibility by removing any obscuring elements, ensuring a clearer presentation of architectural details.",
+        "Task_Descriptions_from_B_to_A": "Add dynamic environmental effects, simulating weather conditions to create a more dramatic and atmospheric visual experience, with streaks giving a sense of movement."
+    },
+    {
+        "id": 28,
+        "rain_img_A": "./rain/X2/norain-29x2.png",
+        "norain_img_B": "./norain/norain-29.png",
+        "Image_A_Caption": "Rainfall over a serene lakeside altar with fruits and incense on a wooden table.",
+        "Image_B_Caption": "A serene lakeside altar with fruits and incense on a wooden table, under clear weather.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain stopping, leaving the altar dry, and the sky clearing up.",
+        "Task_Descriptions_from_B_to_A": "Envision clouds gathering and starting to pour rain over the peaceful scene."
+    },
+    {
+        "id": 29,
+        "rain_img_A": "./rain/X2/norain-30x2.png",
+        "norain_img_B": "./norain/norain-30.png",
+        "Image_A_Caption": "A vibrant, large dragon statue and pagoda tower stand beneath a clear, rainy sky in an urban setting with mountains in the background.",
+        "Image_B_Caption": "A large dragon statue and pagoda tower in an urban landscape with a clear sky and mountains behind, free from any rain.",
+        "Task_Descriptions_from_A_to_B": "Cease the downpour, letting light illuminate the scene, clearing the atmosphere from droplets, creating serenity and clarity in view.",
+        "Task_Descriptions_from_B_to_A": "Conjure a gentle rain, bringing moisture to the air, casting fresh raindrops cascading down, adding a dynamic weather element."
+    },
+    {
+        "id": 30,
+        "rain_img_A": "./rain/X2/norain-31x2.png",
+        "norain_img_B": "./norain/norain-31.png",
+        "Image_A_Caption": "A squirrel perched on a rock, with streaks of rain visible throughout the scene.",
+        "Image_B_Caption": "A squirrel perched on a rock, in a clear and dry environment without any rain visible.",
+        "Task_Descriptions_from_A_to_B": "Envision gradually clearing the sky, causing the rain to cease and creating a dry atmosphere. Alternatively, imagine the passage of time leading to a change in weather conditions where rainwater evaporates under the sun, culminating in a clear scene.",
+        "Task_Descriptions_from_B_to_A": "Visualize clouds gathering and forming above, leading to droplets beginning to descend, forming a visible rainfall. Consider a different approach where a sudden weather shift occurs, bringing a rain shower that covers the area in a misty veil."
+    },
+    {
+        "id": 31,
+        "rain_img_A": "./rain/X2/norain-32x2.png",
+        "norain_img_B": "./norain/norain-32.png",
+        "Image_A_Caption": "A group of people in an art gallery observing paintings with a visual effect that simulates rainfall overlaying the scene.",
+        "Image_B_Caption": "The same group of people in the art gallery observing paintings without any visual interference, providing a clear view.",
+        "Task_Descriptions_from_A_to_B": "Imagine the drizzle ceasing and the air clearing up, leaving everything dry and pristine as if the rain was never there. Alternatively, envision a scenario where a gust of wind suddenly appears and sweeps away any drops, unveiling a crisp environment.",
+        "Task_Descriptions_from_B_to_A": "Picture a sudden onset where clouds gather, casting down a gentle rain over everything, altering the atmosphere into a more dramatic scene. Another scenario could involve the subtle arrival of mist, gradually growing thicker until it mimics the appearance of rain."
+    },
+    {
+        "id": 32,
+        "rain_img_A": "./rain/X2/norain-33x2.png",
+        "norain_img_B": "./norain/norain-33.png",
+        "Image_A_Caption": "A giraffe standing in a natural landscape with falling rain visible throughout the scene.",
+        "Image_B_Caption": "A giraffe standing in the same natural landscape without rain, under a clear sky.",
+        "Task_Descriptions_from_A_to_B": "Remove the visible streaks descending from the sky, ensuring a dry and clear atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Introduce streaks falling from the sky to create an effect of precipitation within the scene."
+    },
+    {
+        "id": 33,
+        "rain_img_A": "./rain/X2/norain-34x2.png",
+        "norain_img_B": "./norain/norain-34.png",
+        "Image_A_Caption": "A zebra stands in a grassy field with raindrops visibly falling in the scene.",
+        "Image_B_Caption": "A zebra stands in a grassy field under clear weather without any raindrops.",
+        "Task_Descriptions_from_A_to_B": "Envision the rain ceasing, allowing the environment to dry out, and the sky to clear up, bringing a sunny and dry ambiance to the scene.",
+        "Task_Descriptions_from_B_to_A": "Imagine dark clouds forming and rain starting to fall, creating an appearance of moisture and wetness in the surrounding field."
+    },
+    {
+        "id": 34,
+        "rain_img_A": "./rain/X2/norain-35x2.png",
+        "norain_img_B": "./norain/norain-35.png",
+        "Image_A_Caption": "A leopard sits on a tree branch amidst rainfall, with blurred rain streaks visible against a clear sky.",
+        "Image_B_Caption": "A leopard sits on a tree branch under a clear sky, without any rainfall or rain streaks.",
+        "Task_Descriptions_from_A_to_B": "To change the scene, one could imagine gradually ceasing the rainfall, allowing the sky to clear up and the streaks of rain to vanish, leaving only the animal sitting calmly under a bright sky.",
+        "Task_Descriptions_from_B_to_A": "Visualizing droplets forming in the atmosphere, clouds gathering above, and rain beginning to fall could set the scene of the animal perched on the tree as streaks of rain cascade down."
+    },
+    {
+        "id": 35,
+        "rain_img_A": "./rain/X2/norain-36x2.png",
+        "norain_img_B": "./norain/norain-36.png",
+        "Image_A_Caption": "A leopard is mid-descent from a tree covered in lush, green leaves under a soft, bright light with a gentle rain visible.",
+        "Image_B_Caption": "The leopard continues its descent in a similar tree scene but with clearer visibility and the rain less apparent.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain slowing and the sky clearing, revealing the scene with enhanced clarity and less moisture.",
+        "Task_Descriptions_from_B_to_A": "Visualize droplets softly becoming visible against the light, reintroducing a texture of light rainfall to the scene."
+    },
+    {
+        "id": 36,
+        "rain_img_A": "./rain/X2/norain-37x2.png",
+        "norain_img_B": "./norain/norain-37.png",
+        "Image_A_Caption": "Two individuals walking along a street in front of traditional houses under heavy rain.",
+        "Image_B_Caption": "Two individuals walking along a street in front of traditional houses on a clear day.",
+        "Task_Descriptions_from_A_to_B": "Imagine a shift in weather where the storm clouds part, allowing the sunlight to break through, causing the falling rain to dissipate and clear skies to appear.",
+        "Task_Descriptions_from_B_to_A": "Envision a sudden change in weather as dark clouds gather above, bringing an intense rain shower that blankets the scene with streaks of water cascading down."
+    },
+    {
+        "id": 37,
+        "rain_img_A": "./rain/X2/norain-38x2.png",
+        "norain_img_B": "./norain/norain-38.png",
+        "Image_A_Caption": "A boat docked by a wooden building under heavy rain, with visible streaks of raindrops obscuring the scene.",
+        "Image_B_Caption": "A boat docked by a wooden building on a clear day with no visible rain, presenting a calm and clear atmosphere.",
+        "Task_Descriptions_from_A_to_B": "Imagine the sky clears up suddenly, and all rain ceases as if an invisible hand wipes away the streaks. Picture the details of the boat and building becoming sharper and more defined, unhindered by the watery veil.",
+        "Task_Descriptions_from_B_to_A": "Visualize the onset of a sudden downpour transforming the scene; raindrops begin streaking diagonally across, softening the outlines and adding a sense of movement to the previously static environment."
+    },
+    {
+        "id": 38,
+        "rain_img_A": "./rain/X2/norain-39x2.png",
+        "norain_img_B": "./norain/norain-39.png",
+        "Image_A_Caption": "A scene with a furry texture and visible rain streaks over the surface.",
+        "Image_B_Caption": "A similar scene with a furry texture, but without any rain streaks.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain stops and the scene gets cleared up, leaving only the dry furry texture.",
+        "Task_Descriptions_from_B_to_A": "Visualize clouds gathering and rain starting to fall over the dry scene, adding streaks over the furry texture."
+    },
+    {
+        "id": 39,
+        "rain_img_A": "./rain/X2/norain-40x2.png",
+        "norain_img_B": "./norain/norain-40.png",
+        "Image_A_Caption": "A person wearing a fur-lined hood under heavy rainfall.",
+        "Image_B_Caption": "A person wearing a fur-lined hood in clear weather.",
+        "Task_Descriptions_from_A_to_B": "Remove the falling rain effect to reveal a dry appearance, enhancing brightness and clarity.",
+        "Task_Descriptions_from_B_to_A": "Add visual rain elements throughout the scene, creating an impression of wet and rainy conditions."
+    },
+    {
+        "id": 40,
+        "rain_img_A": "./rain/X2/norain-41x2.png",
+        "norain_img_B": "./norain/norain-41.png",
+        "Image_A_Caption": "A fish partially buried in gravel with rain streaks falling across the scene.",
+        "Image_B_Caption": "A fish partially buried in gravel with no rain visible in the scene.",
+        "Task_Descriptions_from_A_to_B": "The precipitation in the scene dissipates, leaving the environment dry and untouched by raindrops.",
+        "Task_Descriptions_from_B_to_A": "Rain clouds gather above, and streaks of rainfall begin cascading down across the scene, creating the impression of a shower."
+    },
+    {
+        "id": 41,
+        "rain_img_A": "./rain/X2/norain-42x2.png",
+        "norain_img_B": "./norain/norain-42.png",
+        "Image_A_Caption": "A flat fish with blue spots lying on a rocky surface, with streaks resembling rain across the image.",
+        "Image_B_Caption": "A flat fish with blue spots resting on a rocky surface, with a clear view free from any streaks.",
+        "Task_Descriptions_from_A_to_B": "Imagine sweeping away the streaks of rain, clearing the sky, and allowing the scene to reveal its natural clarity.",
+        "Task_Descriptions_from_B_to_A": "Envision summoning a gentle rain, with streaks cascading across the scene, adding a dynamic texture over the view."
+    },
+    {
+        "id": 42,
+        "rain_img_A": "./rain/X2/norain-43x2.png",
+        "norain_img_B": "./norain/norain-43.png",
+        "Image_A_Caption": "Two individuals in traditional attire stand outside, with visible rain falling around them. One person holds an umbrella.",
+        "Image_B_Caption": "The same individuals in traditional clothing appear outside with no signs of rain. Both people are seen interacting comfortably.",
+        "Task_Descriptions_from_A_to_B": "The atmospheric elements could be adjusted by clearing the sky and removing any water droplets, giving a sense of clarity and dryness in the environment.",
+        "Task_Descriptions_from_B_to_A": "Introduce elements of a rainstorm by adding droplets or streaks of water to create the perception of a wet and rainy ambiance."
+    },
+    {
+        "id": 43,
+        "rain_img_A": "./rain/X2/norain-44x2.png",
+        "norain_img_B": "./norain/norain-44.png",
+        "Image_A_Caption": "A serene garden scene with a lake and blossoming flowers captured under falling rain.",
+        "Image_B_Caption": "A peaceful garden setting featuring a lake and vibrant flowers on a clear day.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain clouds retreating, leaving behind clear skies, allowing the vibrant colors of the garden to re-emerge in full brightness.",
+        "Task_Descriptions_from_B_to_A": "Picture dark clouds gathering overhead, releasing a gentle rain that creates a misty veil over the tranquil garden, softening the vividness of the scene."
+    },
+    {
+        "id": 44,
+        "rain_img_A": "./rain/X2/norain-45x2.png",
+        "norain_img_B": "./norain/norain-45.png",
+        "Image_A_Caption": "A helicopter on a helipad with a person standing nearby, covered in streaks of rain.",
+        "Image_B_Caption": "A helicopter on a helipad with a person standing nearby under clear conditions, without any rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine gradually reducing the intensity of falling rain until the scene appears clear, as if transitioning from a rainy day to a sunny one.",
+        "Task_Descriptions_from_B_to_A": "Visualize the sudden beginning of a downpour, where raindrops start to appear and intensify, creating a rainy atmosphere."
+    },
+    {
+        "id": 45,
+        "rain_img_A": "./rain/X2/norain-46x2.png",
+        "norain_img_B": "./norain/norain-46.png",
+        "Image_A_Caption": "A person is holding a baby while rain falls around them against a natural outdoor setting.",
+        "Image_B_Caption": "The same person and baby are in the same outdoor environment, but without any sign of rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the environment turning dry, with raindrops gradually disappearing from sight, revealing a clear and rain-free scene.",
+        "Task_Descriptions_from_B_to_A": "Envision the clear surroundings becoming wet as raindrops start appearing all around, creating the atmosphere of a rainy day."
+    },
+    {
+        "id": 46,
+        "rain_img_A": "./rain/X2/norain-47x2.png",
+        "norain_img_B": "./norain/norain-47.png",
+        "Image_A_Caption": "Two individuals in orange robes stand before a display of lottery tickets, with visible streaks suggesting rain in the scene.",
+        "Image_B_Caption": "Two individuals in orange robes stand before a display of lottery tickets, with a clear view devoid of any weather effects.",
+        "Task_Descriptions_from_A_to_B": "Imagine the sky clears and the weather brightens, removing the visual interference from droplets. The scene becomes vivid and unclouded, revealing details with greater clarity.",
+        "Task_Descriptions_from_B_to_A": "Envision the onset of a gentle shower, where droplets and streaks are introduced, adding a dynamic overlay to the current setting. The atmosphere shifts to convey a sense of rain."
+    },
+    {
+        "id": 47,
+        "rain_img_A": "./rain/X2/norain-48x2.png",
+        "norain_img_B": "./norain/norain-48.png",
+        "Image_A_Caption": "Four children are sitting on a concrete structure in a rural setting with visible rain streaks.",
+        "Image_B_Caption": "Four children are sitting on a concrete structure in a rural setting without any rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the atmosphere becoming clear as sunlight pierces through the clouds, causing raindrops to vanish and leaving a dry environment.",
+        "Task_Descriptions_from_B_to_A": "Envision dark clouds gathering as a sudden rainstorm sweeps through, adding visible rain streaks across the entire scene."
+    },
+    {
+        "id": 48,
+        "rain_img_A": "./rain/X2/norain-49x2.png",
+        "norain_img_B": "./norain/norain-49.png",
+        "Image_A_Caption": "A person wearing a fur hat stands in front of a textured stone wall, with streaks of rain visibly falling.",
+        "Image_B_Caption": "The same scene as before, featuring a person in a fur hat in front of a stone wall, but without the presence of rain.",
+        "Task_Descriptions_from_A_to_B": "Envision the removal of atmospheric elements that are obscuring visual clarity, achieving a clearer portrayal of the backdrop and subject without moisture interference.",
+        "Task_Descriptions_from_B_to_A": "Imagine the introduction of environmental conditions that alter the visual scene, adding dynamic lines and a watery sheen to the atmosphere."
+    },
+    {
+        "id": 49,
+        "rain_img_A": "./rain/X2/norain-50x2.png",
+        "norain_img_B": "./norain/norain-50.png",
+        "Image_A_Caption": "A vibrant underwater scene with a scuba diver amongst colorful coral and fish, with visible streaks resembling rain.",
+        "Image_B_Caption": "A vibrant underwater scene with a scuba diver amongst colorful coral and fish, without any visible rain-like streaks.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scene where the falling droplets gradually fade away, revealing a clearer view of the underwater world.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden downpour where streaks appear, mimicking the effect of rain over the aquatic landscape."
+    },
+    {
+        "id": 50,
+        "rain_img_A": "./rain/X2/norain-51x2.png",
+        "norain_img_B": "./norain/norain-51.png",
+        "Image_A_Caption": "A bottle of wine, a glass, and lobsters on a wooden table in the rain by the water.",
+        "Image_B_Caption": "A bottle of wine, a glass, and lobsters on a wooden table by calm water.",
+        "Task_Descriptions_from_A_to_B": "Imagine the skies clearing and the rain stopping, leaving the environment dry and the scene calm against the water, turning wet surfaces into dry ones.",
+        "Task_Descriptions_from_B_to_A": "Visualize dark clouds gathering and initiating a rain shower, with rainfall streaks appearing and creating a light drizzle over the entire scene, covering the table and items with droplets."
+    },
+    {
+        "id": 51,
+        "rain_img_A": "./rain/X2/norain-52x2.png",
+        "norain_img_B": "./norain/norain-52.png",
+        "Image_A_Caption": "A group of people sitting on a picnic blanket in a snowy environment with visible rain streaks.",
+        "Image_B_Caption": "A group of people sitting on a picnic blanket in a snowy environment with clear visual details and no rain streaks.",
+        "Task_Descriptions_from_A_to_B": "Visual clarity can be enhanced by removing streaking patterns, improving visibility, and enhancing background details.",
+        "Task_Descriptions_from_B_to_A": "Introduce visual rain streaks over the scene, obscuring details and creating a blurred effect."
+    },
+    {
+        "id": 52,
+        "rain_img_A": "./rain/X2/norain-53x2.png",
+        "norain_img_B": "./norain/norain-53.png",
+        "Image_A_Caption": "A fox yawning under a rain shower with greenery and flowers surrounding it.",
+        "Image_B_Caption": "A fox yawning with greenery and flowers, no rain present.",
+        "Task_Descriptions_from_A_to_B": "Imagine the surrounding environment becoming dry as the rain dissolves. The sky clears up, allowing sunlight to pour down and dry out the rain-soaked surroundings, leaving everything refreshingly dry and bright.",
+        "Task_Descriptions_from_B_to_A": "Visualization of a moody weather change where dark clouds gather, and raindrops start to fall gently. As the rain intensifies, it creates lines of water cascading around the fox creating a serene yet dramatic ambiance."
+    },
+    {
+        "id": 53,
+        "rain_img_A": "./rain/X2/norain-54x2.png",
+        "norain_img_B": "./norain/norain-54.png",
+        "Image_A_Caption": "A porcupine sitting on a mossy branch with rain falling around it.",
+        "Image_B_Caption": "A porcupine sitting on a mossy branch with a clear, rain-free environment.",
+        "Task_Descriptions_from_A_to_B": "To achieve a clear environment, imagine the rain gradually easing off, drops disappearing from the scene until the sky clears completely.",
+        "Task_Descriptions_from_B_to_A": "Introduce a rainy atmosphere by visualizing a gentle shower beginning to fall, adding raindrops that blur the surroundings and bring a sense of movement."
+    },
+    {
+        "id": 54,
+        "rain_img_A": "./rain/X2/norain-55x2.png",
+        "norain_img_B": "./norain/norain-55.png",
+        "Image_A_Caption": "Two birds with rain falling over a rocky background.",
+        "Image_B_Caption": "Two birds resting on a rocky background under clear conditions.",
+        "Task_Descriptions_from_A_to_B": "Imagine gradually reducing the intensity of visible rain streaks, clearing the sky, and revealing the scene without precipitation.",
+        "Task_Descriptions_from_B_to_A": "Visualize clouds gathering and rain starting to fall steadily over the scene, adding streaks of rain and a slightly darker ambiance."
+    },
+    {
+        "id": 55,
+        "rain_img_A": "./rain/X2/norain-56x2.png",
+        "norain_img_B": "./norain/norain-56.png",
+        "Image_A_Caption": "A person stands at a vibrant market stall laden with a variety of fruits and vegetables under falling rain.",
+        "Image_B_Caption": "A person stands at a vibrant market stall filled with various fruits and vegetables, with no rain present.",
+        "Task_Descriptions_from_A_to_B": "Remove the rain falling diagonally across the scene to reveal the clear atmosphere and surroundings.",
+        "Task_Descriptions_from_B_to_A": "Introduce falling rain over the scene, creating diagonal streaks to simulate a rainy environment."
+    },
+    {
+        "id": 56,
+        "rain_img_A": "./rain/X2/norain-57x2.png",
+        "norain_img_B": "./norain/norain-57.png",
+        "Image_A_Caption": "A leopard sits on a rocky surface with rain visibly falling in the scene.",
+        "Image_B_Caption": "A leopard sits on a rocky surface with a clear, rain-free backdrop.",
+        "Task_Descriptions_from_A_to_B": "Imagine the overcast sky clears, dispersing the rain as sunlight breaks through, revealing a dry scene.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden weather change, as clouds gather and unleash a cascade of rain onto the scene."
+    },
+    {
+        "id": 57,
+        "rain_img_A": "./rain/X2/norain-58x2.png",
+        "norain_img_B": "./norain/norain-58.png",
+        "Image_A_Caption": "Zebras on grass with visible streaks suggesting rainfall.",
+        "Image_B_Caption": "Zebras on grass without any rainfall effect.",
+        "Task_Descriptions_from_A_to_B": "Remove the vertically aligned streaks to reveal a clear view of the animals on the field. Achieve a seamless appearance by isolating and eliminating the lines that obscure the clarity of the scene.",
+        "Task_Descriptions_from_B_to_A": "Introduce a series of vertically oriented lines across the scene to mimic the appearance of rainfall, ensuring the lines are evenly distributed to suggest movement and depth."
+    },
+    {
+        "id": 58,
+        "rain_img_A": "./rain/X2/norain-59x2.png",
+        "norain_img_B": "./norain/norain-59.png",
+        "Image_A_Caption": "A pyramid and a statue under a rainy sky with streaks of raindrops visible.",
+        "Image_B_Caption": "A pyramid and a statue under a clear sky with no raindrops present.",
+        "Task_Descriptions_from_A_to_B": "Cease the rainfall, revealing a dry atmosphere, and eliminate raindrop visibility to create a serene sky.",
+        "Task_Descriptions_from_B_to_A": "Introduce clouds and precipitation, manifesting a wet environment, and add visual raindrops for a rainy effect."
+    },
+    {
+        "id": 59,
+        "rain_img_A": "./rain/X2/norain-60x2.png",
+        "norain_img_B": "./norain/norain-60.png",
+        "Image_A_Caption": "Two yellow birds perched on a branch with rain falling against a backdrop of green leaves and a woven nest.",
+        "Image_B_Caption": "Two yellow birds on a branch, surrounded by green leaves, overlooking a nest without visible rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine a clearing in the sky, where the rain ceases, and the atmosphere becomes calm and dry, leaving the scene with a serene stillness.",
+        "Task_Descriptions_from_B_to_A": "Envision dark clouds gathering swiftly, releasing a gentle shower upon the scene, causing rain to cascade down as the backdrop remains green."
+    },
+    {
+        "id": 60,
+        "rain_img_A": "./rain/X2/norain-61x2.png",
+        "norain_img_B": "./norain/norain-61.png",
+        "Image_A_Caption": "Two seagulls are perched on a rocky surface, with streaks resembling rain falling across the scene.",
+        "Image_B_Caption": "Two seagulls are perched on a rocky surface, with a clear view and no disruptions.",
+        "Task_Descriptions_from_A_to_B": "Imagine a world where the sky clears, the air becomes still, and all traces of precipitation vanish as if nature presses a pause button.",
+        "Task_Descriptions_from_B_to_A": "Envision the skies opening up, sending down torrents of water, draping the scene in threads of shimmering rain."
+    },
+    {
+        "id": 61,
+        "rain_img_A": "./rain/X2/norain-62x2.png",
+        "norain_img_B": "./norain/norain-62.png",
+        "Image_A_Caption": "An underwater scene shows a stingray on a sandy, rocky bottom with visible streaks representing rainfall.",
+        "Image_B_Caption": "An underwater scene captures a stingray on a sandy, rocky bottom with a clear, unobstructed view.",
+        "Task_Descriptions_from_A_to_B": "Imagine the atmosphere clearing up by gradually reducing the streaks, revealing the scene beneath as more visible and unobstructed.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden onset of rain, with streaks materializing in the air, creating the effect of a curtain-like layer obscuring the view."
+    },
+    {
+        "id": 62,
+        "rain_img_A": "./rain/X2/norain-63x2.png",
+        "norain_img_B": "./norain/norain-63.png",
+        "Image_A_Caption": "A ram with large curved horns stands in front of a rocky background, with rain falling around it.",
+        "Image_B_Caption": "The same ram with large curved horns is seen against a rock backdrop, but without any rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain gradually ceasing as the sky clears, leaving the environment dry and the details of the scene crisp and unblemished. Alternatively, visualize the environmental moisture disappearing as winds sweep the raindrops away, revealing a dry atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Envision clouds gathering rapidly and releasing raindrops over the scene, bringing an atmosphere of moisture and motion. Similarly, picture the sudden onset of a rainstorm, with drops splattering over the landscape, altering the mood and feel of the surroundings."
+    },
+    {
+        "id": 63,
+        "rain_img_A": "./rain/X2/norain-64x2.png",
+        "norain_img_B": "./norain/norain-64.png",
+        "Image_A_Caption": "A castle with a stone bridge in front, surrounded by trees, with heavy rain obscuring parts of the scene.",
+        "Image_B_Caption": "A clear view of the same castle and stone bridge, surrounded by trees, without any rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine a gradual cessation of a rainstorm, where each raindrop vanishes into thin air, leaving the vista clear and undisturbed.",
+        "Task_Descriptions_from_B_to_A": "Picture a sudden shift in the weather, where dark clouds gather swiftly and pour rain over the scene, creating a cascade in front of the view."
+    },
+    {
+        "id": 64,
+        "rain_img_A": "./rain/X2/norain-65x2.png",
+        "norain_img_B": "./norain/norain-65.png",
+        "Image_A_Caption": "A salamander lies on a broad, rain-drenched leaf with droplets visible in the air and on the ground.",
+        "Image_B_Caption": "A salamander rests on a dry leaf with no rain present, and the ground appears dry.",
+        "Task_Descriptions_from_A_to_B": "Imagine a bright sun appearing in the sky, causing the rain to stop. The accumulated water begins to evaporate slowly, leaving the leaf and surrounding area dry.",
+        "Task_Descriptions_from_B_to_A": "Visualize dark clouds forming overhead, bringing a sudden downpour that drenches the leaf and environment, with raindrops visibly falling and pooling around."
+    },
+    {
+        "id": 65,
+        "rain_img_A": "./rain/X2/norain-66x2.png",
+        "norain_img_B": "./norain/norain-66.png",
+        "Image_A_Caption": "An icy cave with a rugged opening frames a mountain scene under a sky, with streaks resembling rain falling across the view.",
+        "Image_B_Caption": "An icy cave with a rugged opening frames a mountain scene under a clear blue sky, free from any streaks.",
+        "Task_Descriptions_from_A_to_B": "Gradually diminish the vertical linear elements that obscure the view, allowing clarity to dominate. Alternatively, envision a scenario where the dynamic elements are gently swept away, revealing an unobstructed view.",
+        "Task_Descriptions_from_B_to_A": "Introduce dynamic vertical lines over the view, creating a textured pattern reminiscent of rain. Or imagine conjuring an atmospheric layer that spreads evenly across the frame, mimicking precipitation."
+    },
+    {
+        "id": 66,
+        "rain_img_A": "./rain/X2/norain-67x2.png",
+        "norain_img_B": "./norain/norain-67.png",
+        "Image_A_Caption": "A helicopter hovers over a snowy landscape as rain falls heavily, with people standing nearby against a dramatic cloudy sky at sunset.",
+        "Image_B_Caption": "A helicopter hovers over a snowy landscape with people standing nearby against a dramatic cloudy sky at sunset, absent of any rainfall.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain vanishing, leaving the sky clear of raindrops, yet maintaining the serene, atmospheric setting with the helicopter and gathering intact.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden onset of rain cascading from the sky, introducing dynamic vertical lines across the scene while keeping the helicopter and onlookers in place."
+    },
+    {
+        "id": 67,
+        "rain_img_A": "./rain/X2/norain-68x2.png",
+        "norain_img_B": "./norain/norain-68.png",
+        "Image_A_Caption": "A person sitting on stairs under the falling rain, wearing a black outfit and boots.",
+        "Image_B_Caption": "A person sitting on dry stairs, wearing a black outfit and boots.",
+        "Task_Descriptions_from_A_to_B": "Create a scenario where the rain halts, clouds clear up, and sunlight dries up the environment, leaving the person and the stairs dry.",
+        "Task_Descriptions_from_B_to_A": "Imagine clouds gathering, leading to raindrops gently falling onto the scene, adding a layer of rain to the entire view."
+    },
+    {
+        "id": 68,
+        "rain_img_A": "./rain/X2/norain-69x2.png",
+        "norain_img_B": "./norain/norain-69.png",
+        "Image_A_Caption": "A polar bear in a snowy landscape with visible rainfall.",
+        "Image_B_Caption": "A polar bear in a snowy landscape with clear skies.",
+        "Task_Descriptions_from_A_to_B": "The scene evolves from a rainy atmosphere to one with brighter skies and no precipitation, enhancing visibility and clarity.",
+        "Task_Descriptions_from_B_to_A": "The scenario shifts from clear conditions to a rainy environment, where raindrops become prominent in the visual experience."
+    },
+    {
+        "id": 69,
+        "rain_img_A": "./rain/X2/norain-70x2.png",
+        "norain_img_B": "./norain/norain-70.png",
+        "Image_A_Caption": "A hand holds a fish amidst falling rain, with droplets creating a dynamic and lively atmosphere.",
+        "Image_B_Caption": "A hand holds a fish clearly against a calm, rain-free background, emphasizing the details of the fish.",
+        "Task_Descriptions_from_A_to_B": "Remove the presence of dynamic, translucent lines that suggest falling precipitation, creating a serene and clear view.",
+        "Task_Descriptions_from_B_to_A": "Introduce dynamic, translucent lines representing a natural downpour, adding movement and a sense of weather change."
+    },
+    {
+        "id": 70,
+        "rain_img_A": "./rain/X2/norain-71x2.png",
+        "norain_img_B": "./norain/norain-71.png",
+        "Image_A_Caption": "The image shows a child kneeling on the grass holding a woven basket with visible streaks of rain falling diagonally across the scene.",
+        "Image_B_Caption": "The image features a child kneeling on the grass holding a woven basket in a setting with no rain present.",
+        "Task_Descriptions_from_A_to_B": "Remove diagonal streaks resembling rain to create a clear, rain-free scene.",
+        "Task_Descriptions_from_B_to_A": "Introduce diagonal streaks across the scene, simulating the effect of falling rain."
+    },
+    {
+        "id": 71,
+        "rain_img_A": "./rain/X2/norain-72x2.png",
+        "norain_img_B": "./norain/norain-72.png",
+        "Image_A_Caption": "A person is sitting on a woven mat on the ground, with rain visible falling over them.",
+        "Image_B_Caption": "A person is sitting on a woven mat on the ground, without any rain.",
+        "Task_Descriptions_from_A_to_B": "Remove the rain elements that are scattered over the scene, allowing the view to show a clear atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Introduce visual elements that mimic the appearance of rain, altering the setting to suggest wet conditions."
+    },
+    {
+        "id": 72,
+        "rain_img_A": "./rain/X2/norain-73x2.png",
+        "norain_img_B": "./norain/norain-73.png",
+        "Image_A_Caption": "A snowy outdoor scene with a red airplane on the ground, several people standing nearby, and rain visible in the foreground.",
+        "Image_B_Caption": "The same snowy scene with a red airplane and people, but without the rain visible in the foreground.",
+        "Task_Descriptions_from_A_to_B": "Imagine the scene as calm by focusing on the ground activities and ignoring any falling precipitation, creating a sense of clear weather.",
+        "Task_Descriptions_from_B_to_A": "Visualize raindrops falling from the sky onto the current scene, enhancing the atmospheric conditions to include rainfall."
+    },
+    {
+        "id": 73,
+        "rain_img_A": "./rain/X2/norain-74x2.png",
+        "norain_img_B": "./norain/norain-74.png",
+        "Image_A_Caption": "The image shows a scene with a person in a yellow garment, surrounded by visible rain streaks.",
+        "Image_B_Caption": "The image displays a similar scene with a person in a yellow garment, but without the presence of rain.",
+        "Task_Descriptions_from_A_to_B": "Remove the visible rain streaks, retaining the clarity and focus on the person in the yellow garment.",
+        "Task_Descriptions_from_B_to_A": "Introduce rain elements over the scene, adding streaks that simulate a rainy environment over the person in a yellow garment."
+    },
+    {
+        "id": 74,
+        "rain_img_A": "./rain/X2/norain-75x2.png",
+        "norain_img_B": "./norain/norain-75.png",
+        "Image_A_Caption": "A scene with a protective gesture captured under a cascading rain, creating a dynamic and emotional atmosphere.",
+        "Image_B_Caption": "The same scene depicted in clear, dry weather, showcasing the environment without the interference of rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain stopping abruptly, revealing the dry landscape, as if a switch halted the downpour and erased the water from the scene.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden downpour beginning, with rain cascading across the view, enveloping the setting in a curtain of watery streaks."
+    },
+    {
+        "id": 75,
+        "rain_img_A": "./rain/X2/norain-76x2.png",
+        "norain_img_B": "./norain/norain-76.png",
+        "Image_A_Caption": "An individual wearing a yellow turban and light-colored garment is holding a traditional string instrument, with visible rain lines across the scene.",
+        "Image_B_Caption": "The same individual is depicted without the rain lines, maintaining clarity of details and colors.",
+        "Task_Descriptions_from_A_to_B": "Remove the vertical streaks from the scene, revealing the underlying details of the subject and surroundings to exhibit a clear and uninterrupted presentation.",
+        "Task_Descriptions_from_B_to_A": "Introduce vertical streak patterns across the visual, simulating the effect of rain on the overall appearance, thus adding a dynamic weather element."
+    },
+    {
+        "id": 76,
+        "rain_img_A": "./rain/X2/norain-77x2.png",
+        "norain_img_B": "./norain/norain-77.png",
+        "Image_A_Caption": "The image shows a scene with rain streaks overlaying a person in traditional attire, in front of woven textiles.",
+        "Image_B_Caption": "A person in traditional clothing is depicted against a backdrop of woven textiles, without any rain streaks present.",
+        "Task_Descriptions_from_A_to_B": "Imagine the downpour gradually stops, leading to a clear, unobstructed view of the scene.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden rainstorm, adding streaks of rain to the clear atmosphere around the scene."
+    },
+    {
+        "id": 77,
+        "rain_img_A": "./rain/X2/norain-78x2.png",
+        "norain_img_B": "./norain/norain-78.png",
+        "Image_A_Caption": "A vivid red bird perched among vertical posts under a heavy rainfall.",
+        "Image_B_Caption": "The same red bird perched quietly among vertical posts with a clear background.",
+        "Task_Descriptions_from_A_to_B": "Imagine the heavy rain ceases and clouds part, revealing the same scene without rain drops as the ambiance clears.",
+        "Task_Descriptions_from_B_to_A": "Visualize dark clouds gathering rapidly, and a sudden onset of rain that saturates the environment, filling the previously clear space with falling raindrops."
+    },
+    {
+        "id": 78,
+        "rain_img_A": "./rain/X2/norain-79x2.png",
+        "norain_img_B": "./norain/norain-79.png",
+        "Image_A_Caption": "An owl perched on a nest amidst cacti with visible rain streaks creating a wet atmosphere.",
+        "Image_B_Caption": "An owl perched peacefully on a nest amidst cacti in clear weather.",
+        "Task_Descriptions_from_A_to_B": "Alter the weather conditions by ceasing the rain, removing all water streaks to reveal a dry, clear atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Introduce rainfall to the scene by adding faint, vertical rain streaks, simulating a wet environment."
+    },
+    {
+        "id": 79,
+        "rain_img_A": "./rain/X2/norain-80x2.png",
+        "norain_img_B": "./norain/norain-80.png",
+        "Image_A_Caption": "Two animals standing in a rainy setting with noticeable streaks of falling rain.",
+        "Image_B_Caption": "Two animals standing in a dry environment without any rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the elements of nature shifting, where the sky clears, and moisture ceases to fall. Visualize the environment as dry, with the atmosphere devoid of droplets.",
+        "Task_Descriptions_from_B_to_A": "Envision the clouds gathering, casting a shadow on the ground. Picture droplets starting to descend, creating a cascading effect across the scene."
+    },
+    {
+        "id": 80,
+        "rain_img_A": "./rain/X2/norain-81x2.png",
+        "norain_img_B": "./norain/norain-81.png",
+        "Image_A_Caption": "An image depicting a lizard resting on a textured rock surface with visible rain falling.",
+        "Image_B_Caption": "The same lizard resting on the textured rock surface, but without any rain visible.",
+        "Task_Descriptions_from_A_to_B": "Rainfall is no longer present, leaving the scene dry and unchanged except for the absence of raindrops.",
+        "Task_Descriptions_from_B_to_A": "Introduce a natural downpour, with raindrops visible throughout, adding a dynamic layer to the existing scene."
+    },
+    {
+        "id": 81,
+        "rain_img_A": "./rain/X2/norain-82x2.png",
+        "norain_img_B": "./norain/norain-82.png",
+        "Image_A_Caption": "A person with an obscured face, surrounded by gloved hands, amidst falling rain.",
+        "Image_B_Caption": "A person with an obscured face, surrounded by gloved hands, with a clear background.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scenario where raindrops are gently evaporated into the air, leaving the person and the background dry and clear.",
+        "Task_Descriptions_from_B_to_A": "Visualize droplets of water gracefully descending from the sky, enveloping the setting with a fresh and wet ambiance."
+    },
+    {
+        "id": 82,
+        "rain_img_A": "./rain/X2/norain-83x2.png",
+        "norain_img_B": "./norain/norain-83.png",
+        "Image_A_Caption": "A group of people sitting on a platform, holding white flowers, with rain visibly falling.",
+        "Image_B_Caption": "The same group of people sitting on a platform, holding white flowers, with a clear sky and no rain visible.",
+        "Task_Descriptions_from_A_to_B": "Imagine removing the visual cues of rain, such as droplets and streaks, revealing a clear scene with the same group of people.",
+        "Task_Descriptions_from_B_to_A": "Picture the scene being influenced by a sudden change in weather, introducing rain with visible droplets and streaks among the same group of people."
+    },
+    {
+        "id": 83,
+        "rain_img_A": "./rain/X2/norain-84x2.png",
+        "norain_img_B": "./norain/norain-84.png",
+        "Image_A_Caption": "A historic building with a green roof stands in the rain, with visible streaks of raindrops in the foreground.",
+        "Image_B_Caption": "The same historic building with a green roof is captured under clear skies with no raindrops visible.",
+        "Task_Descriptions_from_A_to_B": "Imagine the sky clearing up gradually, as each drop fades from sight and the air becomes clearer until all rain is gone.",
+        "Task_Descriptions_from_B_to_A": "Picture a gentle rain starting to fall, each drop appearing in the air until the building stands amidst a shower of rain."
+    },
+    {
+        "id": 84,
+        "rain_img_A": "./rain/X2/norain-85x2.png",
+        "norain_img_B": "./norain/norain-85.png",
+        "Image_A_Caption": "A snowy mountain landscape with two snowshoes in the foreground, with a visible rain effect over the scene.",
+        "Image_B_Caption": "A clear snowy mountain landscape with two snowshoes in the foreground, without any rain effect.",
+        "Task_Descriptions_from_A_to_B": "Imagine the precipitation ceases, the overcast sky brightens slightly, and raindrops that were present in the atmosphere are cleared, revealing a serene mountain landscape.",
+        "Task_Descriptions_from_B_to_A": "Visualize an overcast sky rolling in, droplets forming and descending, creating streaks across the scene as a gentle rain falls over the snow-covered terrain."
+    },
+    {
+        "id": 85,
+        "rain_img_A": "./rain/X2/norain-86x2.png",
+        "norain_img_B": "./norain/norain-86.png",
+        "Image_A_Caption": "A person stands on a path overlooking a mountainous landscape with visible rain falling.",
+        "Image_B_Caption": "A person stands on a path overlooking a clear mountainous landscape with no rain.",
+        "Task_Descriptions_from_A_to_B": "Under a cloudy sky, let the rain gradually cease, leaving only the person and the expansive view of the mountains behind. The once raindrop-spattered scenery becomes crisp and full of light.",
+        "Task_Descriptions_from_B_to_A": "Introduce a summer shower that gently sweeps through the scene, adding streaks of raindrops cascading from the sky. The serene view takes on a dynamic character with the presence of rain."
+    },
+    {
+        "id": 86,
+        "rain_img_A": "./rain/X2/norain-87x2.png",
+        "norain_img_B": "./norain/norain-87.png",
+        "Image_A_Caption": "A horse and rider near a red and white pole, with visible rain streaks.",
+        "Image_B_Caption": "A horse and rider near a red and white pole, without any rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine clearing the skies and removing water droplets to reveal a clear scene. Start with gently brushing away the falling streaks, slowly uncovering the vibrant appearance underneath. Visualize the transformation as clearing a misty window, gradually making everything clearer.",
+        "Task_Descriptions_from_B_to_A": "Picture introducing a refreshing downpour, adding streaks of water cascading vertically. Gradually fill the scene with a veil of rain, adding a sense of movement and atmosphere. Envision the transition as drawing curtains of water across the visible space, enriching it with weather dynamics."
+    },
+    {
+        "id": 87,
+        "rain_img_A": "./rain/X2/norain-88x2.png",
+        "norain_img_B": "./norain/norain-88.png",
+        "Image_A_Caption": "A kayaker is paddling through rapids under heavy rain, with visible streaks of raindrops enhancing the dynamic scene.",
+        "Image_B_Caption": "A kayaker is navigating through rapids with clear weather, the scene is sharp and vivid, without any visual obstructions.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scenario where the clouds disperse and skies clear up, causing the rain to seize, leaving the kayaker in a crisp and clear view as the water continues to rush by.",
+        "Task_Descriptions_from_B_to_A": "Picture a sudden gathering of storm clouds resulting in a heavy downpour, with rain dramatically cascading in the foreground, altering the once vivid scene into one obscured by streaks of water."
+    },
+    {
+        "id": 88,
+        "rain_img_A": "./rain/X2/norain-89x2.png",
+        "norain_img_B": "./norain/norain-89.png",
+        "Image_A_Caption": "A quaint stone house with wooden shutters and blooming flowers, viewed through a curtain of rain.",
+        "Image_B_Caption": "The same stone house stands under a clear sky, highlighting its vibrant flowers and detailed architecture.",
+        "Task_Descriptions_from_A_to_B": "Imagine the clouds parting after a rainstorm, allowing sunlight to gently warm the landscape. The rain settles, leaving behind a serene, rain-washed tranquility.",
+        "Task_Descriptions_from_B_to_A": "Visualize an overcast sky suddenly showering the scene with rain, creating a dynamic pattern as streaks of water descend from above, enriching the scene with a sense of movement."
+    },
+    {
+        "id": 89,
+        "rain_img_A": "./rain/X2/norain-90x2.png",
+        "norain_img_B": "./norain/norain-90.png",
+        "Image_A_Caption": "A stone bridge arches gracefully over a river amidst lush greenery, with raindrops visibly streaking across the scene.",
+        "Image_B_Caption": "A stone bridge arches gracefully over a river surrounded by lush greenery, with clear weather and no rain in sight.",
+        "Task_Descriptions_from_A_to_B": "Begin by envisioning a cessation of rain, imagining each droplet gradually disappearing. Notice how the scene transitions to a state of clear, uninterrupted visibility, allowing the natural beauty of the bridge and surrounding environment to be fully appreciated.",
+        "Task_Descriptions_from_B_to_A": "Think about the gentle introduction of rainfall into the environment, visualizing drops forming and cascading steadily across the scene. This change shifts the atmosphere to one of a rainy day, adding an element of dynamism to the landscape."
+    },
+    {
+        "id": 90,
+        "rain_img_A": "./rain/X2/norain-91x2.png",
+        "norain_img_B": "./norain/norain-91.png",
+        "Image_A_Caption": "Three morel mushrooms on a forest floor with raindrops visible.",
+        "Image_B_Caption": "Three morel mushrooms on a forest floor without raindrops.",
+        "Task_Descriptions_from_A_to_B": "Remove the appearance of raindrops to create a clearer view of the surroundings. The scene should appear dry, enhancing the visibility of the mushrooms and the forest floor.",
+        "Task_Descriptions_from_B_to_A": "Introduce the effect of raindrops, giving a sense of a wet environment. This should create an impression of rain falling over the mushrooms and the forest floor, adding a dynamic weather element."
+    },
+    {
+        "id": 91,
+        "rain_img_A": "./rain/X2/norain-92x2.png",
+        "norain_img_B": "./norain/norain-92.png",
+        "Image_A_Caption": "A fish swimming over a coral-like structure, with vertical streaks suggesting rainfall across the scene.",
+        "Image_B_Caption": "A fish swimming over coral-like structures without any visual interference.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain ceases to fall, leaving the environment clear and unobstructed. The underlying scene becomes unobscured by any streaks.",
+        "Task_Descriptions_from_B_to_A": "Envision a sudden downpour beginning, with vertical lines appearing across the view, simulating rainfall over the scene."
+    },
+    {
+        "id": 92,
+        "rain_img_A": "./rain/X2/norain-93x2.png",
+        "norain_img_B": "./norain/norain-93.png",
+        "Image_A_Caption": "A traditional dancer in vivid attire holds a bow and arrow, standing in a dynamic pose under a heavy rain.",
+        "Image_B_Caption": "A traditional dancer in vivid attire with a bow and arrow, maintaining a similar pose indoors without rain.",
+        "Task_Descriptions_from_A_to_B": "Begin by eliminating the rain effect, revealing the clear and dry environment surrounding the subject.",
+        "Task_Descriptions_from_B_to_A": "Introduce a heavy rain effect, adding dynamic streaks of rain across the scene to envelope the subject."
+    },
+    {
+        "id": 93,
+        "rain_img_A": "./rain/X2/norain-94x2.png",
+        "norain_img_B": "./norain/norain-94.png",
+        "Image_A_Caption": "A series of stone structures, with visible rainfall obscuring the view.",
+        "Image_B_Caption": "The same stone structures without any rainfall, presenting a clearer view.",
+        "Task_Descriptions_from_A_to_B": "Visualize a scene transition where the atmospheric conditions shift from a stormy ambiance to a calm, clear setting, removing any water-based interruptions.",
+        "Task_Descriptions_from_B_to_A": "Imagine the onset of a heavy downpour, adding atmospheric elements that suggest rainfall, altering the clarity of the structures."
+    },
+    {
+        "id": 94,
+        "rain_img_A": "./rain/X2/norain-95x2.png",
+        "norain_img_B": "./norain/norain-95.png",
+        "Image_A_Caption": "A scenic view of four horseback riders in a grassy field under a rain shower, with trees and hills in the background.",
+        "Image_B_Caption": "Four horseback riders in a verdant field, surrounded by lush scenery and rolling hills under a clear sky.",
+        "Task_Descriptions_from_A_to_B": "Introduce some sunlight to the atmospheric setting, gradually diminishing the raindrops until the clear, dry scene emerges.",
+        "Task_Descriptions_from_B_to_A": "Imagine a sudden change in the weather where dark clouds gather and rain starts falling, creating a wet and dynamic atmosphere over the landscape."
+    },
+    {
+        "id": 95,
+        "rain_img_A": "./rain/X2/norain-96x2.png",
+        "norain_img_B": "./norain/norain-96.png",
+        "Image_A_Caption": "A view featuring the Eiffel Tower with rain streaks creating a wet atmosphere.",
+        "Image_B_Caption": "The Eiffel Tower in a clear setting without rain, offering a serene view.",
+        "Task_Descriptions_from_A_to_B": "Remove the vertical rain streaks, clearing the atmosphere to highlight architectural features with brightness.",
+        "Task_Descriptions_from_B_to_A": "Introduce falling rain streaks to create a dynamic, moody feel, suggesting a sudden weather change."
+    },
+    {
+        "id": 96,
+        "rain_img_A": "./rain/X2/norain-97x2.png",
+        "norain_img_B": "./norain/norain-97.png",
+        "Image_A_Caption": "Glass pyramids under a cloudy sky with visible streaks simulating rain falling across the scene.",
+        "Image_B_Caption": "Glass pyramids under a cloudy sky with clear visibility and no streaks.",
+        "Task_Descriptions_from_A_to_B": "Gradually lessen the visual effect of the water streaks across the scene, enhancing clarity and reducing the appearance of atmospheric interference.",
+        "Task_Descriptions_from_B_to_A": "Introduce diagonal translucent lines to simulate falling droplets, creating the appearance of precipitation over the clear view."
+    },
+    {
+        "id": 97,
+        "rain_img_A": "./rain/X2/norain-98x2.png",
+        "norain_img_B": "./norain/norain-98.png",
+        "Image_A_Caption": "A skier in mid-air against a mountain backdrop with visible streaks of rain.",
+        "Image_B_Caption": "A skier in mid-air against a mountain backdrop under clear skies.",
+        "Task_Descriptions_from_A_to_B": "Imagine the storm clouds breaking apart, causing the rain to cease, revealing a clear sky as the moisture dissipates.",
+        "Task_Descriptions_from_B_to_A": "Visualize the sky darkening as clouds gather, releasing a sudden rain, with drops starting to fall and blur the scene."
+    },
+    {
+        "id": 98,
+        "rain_img_A": "./rain/X2/norain-99x2.png",
+        "norain_img_B": "./norain/norain-99.png",
+        "Image_A_Caption": "Two cyclists racing on a wet track with noticeable rain streaks falling.",
+        "Image_B_Caption": "Two cyclists racing on a dry track without any visible rain.",
+        "Task_Descriptions_from_A_to_B": "Cease the falling water by creating an atmosphere of clear skies, ensuring a dry environment during the race.",
+        "Task_Descriptions_from_B_to_A": "Introduce falling droplets from above, simulating a rainy scene to evoke a wet and active environment."
+    },
+    {
+        "id": 99,
+        "rain_img_A": "./rain/X2/norain-100x2.png",
+        "norain_img_B": "./norain/norain-100.png",
+        "Image_A_Caption": "Runners are competing on a track under a rain effect, with streaks of water visible throughout the scene.",
+        "Image_B_Caption": "Runners are participating in a race on a sunny day, with spectators in the background.",
+        "Task_Descriptions_from_A_to_B": "Remove the overlay of streaks to reveal a clear day, changing the atmosphere from rainy to sunny.",
+        "Task_Descriptions_from_B_to_A": "Introduce streak-like elements across the scene to simulate rain, transforming the clear setting into a rainy atmosphere."
+    },
+    {
+        "id": 100,
+        "rain_img_A": "./rain/X2/norain-101x2.png",
+        "norain_img_B": "./norain/norain-101.png",
+        "Image_A_Caption": "A group of athletes running in a race, with visible streaks resembling rain falling down.",
+        "Image_B_Caption": "The same group of athletes running in a race, with clear surroundings and no rain streaks.",
+        "Task_Descriptions_from_A_to_B": "The atmosphere is altered to remove any elements indicating precipitation, creating a dry and clear view.",
+        "Task_Descriptions_from_B_to_A": "Introduce visual elements that mimic rain, adding streaks over the existing scenery."
+    },
+    {
+        "id": 101,
+        "rain_img_A": "./rain/X2/norain-102x2.png",
+        "norain_img_B": "./norain/norain-102.png",
+        "Image_A_Caption": "An athlete is captured mid-action in a javelin throw, with visible raindrops adding a dynamic element.",
+        "Image_B_Caption": "The same athlete is captured mid-action in a javelin throw, with raindrops no longer visible.",
+        "Task_Descriptions_from_A_to_B": "The dynamic element is removed, creating a clearer and more focused depiction.",
+        "Task_Descriptions_from_B_to_A": "A dynamic weather feature is introduced, enhancing the sense of motion and atmosphere."
+    },
+    {
+        "id": 102,
+        "rain_img_A": "./rain/X2/norain-103x2.png",
+        "norain_img_B": "./norain/norain-103.png",
+        "Image_A_Caption": "A scenic view of a lighthouse and houses on a rocky coastline under a clear sky, with visible rain falling.",
+        "Image_B_Caption": "A scenic view of a lighthouse and houses on a rocky coastline under a clear sky, with no rain visible.",
+        "Task_Descriptions_from_A_to_B": "Mentally focus on the scene and envision a bright, sunny day by imagining the rain fading away, leading to a clearer atmosphere. Alternatively, imagine utilizing a mystical force to evaporate the rain, revealing the charming landscape in vivid clarity.",
+        "Task_Descriptions_from_B_to_A": "Conjure up an image of dark clouds forming overhead and a downpour beginning, resulting in a scene where rain streaks across the field of view. Another approach is to visualize the gentle arrival of rain, casting a dynamic pattern onto the existing serene landscape."
+    },
+    {
+        "id": 103,
+        "rain_img_A": "./rain/X2/norain-104x2.png",
+        "norain_img_B": "./norain/norain-104.png",
+        "Image_A_Caption": "A street performer with a colorful costume surrounded by rain droplets, entertaining a small audience while a dog walks beside.",
+        "Image_B_Caption": "A street performer in a vibrant costume without rain, engaging with a small audience, accompanied by a dog.",
+        "Task_Descriptions_from_A_to_B": "Envision a scene where a theatrical act under the rain transitions to a dry performance, removing the visual gains from Mother Nature to reveal clear surroundings.",
+        "Task_Descriptions_from_B_to_A": "Imagine infusing a serene performance with dramatic weather elements, introducing visual patterns of raindrops and altering the atmosphere to one of unexpected weather."
+    },
+    {
+        "id": 104,
+        "rain_img_A": "./rain/X2/norain-105x2.png",
+        "norain_img_B": "./norain/norain-105.png",
+        "Image_A_Caption": "A person in a raincoat is crouching in an outdoor environment with visible rain streaks.",
+        "Image_B_Caption": "A person in a raincoat is crouching in an outdoor environment without any rain visible.",
+        "Task_Descriptions_from_A_to_B": "Erase any visual disturbances from the view, bringing clarity and dryness as if the rain never happened.",
+        "Task_Descriptions_from_B_to_A": "Imagine drops of water descending from above, creating streaks that blur the otherwise clear view."
+    },
+    {
+        "id": 105,
+        "rain_img_A": "./rain/X2/norain-106x2.png",
+        "norain_img_B": "./norain/norain-106.png",
+        "Image_A_Caption": "A pair of individuals walking in a casual outdoor setting, with a visible rain effect obscuring the scene.",
+        "Image_B_Caption": "The same pair of individuals in the same outdoor setting, without any rain effect present.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain ceasing, clouds parting and sunlight illuminating the scene, evaporating the moisture.",
+        "Task_Descriptions_from_B_to_A": "Visualize the sky darkening as clouds gather, leading to a sudden downpour that veils the surroundings."
+    },
+    {
+        "id": 106,
+        "rain_img_A": "./rain/X2/norain-107x2.png",
+        "norain_img_B": "./norain/norain-107.png",
+        "Image_A_Caption": "Three red canoes are on the shore with rain visibly falling, creating a wet atmosphere.",
+        "Image_B_Caption": "Three red canoes rest on the shore under clear weather, with no rain visible.",
+        "Task_Descriptions_from_A_to_B": "Remove the appearance of rain by erasing the visible streaks in the atmosphere, resulting in a clearer environment around the canoes, while preserving the natural lighting and colors.",
+        "Task_Descriptions_from_B_to_A": "Create a rainy atmosphere by introducing streaks in the air, simulating the presence of falling rain while maintaining the scene's original composition."
+    },
+    {
+        "id": 107,
+        "rain_img_A": "./rain/X2/norain-108x2.png",
+        "norain_img_B": "./norain/norain-108.png",
+        "Image_A_Caption": "A roller coaster loop with visible rain streaks under a clear blue sky.",
+        "Image_B_Caption": "A roller coaster loop under a clear blue sky with no rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine a change where water droplets gradually evaporate from the scene, leaving behind only the vibrant sky and structure.",
+        "Task_Descriptions_from_B_to_A": "Envision the infusion of a gentle drizzle, with streaks of water gracefully appearing across the sky, complementing the roller coaster's path."
+    },
+    {
+        "id": 108,
+        "rain_img_A": "./rain/X2/norain-109x2.png",
+        "norain_img_B": "./norain/norain-109.png",
+        "Image_A_Caption": "The scene depicts a person in a canoe on a lake, with raindrops visibly falling, creating a sense of being caught in a rain shower.",
+        "Image_B_Caption": "The scene shows the same person in a canoe on a calm lake under a cloudy sky, with no rain present.",
+        "Task_Descriptions_from_A_to_B": "Imagine clearing the sky above, causing the rain to cease and leaving the water undisturbed by raindrops.",
+        "Task_Descriptions_from_B_to_A": "Visualize clouds gathering heavily above, initiating a rain shower that splashes onto the lake and the canoe."
+    },
+    {
+        "id": 109,
+        "rain_img_A": "./rain/X2/norain-110x2.png",
+        "norain_img_B": "./norain/norain-110.png",
+        "Image_A_Caption": "A person dressed in historical attire, sitting on a wooden cannon carriage, with rain streaks across the image.",
+        "Image_B_Caption": "A person dressed in historical attire, sitting on a wooden cannon carriage, on a clearer day without rain.",
+        "Task_Descriptions_from_A_to_B": "Remove the visible rain streaks, making the scene appear clearer and without precipitation, giving an impression of improved weather conditions.",
+        "Task_Descriptions_from_B_to_A": "Introduce rain streaks over the scene, simulating a weather change to create the appearance of rainfall."
+    },
+    {
+        "id": 110,
+        "rain_img_A": "./rain/X2/norain-111x2.png",
+        "norain_img_B": "./norain/norain-111.png",
+        "Image_A_Caption": "A person wearing a knitted hat and a patterned jacket is visible, with rain streaks in the foreground, creating a dripping effect overlay.",
+        "Image_B_Caption": "A person wearing a knitted hat and a patterned jacket stands calmly, without any visible rain streaks or water effects in the scene.",
+        "Task_Descriptions_from_A_to_B": "The rain effects could lessen until the streaks are no longer visible, revealing a clear and unobstructed view of the scene.",
+        "Task_Descriptions_from_B_to_A": "A gentle rain could begin to fall, with streaks appearing to simulate rainfall, adding a dynamic overlay to the view."
+    },
+    {
+        "id": 111,
+        "rain_img_A": "./rain/X2/norain-112x2.png",
+        "norain_img_B": "./norain/norain-112.png",
+        "Image_A_Caption": "Three kittens sitting on grass with visible raindrops falling around them.",
+        "Image_B_Caption": "Three kittens sitting on grass under clear, rain-free conditions.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain ceases, leaving the air clear and dry, thus revealing the kittens unobstructed by falling water.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden shower starting, with water droplets beginning to fall, lightly obscuring the scene with rain."
+    },
+    {
+        "id": 112,
+        "rain_img_A": "./rain/X2/norain-113x2.png",
+        "norain_img_B": "./norain/norain-113.png",
+        "Image_A_Caption": "A black dog is pulling a cart in a grassy area under rainfall, with visible rain streaks.",
+        "Image_B_Caption": "A black dog pulls a cart on dry grass with clear skies and no rain.",
+        "Task_Descriptions_from_A_to_B": "Remove the visual noise representing precipitation from the scene, ensuring clarity and a serene atmosphere by eliminating all signs of rainfall from the visual field.",
+        "Task_Descriptions_from_B_to_A": "Introduce dynamic elements representing falling water droplets, transforming the calm scene into one filled with the visual effect of a rainfall event."
+    },
+    {
+        "id": 113,
+        "rain_img_A": "./rain/X2/norain-114x2.png",
+        "norain_img_B": "./norain/norain-114.png",
+        "Image_A_Caption": "The scene depicts a busy street with people gathered, featuring noticeable rain streaks falling over the pedestrians.",
+        "Image_B_Caption": "The same bustling street is observed, but without visible raindrops, presenting a clear view of the pedestrians and surroundings.",
+        "Task_Descriptions_from_A_to_B": "Remove the visible rain streaks to uncover a clearer view of the scene, letting the elements of the environment stand out without obstruction.",
+        "Task_Descriptions_from_B_to_A": "Introduce streaks resembling rain across the scene to simulate the appearance of a rainy atmosphere, adding a sense of weather dynamics."
+    },
+    {
+        "id": 114,
+        "rain_img_A": "./rain/X2/norain-115x2.png",
+        "norain_img_B": "./norain/norain-115.png",
+        "Image_A_Caption": "A person wearing a hard hat is inspecting a large stack of wooden boards under a rainy sky.",
+        "Image_B_Caption": "A person in a hard hat examines a large stack of wooden boards with a clear sky above.",
+        "Task_Descriptions_from_A_to_B": "Imagine dissipating the clouds and halting the rainfall, revealing a bright, clear atmosphere. The environment becomes sunny, eliminating any signs of wetness. The wooden structures appear crisp and vivid as the moisture retreats.",
+        "Task_Descriptions_from_B_to_A": "Picture the sky growing overcast followed by a soft drizzle that intensifies into a steady rain. Droplets cascade over the scene, slowly covering the once-dry surfaces with a shimmering, wet texture. The ambiance shifts to a more muted tone as if enveloped by a veil of tiny falling streams."
+    },
+    {
+        "id": 115,
+        "rain_img_A": "./rain/X2/norain-116x2.png",
+        "norain_img_B": "./norain/norain-116.png",
+        "Image_A_Caption": "A person with an umbrella stands at a train station during a heavy rain shower, with raindrops visibly striking the ground.",
+        "Image_B_Caption": "The same person with an umbrella stands at the train station, but without the presence of rain, giving a clearer view of the scene.",
+        "Task_Descriptions_from_A_to_B": "Imagine the scene becoming calm and dry. The falling raindrops gradually disappear as the sky clears up, leaving the surroundings clean and visible.",
+        "Task_Descriptions_from_B_to_A": "Visualize the weather shifting as gray clouds gather. Raindrops start to fall, hitting the ground and obscuring some details with their cascading presence."
+    },
+    {
+        "id": 116,
+        "rain_img_A": "./rain/X2/norain-117x2.png",
+        "norain_img_B": "./norain/norain-117.png",
+        "Image_A_Caption": "Elephants walking on green grass under heavy rain with the background of trees.",
+        "Image_B_Caption": "Elephants walking on green grass with clear weather and trees in the background.",
+        "Task_Descriptions_from_A_to_B": "The rainy atmosphere fades away, revealing a clear sky as water droplets on the elephants evaporate and the ground dries up.",
+        "Task_Descriptions_from_B_to_A": "Dark clouds gather, and rain descends heavily upon the scene, covering everything with a curtain of water."
+    },
+    {
+        "id": 117,
+        "rain_img_A": "./rain/X2/norain-118x2.png",
+        "norain_img_B": "./norain/norain-118.png",
+        "Image_A_Caption": "A giraffe standing in a setting with noticeable rain streaks falling down, blurring its surroundings.",
+        "Image_B_Caption": "A giraffe standing in a clear and dry environment, with visible details of the background.",
+        "Task_Descriptions_from_A_to_B": "Visualize removing all the streak-like patterns superimposed on the image, allowing the background and subject to appear sharper and undistorted.",
+        "Task_Descriptions_from_B_to_A": "Imagine adding vertical, semi-transparent lines across the scene, simulating the effect of rain to create a more dynamic atmosphere."
+    },
+    {
+        "id": 118,
+        "rain_img_A": "./rain/X2/norain-119x2.png",
+        "norain_img_B": "./norain/norain-119.png",
+        "Image_A_Caption": "A sailing ship on calm waters under a cloudy sky with visible rain streaks.",
+        "Image_B_Caption": "A sailing ship on calm waters under a cloudy sky with clear conditions.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain disappearing, leaving the sky and sea clear as the droplets are gradually absorbed by the atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Envision rain forming from the clouds, with droplets starting to fall steadily, creating vertical streaks in front of the ship."
+    },
+    {
+        "id": 119,
+        "rain_img_A": "./rain/X2/norain-120x2.png",
+        "norain_img_B": "./norain/norain-120.png",
+        "Image_A_Caption": "A person in traditional clothing holding red tulips in a rain-soaked outdoor setting with raindrops visible against a backdrop of trees and a cloudy sky.",
+        "Image_B_Caption": "A person in traditional clothing holding red tulips in a dry outdoor setting with clear visibility against a backdrop of trees and a cloudy sky.",
+        "Task_Descriptions_from_A_to_B": "Gradually diminish the presence of raindrops until they are no longer visible, while enhancing the clarity of the setting to depict a dry environment.",
+        "Task_Descriptions_from_B_to_A": "Introduce a series of visible raindrops throughout the scene, creating an atmosphere suggestive of rainfall and adding an overcast or damp effect to the surroundings."
+    },
+    {
+        "id": 120,
+        "rain_img_A": "./rain/X2/norain-121x2.png",
+        "norain_img_B": "./norain/norain-121.png",
+        "Image_A_Caption": "A person standing on a suitcase, playing bagpipes, with visible rain falling across the scene.",
+        "Image_B_Caption": "A person standing on a suitcase, playing bagpipes, on a clear day without any rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the scene becoming calm as raindrops slowly disappear, leaving a sunny and dry atmosphere intact.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden shift in weather where soft, vertical lines of rain begin to appear across the landscape, creating a rainy environment."
+    },
+    {
+        "id": 121,
+        "rain_img_A": "./rain/X2/norain-122x2.png",
+        "norain_img_B": "./norain/norain-122.png",
+        "Image_A_Caption": "A hiker stands on a rocky trail, gazing at a majestic mountain range. Raindrops are visible, streaming down in the foreground.",
+        "Image_B_Caption": "The hiker remains on the trail with the mountain range in view, but the scene is clear, without any raindrops present.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scene where the hiker enjoys the view as clouds dissipate, leaving behind a clearer atmosphere. The raindrops gradually fade away as the sun peeks through, enhancing the visibility.",
+        "Task_Descriptions_from_B_to_A": "Envision the sky darkening with approaching clouds, resulting in rain descending upon the landscape. The atmosphere shifts, adding a dynamic layer with the presence of falling raindrops."
+    },
+    {
+        "id": 122,
+        "rain_img_A": "./rain/X2/norain-123x2.png",
+        "norain_img_B": "./norain/norain-123.png",
+        "Image_A_Caption": "A bird and its nestling are sheltered on a nest during a rain shower, with drops visible against a backdrop of foliage and tree branches.",
+        "Image_B_Caption": "A bird and its nestling rest together in a dry nest surrounded by leafy tree branches and brightened by clear weather.",
+        "Task_Descriptions_from_A_to_B": "Imagine the sky clears and rain ceases, leaving the surroundings dry and the visibility of each element unobstructed by water droplets.",
+        "Task_Descriptions_from_B_to_A": "Envision a sudden onset of rain, with droplets beginning to fall, visibly altering the scene with a shimmering effect."
+    },
+    {
+        "id": 123,
+        "rain_img_A": "./rain/X2/norain-124x2.png",
+        "norain_img_B": "./norain/norain-124.png",
+        "Image_A_Caption": "A bird with a yellow throat, perched in lush green grass under a drizzle.",
+        "Image_B_Caption": "The same bird positioned amidst green grass, captured in clear weather.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain ceases, every droplet vanishing, revealing the avian subject undisturbed.",
+        "Task_Descriptions_from_B_to_A": "Visualize droplets descending gently from above, creating a serene rainy backdrop around the bird."
+    },
+    {
+        "id": 124,
+        "rain_img_A": "./rain/X2/norain-125x2.png",
+        "norain_img_B": "./norain/norain-125.png",
+        "Image_A_Caption": "Two people are skiing in snowy conditions surrounded by trees, with a noticeable presence of rain streaks across the image.",
+        "Image_B_Caption": "The same scene with skiers in the snow and trees, but the rain streaks are absent, presenting a clear and dry day.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scene where the sky opens up, allowing the rain to gradually cease. As droplets evaporate, clarity emerges, with details once obscured now becoming vivid under the brightening light.",
+        "Task_Descriptions_from_B_to_A": "Visualize the serene atmosphere being interrupted as clouds gather. Raindrops begin to descend softly, creating a veil that refracts light and adds a textured layer over the vibrant scenery."
+    },
+    {
+        "id": 125,
+        "rain_img_A": "./rain/X2/norain-126x2.png",
+        "norain_img_B": "./norain/norain-126.png",
+        "Image_A_Caption": "A person wearing a straw hat and patterned outfit is standing in rainy weather with visible raindrops.",
+        "Image_B_Caption": "A person wearing a straw hat and patterned outfit is standing with a clear background and no visible rain.",
+        "Task_Descriptions_from_A_to_B": "First, imagine a scene where the rain ceases and the sky clears, causing the raindrops to vanish. Alternatively, visualize the rain being absorbed by an invisible layer, leaving the surroundings dry.",
+        "Task_Descriptions_from_B_to_A": "Begin by picturing clouds gathering and the onset of rain, with droplets cascading around the scene. Alternatively, consider a scenario where a gentle mist intensifies, turning into visible raindrops."
+    },
+    {
+        "id": 126,
+        "rain_img_A": "./rain/X2/norain-127x2.png",
+        "norain_img_B": "./norain/norain-127.png",
+        "Image_A_Caption": "A scenic landscape with a towering mountain in the background. The image features green fields and trees in the foreground, with visible rain streaks falling from the sky.",
+        "Image_B_Caption": "A clear view of a mountain landscape under a bright sky. The image showcases lush green fields and trees without any visible rainfall.",
+        "Task_Descriptions_from_A_to_B": "Imagine the sky clears up, allowing sunlight to break through, causing the rain to cease and leaving the landscape dry and bright.",
+        "Task_Descriptions_from_B_to_A": "Envision clouds gathering quickly, darkening the sky and releasing steady rain, adding a wet texture across the scene."
+    },
+    {
+        "id": 127,
+        "rain_img_A": "./rain/X2/norain-128x2.png",
+        "norain_img_B": "./norain/norain-128.png",
+        "Image_A_Caption": "A dancer in a purple dress performing outdoors, with visible rain streaks overlaying the scene.",
+        "Image_B_Caption": "A dancer in a purple dress performing outdoors in a clear setting, with no rain visible.",
+        "Task_Descriptions_from_A_to_B": "Remove streaks from the scene, allowing the clear details and lighting to emerge without interference.",
+        "Task_Descriptions_from_B_to_A": "Add vertical streaks to the scene, simulating the effect of rain overlaying the view."
+    },
+    {
+        "id": 128,
+        "rain_img_A": "./rain/X2/norain-129x2.png",
+        "norain_img_B": "./norain/norain-129.png",
+        "Image_A_Caption": "Two individuals in protective gear are walking in front of a wall of fire with rain pouring down.",
+        "Image_B_Caption": "Two individuals in protective gear are walking calmly in front of a wall of fire with clear skies.",
+        "Task_Descriptions_from_A_to_B": "Remove the falling rain effect to give the appearance of a drier environment, enhancing the clarity of the scene.",
+        "Task_Descriptions_from_B_to_A": "Introduce a rain effect over the scene, adding the visual of water droplets to simulate a stormy atmosphere."
+    },
+    {
+        "id": 129,
+        "rain_img_A": "./rain/X2/norain-130x2.png",
+        "norain_img_B": "./norain/norain-130.png",
+        "Image_A_Caption": "A majestic architectural landmark stands in front of a reflective pool under rainfall, creating a dramatic atmosphere.",
+        "Image_B_Caption": "The same architectural landmark is seen under clear skies with no rain, offering a serene and calm view.",
+        "Task_Descriptions_from_A_to_B": "Envision the rain slowly ceasing, with droplets fading away, as the atmosphere transitions to one of tranquility.",
+        "Task_Descriptions_from_B_to_A": "Imagine dark clouds gathering swiftly, with raindrops beginning to fall steadily, adding dynamic motion to the scene."
+    },
+    {
+        "id": 130,
+        "rain_img_A": "./rain/X2/norain-131x2.png",
+        "norain_img_B": "./norain/norain-131.png",
+        "Image_A_Caption": "Two birds standing on grass, with visible rain streaks falling around them.",
+        "Image_B_Caption": "Two birds standing on grass, without any rain visible in the scene.",
+        "Task_Descriptions_from_A_to_B": "Imagine the influence of rain softening and the sky clearing, as the droplets vanish from view, leaving only the serene presence of the birds undisturbed by any precipitation.",
+        "Task_Descriptions_from_B_to_A": "Visualize a gentle rain beginning to fall, casting thin streaks of water through the air and adding a shimmering texture around the stationary birds."
+    },
+    {
+        "id": 131,
+        "rain_img_A": "./rain/X2/norain-132x2.png",
+        "norain_img_B": "./norain/norain-132.png",
+        "Image_A_Caption": "Four children are standing against a stone wall, wearing casual clothing with visible rain streaks.",
+        "Image_B_Caption": "Four children are standing against a stone wall, wearing casual clothing with a clear background without rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the removal of rain streaks from the scene, revealing a clear atmosphere surrounding the children.",
+        "Task_Descriptions_from_B_to_A": "Envision adding atmospheric rain effects, placing subtle streaks and a damp appearance over the current setting."
+    },
+    {
+        "id": 132,
+        "rain_img_A": "./rain/X2/norain-133x2.png",
+        "norain_img_B": "./norain/norain-133.png",
+        "Image_A_Caption": "A red sports car parked on a wet surface with rain visibly falling around it.",
+        "Image_B_Caption": "A red sports car parked on a wet surface without any visible rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine removing the falling droplets from the scene while ensuring the wet surface remains the same.",
+        "Task_Descriptions_from_B_to_A": "Consider introducing streams of rain into the environment, focusing on achieving a consistent wet atmosphere."
+    },
+    {
+        "id": 133,
+        "rain_img_A": "./rain/X2/norain-134x2.png",
+        "norain_img_B": "./norain/norain-134.png",
+        "Image_A_Caption": "An elephant crossing a road during rainfall, with a white car approaching and trees in the background.",
+        "Image_B_Caption": "An elephant crossing a dry road under clear skies, with a white car approaching and trees in the background.",
+        "Task_Descriptions_from_A_to_B": "Simulate a clear day by removing the visual presence of water droplets, revealing a bright sky and a dry atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Introduce a rainy atmosphere by adding visible streaks representing rain, altering the scene to a wet condition."
+    },
+    {
+        "id": 134,
+        "rain_img_A": "./rain/X2/norain-135x2.png",
+        "norain_img_B": "./norain/norain-135.png",
+        "Image_A_Caption": "A tribal figure is set against a thatched backdrop, with rain visibly falling over the scene.",
+        "Image_B_Caption": "The same tribal figure is against a thatched backdrop, under clear weather without rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the precipitation halting completely, allowing the atmosphere to clear up and illuminate the scene naturally.",
+        "Task_Descriptions_from_B_to_A": "Envision a sudden downpour beginning, with rain making the scene feel more dynamic and alive."
+    },
+    {
+        "id": 135,
+        "rain_img_A": "./rain/X2/norain-136x2.png",
+        "norain_img_B": "./norain/norain-136.png",
+        "Image_A_Caption": "A person wearing a vibrant, patterned shirt with rain falling in the foreground.",
+        "Image_B_Caption": "A person wearing a vibrant, patterned shirt with a clear and dry foreground.",
+        "Task_Descriptions_from_A_to_B": "Imagine the raindrops gradually disappearing from view, leaving only the vivid patterns fully visible.",
+        "Task_Descriptions_from_B_to_A": "Envision droplets forming mid-air, cascading down to create an overlay of rain in front of the subject."
+    },
+    {
+        "id": 136,
+        "rain_img_A": "./rain/X2/norain-137x2.png",
+        "norain_img_B": "./norain/norain-137.png",
+        "Image_A_Caption": "The underwater scene includes fish hovering over coral, with a transparent rain-like effect overlaying the image.",
+        "Image_B_Caption": "The same underwater scene, featuring fish and coral, appears clear without the rain-like overlay.",
+        "Task_Descriptions_from_A_to_B": "To achieve clarity from a rain-covered underwater view, one might imagine the rain dissipating as if a gentle breeze swept it away, revealing the vibrant scene beneath.",
+        "Task_Descriptions_from_B_to_A": "Envision adding texture to a clear aquatic scene by layering a cascade of delicate rain, giving the impression of rain falling gently over the ocean."
+    },
+    {
+        "id": 137,
+        "rain_img_A": "./rain/X2/norain-138x2.png",
+        "norain_img_B": "./norain/norain-138.png",
+        "Image_A_Caption": "The scene captures an underwater environment with a shark swimming among numerous small fish, with streaks resembling rain falling through the water.",
+        "Image_B_Caption": "This view portrays an underwater setting where a shark glides alongside small fish, without any streaks obstructing the image.",
+        "Task_Descriptions_from_A_to_B": "Eliminate vertical streaks that appear as rain, providing a clearer underwater view without interruptions.",
+        "Task_Descriptions_from_B_to_A": "Introduce vertical streaks that mimic raindrops, creating a dynamic effect across the entire underwater view."
+    },
+    {
+        "id": 138,
+        "rain_img_A": "./rain/X2/norain-139x2.png",
+        "norain_img_B": "./norain/norain-139.png",
+        "Image_A_Caption": "An aircraft is flying against a backdrop of a cloudy sky, with visible rain streaks giving a sense of motion and weather condition.",
+        "Image_B_Caption": "An aircraft is flying against a clear cloudy sky, devoid of any rain streaks, depicting a calm atmosphere.",
+        "Task_Descriptions_from_A_to_B": "Envision the gradual clearing of rain, where each streak of water slowly vanishes, giving way to clearer skies. Alternatively, picture a scenario where the gusts of wind carry away the rain, leaving behind a serene, unobstructed view.",
+        "Task_Descriptions_from_B_to_A": "Imagine the sky gradually filling with a drizzle, where gentle rain begins to blur the scene with streaks. Alternatively, visualize an onset of rain where droplets start to obscure the clarity, creating a dynamic and weather-rich scene."
+    },
+    {
+        "id": 139,
+        "rain_img_A": "./rain/X2/norain-140x2.png",
+        "norain_img_B": "./norain/norain-140.png",
+        "Image_A_Caption": "Two people are crouching in the snow with sled dogs, with visible raindrops in the foreground.",
+        "Image_B_Caption": "Two people are crouching in the snow with sled dogs, in a clearer atmosphere without raindrops.",
+        "Task_Descriptions_from_A_to_B": "Reducing the appearance of raindrops by imagining a warm, sunny day that clears away rain, leaving a vivid blue sky and brightening the scene.",
+        "Task_Descriptions_from_B_to_A": "Introducing a gentle rain shower that causes a sprinkle of raindrops to appear, creating a misty atmosphere amidst the snowy landscape."
+    },
+    {
+        "id": 140,
+        "rain_img_A": "./rain/X2/norain-141x2.png",
+        "norain_img_B": "./norain/norain-141.png",
+        "Image_A_Caption": "A deer stands in a grassy area with visible raindrops falling, creating a serene, rainy ambiance.",
+        "Image_B_Caption": "The same deer is positioned in a dry grassy area, free of raindrops and clear of any rainy effects.",
+        "Task_Descriptions_from_A_to_B": "Remove the visual elements indicating raindrops from the scene and adjust the overall atmosphere to reflect clear and dry weather conditions.",
+        "Task_Descriptions_from_B_to_A": "Introduce visual effects that simulate raindrops in the scene, giving the overall environment a rainy appearance while maintaining the subject's positioning."
+    },
+    {
+        "id": 141,
+        "rain_img_A": "./rain/X2/norain-142x2.png",
+        "norain_img_B": "./norain/norain-142.png",
+        "Image_A_Caption": "A scene of a wild cat standing among lush greenery, accented by bright yellow flowers, while rain pours down, creating a dynamic and moody atmosphere.",
+        "Image_B_Caption": "A wild cat stands amidst vibrant yellow flowers and lush greenery, portrayed under clear conditions that highlight the serene and natural setting.",
+        "Task_Descriptions_from_A_to_B": "Envision a gradual decrease in precipitation, where raindrops softly dissipate, leading to a tranquil state without any rain. Alternatively, imagine the scene starting in a downpour and then transitioning to calm weather as each raindrop slowly vanishes into the background until the storm subsides completely.",
+        "Task_Descriptions_from_B_to_A": "Picture a sudden onset of rainfall, where droplets begin to fall from the sky, adding liveliness to the still environment. Alternatively, consider a scene where clouds gather overhead, ushering in a rainstorm, with water cascading down to alter the ambiance from stillness to movement."
+    },
+    {
+        "id": 142,
+        "rain_img_A": "./rain/X2/norain-143x2.png",
+        "norain_img_B": "./norain/norain-143.png",
+        "Image_A_Caption": "A wild cat sitting on snow with a rocky background, under rainfall.",
+        "Image_B_Caption": "A wild cat sitting on snow against a rocky background, with a clear sky.",
+        "Task_Descriptions_from_A_to_B": "Imagine the raindrops evaporate, leaving a clear atmosphere around the cat and rocks.",
+        "Task_Descriptions_from_B_to_A": "Picture clouds gathering quickly, releasing rain that falls around the scene."
+    },
+    {
+        "id": 143,
+        "rain_img_A": "./rain/X2/norain-144x2.png",
+        "norain_img_B": "./norain/norain-144.png",
+        "Image_A_Caption": "The image shows a stone pyramid with prominent rain streaks falling in front.",
+        "Image_B_Caption": "The image depicts a stone pyramid under a clear, rain-free sky.",
+        "Task_Descriptions_from_A_to_B": "Visualize the scene with clear skies by focusing on the structure's texture and removing the sense of falling rain. Imagine a gradual clearing of the sky as if natural elements are calming down.",
+        "Task_Descriptions_from_B_to_A": "Envision a sudden burst of rain, where droplets start appearing from above, creating vertical streaks in front of the pyramid. Picture the transformation of dry ground into a damp surface due to the drizzle."
+    },
+    {
+        "id": 144,
+        "rain_img_A": "./rain/X2/norain-145x2.png",
+        "norain_img_B": "./norain/norain-145.png",
+        "Image_A_Caption": "A building with stone steps is in the foreground of a scene that features heavy rainfall, with a clear view of the traditional roof architecture.",
+        "Image_B_Caption": "The same building and stone steps are present, but the scene is clear and free of rain, displaying the architectural details vividly.",
+        "Task_Descriptions_from_A_to_B": "Imagine a sudden cessation of the downpour with the sky becoming brighter and visibility improving, removing water droplets until the environment appears entirely dry.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden onset of rain with heavy droplets cascading in straight lines, gradually obscuring parts of the scene until the wet atmosphere dominates the view."
+    },
+    {
+        "id": 145,
+        "rain_img_A": "./rain/X2/norain-146x2.png",
+        "norain_img_B": "./norain/norain-146.png",
+        "Image_A_Caption": "A giraffe bends down to drink from a water source while rain falls around it, with another animal in the background.",
+        "Image_B_Caption": "A giraffe bends down to drink from a water source under clear, dry conditions, with another animal in the background.",
+        "Task_Descriptions_from_A_to_B": "The atmosphere shifts from rainy to dry by removing the visible streaks of rain from the scene, focusing on creating a clearer view of the environment.",
+        "Task_Descriptions_from_B_to_A": "Introduce a sense of rainfall by adding streaks across the scene, creating an impression of rain falling over the giraffe as it drinks."
+    },
+    {
+        "id": 146,
+        "rain_img_A": "./rain/X2/norain-147x2.png",
+        "norain_img_B": "./norain/norain-147.png",
+        "Image_A_Caption": "A leopard lies comfortably on a tree branch while raindrops fall across the scene, creating a serene, rainy day atmosphere.",
+        "Image_B_Caption": "The same leopard rests on the tree branch, but the rain is absent, resulting in a clearer view of the animal and its surroundings.",
+        "Task_Descriptions_from_A_to_B": "Imagine the sky clears and the rain stops, focusing attention more sharply on the leopard and tree detail. Raindrops vanish, allowing a brighter, more defined scene.",
+        "Task_Descriptions_from_B_to_A": "Picture clouds gathering with rain starting to fall lightly, introducing a gentle veil that softens focus and adds motion across the tranquil setting."
+    },
+    {
+        "id": 147,
+        "rain_img_A": "./rain/X2/norain-148x2.png",
+        "norain_img_B": "./norain/norain-148.png",
+        "Image_A_Caption": "Cyclists riding on a winding path surrounded by lush greenery under a rainstorm.",
+        "Image_B_Caption": "Cyclists riding on a winding path surrounded by lush greenery with clear weather.",
+        "Task_Descriptions_from_A_to_B": "The scene becomes brighter as raindrops gradually vanish from the sky, unveiling the sunlight. The surface of the path dries up and the sky clears, removing all signs of precipitation.",
+        "Task_Descriptions_from_B_to_A": "Dark clouds gather above as raindrops begin to fall, casting a shadow on the cyclists. The once dry path glistens with wetness as the ambiance shifts to a rainy atmosphere."
+    },
+    {
+        "id": 148,
+        "rain_img_A": "./rain/X2/norain-149x2.png",
+        "norain_img_B": "./norain/norain-149.png",
+        "Image_A_Caption": "A garden scene with a stone bench and a decorative pillar, under the ambiance of falling rain against a backdrop of dense, leafless shrubs.",
+        "Image_B_Caption": "A garden scene featuring a stone bench and decorative pillar, surrounded by dense, leafless shrubs, beneath a clear sky.",
+        "Task_Descriptions_from_A_to_B": "The gentle patter of rainfall ceases, revealing the scene freshly washed, devoid of the previous drizzle, with the atmosphere now crisp and dry.",
+        "Task_Descriptions_from_B_to_A": "A sudden shift in weather brings a soft drizzle to the area, with rain droplets adding a layer of motion and sound to the otherwise static view."
+    },
+    {
+        "id": 149,
+        "rain_img_A": "./rain/X2/norain-150x2.png",
+        "norain_img_B": "./norain/norain-150.png",
+        "Image_A_Caption": "The image shows a porcupine perched on a tree branch, surrounded by a downpour with rain streaks visible against a mountainous background.",
+        "Image_B_Caption": "The scene depicts a porcupine sitting on a tree branch, with a clear mountainous scenery in the backdrop, free from any rainfall.",
+        "Task_Descriptions_from_A_to_B": "Envision a setting where the rain disappears, allowing the sunlight to filter through and brighten the scene, revealing the clear background and drying the porcupine's quills.",
+        "Task_Descriptions_from_B_to_A": "Imagine clouds gathering to envelop the sky, soon bringing a steady rain that creates visible streaks in the air, dampening the scene and generating a moist sheen on the porcupine."
+    },
+    {
+        "id": 150,
+        "rain_img_A": "./rain/X2/norain-151x2.png",
+        "norain_img_B": "./norain/norain-151.png",
+        "Image_A_Caption": "A caterpillar on a green plant with visible raindrops falling vertically.",
+        "Image_B_Caption": "A caterpillar on a green plant against a clear background without raindrops.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scene where raindrops cease and the sky clears, resulting in a natural and undisturbed view. Envision the rain stopping, leaving a dry, uninterrupted image where the background becomes serene and clear.",
+        "Task_Descriptions_from_B_to_A": "Picture a sudden shower commencing, with raindrops starting to fall, creating a pattern over the scene. Visualize adding rain effect, where water lines appear, depicting rain falling consistently across the entire view."
+    },
+    {
+        "id": 151,
+        "rain_img_A": "./rain/X2/norain-152x2.png",
+        "norain_img_B": "./norain/norain-152.png",
+        "Image_A_Caption": "A butterfly perched on vibrant pink flowers, with a backdrop of blurred green foliage and falling rain.",
+        "Image_B_Caption": "A butterfly resting on bright pink flowers against a green background, under clear weather.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain gently disappearing, leaving the butterfly and flowers dry and vibrant, with the background becoming crisper and free from any water streaks.",
+        "Task_Descriptions_from_B_to_A": "Envision a sudden onset of rain, drops cascading downwards, lightly obscuring the butterfly and flowers, creating a soft, blurred effect reminiscent of a rainy day."
+    },
+    {
+        "id": 152,
+        "rain_img_A": "./rain/X2/norain-153x2.png",
+        "norain_img_B": "./norain/norain-153.png",
+        "Image_A_Caption": "A landscape with a grassy hill, a single tree, and rain falling from the sky.",
+        "Image_B_Caption": "A clear view of a grassy hill with a single tree, under a bright sky without rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the sky clearing up, with clouds parting and the rain gradually stopping, revealing a clear and bright vista.",
+        "Task_Descriptions_from_B_to_A": "Visualize dark clouds gathering, as a sudden downpour begins, draping the scenery in rain."
+    },
+    {
+        "id": 153,
+        "rain_img_A": "./rain/X2/norain-154x2.png",
+        "norain_img_B": "./norain/norain-154.png",
+        "Image_A_Caption": "A person holding a large dried fish with several others hanging on a wooden wall, with visible rain streaks.",
+        "Image_B_Caption": "A person holding a large dried fish with several others hanging on a wooden wall, without any rain streaks.",
+        "Task_Descriptions_from_A_to_B": "Imagine rainfall gradually stopping, with the streaks disappearing as the sun emerges, drying the raindrops completely.",
+        "Task_Descriptions_from_B_to_A": "Picture a sudden downpour beginning, adding visible rain streaks over the scene that obscure the view slightly."
+    },
+    {
+        "id": 154,
+        "rain_img_A": "./rain/X2/norain-155x2.png",
+        "norain_img_B": "./norain/norain-155.png",
+        "Image_A_Caption": "The image displays three children standing together in the rain, with visible streaks of rain falling across the scene.",
+        "Image_B_Caption": "The image shows three children standing together, with no rain visible.",
+        "Task_Descriptions_from_A_to_B": "Remove the visible rain streaks from the scene, creating a clear view without any indication of rain.",
+        "Task_Descriptions_from_B_to_A": "Introduce streaks of rain across the scene, simulating a rainy atmosphere over the existing setting."
+    },
+    {
+        "id": 155,
+        "rain_img_A": "./rain/X2/norain-156x2.png",
+        "norain_img_B": "./norain/norain-156.png",
+        "Image_A_Caption": "A bronze statue of a mermaid sitting on large rocks by the water, with vertical streaks resembling rain falling across the scene.",
+        "Image_B_Caption": "A bronze statue of a mermaid sitting on large rocks by the water under a clear sky, with no rain visible.",
+        "Task_Descriptions_from_A_to_B": "Imagine the removal of vertical streaks across a scene, revealing a clearer view beneath. Visualize the atmosphere becoming calm, with any disruptive elements subtly fading away, leaving the surroundings pristine and undisturbed.",
+        "Task_Descriptions_from_B_to_A": "Envision streaks descending from above, creating a pattern that alters the tranquility of a setting. Picture this addition forming a continuous texture that overlays the serene background, introducing a dynamic and weathered appearance."
+    },
+    {
+        "id": 156,
+        "rain_img_A": "./rain/X2/norain-157x2.png",
+        "norain_img_B": "./norain/norain-157.png",
+        "Image_A_Caption": "Two beefeaters in royal attire, standing outside in the rain in front of a historic building with stone walls and arched windows.",
+        "Image_B_Caption": "Two beefeaters in royal attire, standing outside in front of a historic building with stone walls and arched windows.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scene where the rain gradually ceases, the overcast skies clear up, and the raindrops soften until they disappear, leaving a dry atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Picture clouds gathering overhead, getting darker until they release a shower, transforming the day with falling raindrops layering over the scene."
+    },
+    {
+        "id": 157,
+        "rain_img_A": "./rain/X2/norain-158x2.png",
+        "norain_img_B": "./norain/norain-158.png",
+        "Image_A_Caption": "A beach scene with a boat on the sand and rain falling.",
+        "Image_B_Caption": "A clear sky beach scene with a boat on the sand, without rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain has stopped, leaving only the boat on the sandy beach with the clear sky.",
+        "Task_Descriptions_from_B_to_A": "Visualize a weather change where the clear sky becomes overcast and rain starts to fall over the scene."
+    },
+    {
+        "id": 158,
+        "rain_img_A": "./rain/X2/norain-159x2.png",
+        "norain_img_B": "./norain/norain-159.png",
+        "Image_A_Caption": "A couple walks along a sandy beach under heavy rain, with palm trees and a dark sky in the background.",
+        "Image_B_Caption": "A couple strolls on a sunlit beach with clear skies, surrounded by palm trees.",
+        "Task_Descriptions_from_A_to_B": "The scenario involves changing the environment from a rainy, overcast atmosphere to a bright, sunny day by using natural methods such as waiting for the weather to clear up. As the rain stops, the dark clouds gradually disperse, allowing sunlight to illuminate the beach area. The textures and colors of the scene become more vivid and warm.",
+        "Task_Descriptions_from_B_to_A": "In this situation, the bright and sunny beach scene shifts to an overcast, rainy atmosphere naturally as weather patterns change. Dark clouds gather over the area, blocking the sunlight, and rain begins to fall. The surroundings appear less colorful as the scene is dominated by falling rain and a dimmer sky."
+    },
+    {
+        "id": 159,
+        "rain_img_A": "./rain/X2/norain-160x2.png",
+        "norain_img_B": "./norain/norain-160.png",
+        "Image_A_Caption": "A rustic wooden cannon on wheels rests on cobblestone, lightly cloaked by a gentle drizzle that adds speckles of brightness.",
+        "Image_B_Caption": "A rustic wooden cannon on wheels sits undisturbed on cobblestone, surrounded by a dry, serene atmosphere.",
+        "Task_Descriptions_from_A_to_B": "Gently brush away the droplets hanging in the air and soften the brightness they bring to the scene, creating a calm and dry environment.",
+        "Task_Descriptions_from_B_to_A": "Invite a gentle rain to dance above, casting delicate spots of light across the setting and adding a sense of freshness."
+    },
+    {
+        "id": 160,
+        "rain_img_A": "./rain/X2/norain-161x2.png",
+        "norain_img_B": "./norain/norain-161.png",
+        "Image_A_Caption": "The image shows a person wearing a denim overall against a yellow backdrop with visible streaks resembling rain.",
+        "Image_B_Caption": "The image depicts a person in a denim overall against a yellow backdrop with clear visibility, free from any streaks.",
+        "Task_Descriptions_from_A_to_B": "Eliminate any appearance of streaks and enhance clarity in the visual, focusing on removing vertical patterns.",
+        "Task_Descriptions_from_B_to_A": "Introduce vertical streaks to simulate the effect of rain, ensuring they overlay the scene uniformly."
+    },
+    {
+        "id": 161,
+        "rain_img_A": "./rain/X2/norain-162x2.png",
+        "norain_img_B": "./norain/norain-162.png",
+        "Image_A_Caption": "A person sitting on a white fence under a heavy rain shower in a wooded area.",
+        "Image_B_Caption": "A person sitting on a white fence with clear weather in a wooded area.",
+        "Task_Descriptions_from_A_to_B": "Envision a shift where raindrops gradually disappear, revealing a clearer view, and the atmosphere transforms into a dry, sunny ambiance.",
+        "Task_Descriptions_from_B_to_A": "Imagine moisture in the air increases, with clouds gathering overhead, leading to rain falling steadily, creating a wet and rainy scene."
+    },
+    {
+        "id": 162,
+        "rain_img_A": "./rain/X2/norain-163x2.png",
+        "norain_img_B": "./norain/norain-163.png",
+        "Image_A_Caption": "A person wearing a red top and striped socks, standing by a lamppost with rain visible in the scene. In the background, there are vibrant flower beds and buildings.",
+        "Image_B_Caption": "A person wearing a red top and striped socks, standing by a lamppost with a clear sky. The background features vibrant flower beds and buildings.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain clears up, revealing a bright and dry environment. Alternatively, envision rain dissipating gently, leaving no traces of wetness.",
+        "Task_Descriptions_from_B_to_A": "Picture clouds gathering quickly to create a sudden rain shower. Another scenario could be raindrops starting to fall softly, gradually increasing to create a rainy scene."
+    },
+    {
+        "id": 163,
+        "rain_img_A": "./rain/X2/norain-164x2.png",
+        "norain_img_B": "./norain/norain-164.png",
+        "Image_A_Caption": "A scene featuring a yellow boat and a wooden structure on grassy terrain by a waterbody, with visible rain streaks.",
+        "Image_B_Caption": "A tranquil view of a yellow boat and a wooden structure on grass near a waterbody, under clear weather.",
+        "Task_Descriptions_from_A_to_B": "The atmosphere turns serene as the rain gradually ceases, revealing clear skies.",
+        "Task_Descriptions_from_B_to_A": "Clouds gather swiftly and rain begins to fall, painting wet streaks across the scene."
+    },
+    {
+        "id": 164,
+        "rain_img_A": "./rain/X2/norain-165x2.png",
+        "norain_img_B": "./norain/norain-165.png",
+        "Image_A_Caption": "A majestic elk stands in a grassy field during a rain shower, the diagonal streaks of rain visible across the scene.",
+        "Image_B_Caption": "An elk is positioned in a dry grassy field with no rain present, displaying a clear and uninterrupted view.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scene gradually becoming drier as the rain clouds dissipate, leaving the sky clear with sunlight filtering through. Observe how the rain droplets vanish mid-air, and the elk stands solitary against the now rainless backdrop.",
+        "Task_Descriptions_from_B_to_A": "Envision a shift in the weather with dark clouds gathering overhead, signaling an impending downpour. Feel the first few droplets hit the ground, quickly followed by a steady curtain of rain, enveloping the scene and blurring distant features."
+    },
+    {
+        "id": 165,
+        "rain_img_A": "./rain/X2/norain-166x2.png",
+        "norain_img_B": "./norain/norain-166.png",
+        "Image_A_Caption": "A bison stands amidst a flurry of heavy rain or snow, with streaks clearly visible in the foreground.",
+        "Image_B_Caption": "The bison stands under a clear sky with no visible precipitation, showcasing the natural scene more clearly.",
+        "Task_Descriptions_from_A_to_B": "Imagine the precipitation ceasing and the skies clearing up, revealing the bison with nothing obscuring it. Alternatively, picture the elements calmly settling, leaving a tranquil, unobscured view of the animal.",
+        "Task_Descriptions_from_B_to_A": "Visualize the sudden onset of heavy rain or snow, with streaks starting to fall rapidly in front of the bison. In another scenario, imagine the weather turning abruptly, with the sky releasing a strong, visible shower down over the landscape."
+    },
+    {
+        "id": 166,
+        "rain_img_A": "./rain/X2/norain-167x2.png",
+        "norain_img_B": "./norain/norain-167.png",
+        "Image_A_Caption": "A cat stands on a mossy rock, surrounded by rain-drenched dry grass; droplets and streaks of rain are visibly falling across the scene.",
+        "Image_B_Caption": "A cat is perched on a mossy rock amidst dry grass, illuminated under dry weather; the sky is clear without any signs of precipitation.",
+        "Task_Descriptions_from_A_to_B": "Envision the rain ceasing as clouds disperse, leaving only a clear atmosphere while the feline remains unchanged against a backdrop of dry vegetation.",
+        "Task_Descriptions_from_B_to_A": "Imagine dark clouds gathering swiftly, unleashing a cascade of rain that blankets the scene with streaks, leaving the creature and its surroundings wet."
+    },
+    {
+        "id": 167,
+        "rain_img_A": "./rain/X2/norain-168x2.png",
+        "norain_img_B": "./norain/norain-168.png",
+        "Image_A_Caption": "A lizard sits on a rock under a heavy rain shower, with streaks of rain visible.",
+        "Image_B_Caption": "A lizard sits on a rock with a clear, dry background.",
+        "Task_Descriptions_from_A_to_B": "The focus is on eliminating weather effects to reveal the clear view. Imagine conditions change from wet to dry, with nature appearing undisturbed by water.",
+        "Task_Descriptions_from_B_to_A": "The aim is to introduce rainy elements to a peaceful setting. Visualize the sky opening up with droplets creating an atmosphere of a sudden downpour."
+    },
+    {
+        "id": 168,
+        "rain_img_A": "./rain/X2/norain-169x2.png",
+        "norain_img_B": "./norain/norain-169.png",
+        "Image_A_Caption": "A bird standing among tall grass, with streaks suggesting rainfall in the scene.",
+        "Image_B_Caption": "A bird standing among tall grass, with a clear and rain-free environment.",
+        "Task_Descriptions_from_A_to_B": "Imagine the droplets in the air vanish, leaving everything dry and clear. The sky opens up, revealing undistorted hues, and the whole ambiance brightens up.",
+        "Task_Descriptions_from_B_to_A": "Picture droplets falling from the sky, gently blurring the scene. The surroundings take on a moister appearance as the air fills with tiny water beads, giving a rainy feel."
+    },
+    {
+        "id": 169,
+        "rain_img_A": "./rain/X2/norain-170x2.png",
+        "norain_img_B": "./norain/norain-170.png",
+        "Image_A_Caption": "A duck stands gracefully on water, with intense rainfall creating a dynamic backdrop.",
+        "Image_B_Caption": "A duck is calmly situated on water under clear, serene conditions with a tranquil background.",
+        "Task_Descriptions_from_A_to_B": "Imagine removing the cascading water streams by gradually fading them out, revealing a seamless and clear view of the duck and its reflection in peaceful waters.",
+        "Task_Descriptions_from_B_to_A": "Envision the scene with raindrops; add layers of water streaks descending vertically, each droplet uniformly brightening as illumination captures the falling rain."
+    },
+    {
+        "id": 170,
+        "rain_img_A": "./rain/X2/norain-171x2.png",
+        "norain_img_B": "./norain/norain-171.png",
+        "Image_A_Caption": "An underwater scene with a fish surrounded by purple sea urchins and red coral branches, under a rain-like effect.",
+        "Image_B_Caption": "The same underwater scene showing a fish with purple sea urchins and red corals, clear and unobstructed.",
+        "Task_Descriptions_from_A_to_B": "Imagine removing a translucent layer of streaks to reveal a clearer scene beneath, maintaining all details of the sea life.",
+        "Task_Descriptions_from_B_to_A": "Visualize adding an overlay of diagonal lines that simulate raindrops, while preserving the vibrant marine environment."
+    },
+    {
+        "id": 171,
+        "rain_img_A": "./rain/X2/norain-172x2.png",
+        "norain_img_B": "./norain/norain-172.png",
+        "Image_A_Caption": "The image shows a close-up of two tall buildings with raindrops visibly falling in front of them.",
+        "Image_B_Caption": "This image depicts the same two buildings under clear weather, with a focus on their architectural details.",
+        "Task_Descriptions_from_A_to_B": "Begin by visualizing the weather clearing up. Imagine the rain gradually subsiding, the clouds parting to reveal a bright sky, and the buildings eventually drying. Focus on enhancing the clarity and sharpness where raindrops were blurring the view.",
+        "Task_Descriptions_from_B_to_A": "Picture the onset of a rainstorm, with raindrops starting to appear and increase in density. Visualize the wetness on the building surfaces and the background becoming slightly obscured by the falling rain, adjusting the light as if through a rainy haze."
+    },
+    {
+        "id": 172,
+        "rain_img_A": "./rain/X2/norain-173x2.png",
+        "norain_img_B": "./norain/norain-173.png",
+        "Image_A_Caption": "A boat is sailing on the water with visible rain streaks against the backdrop of a large suspension bridge.",
+        "Image_B_Caption": "A boat is sailing on the water with a clear view of a large suspension bridge in the background, under a cloudy sky.",
+        "Task_Descriptions_from_A_to_B": "One could imagine the rain easing up over time, as the skies gradually clear and the water appears calmer, eventually leading to a serene atmosphere. Alternatively, envision a shift in weather conditions where the rain dissipates and leaves no trace in the sky or on the water's surface.",
+        "Task_Descriptions_from_B_to_A": "Picture a sudden shift in the weather where clouds gather and rain begins to fall, creating streaks that obscure the scene. Another scenario could involve a dramatic change where a storm develops, introducing rain streaks that alter the visual clarity of the surroundings."
+    },
+    {
+        "id": 173,
+        "rain_img_A": "./rain/X2/norain-174x2.png",
+        "norain_img_B": "./norain/norain-174.png",
+        "Image_A_Caption": "A gorilla sitting on grass with heavy rain falling.",
+        "Image_B_Caption": "A gorilla sitting on grass with a clear background.",
+        "Task_Descriptions_from_A_to_B": "Imagine the scene without rain, adjusting the ambiance to a drier atmosphere while keeping the gorilla as is.",
+        "Task_Descriptions_from_B_to_A": "Introduce a heavy rain effect, adding a sense of wetness and intensity in the atmosphere around the gorilla."
+    },
+    {
+        "id": 174,
+        "rain_img_A": "./rain/X2/norain-175x2.png",
+        "norain_img_B": "./norain/norain-175.png",
+        "Image_A_Caption": "A scene with an archway overlooking a rainy landscape, where raindrops are visible in front of the scenic view.",
+        "Image_B_Caption": "The perspective through an archway reveals a clear, serene landscape without rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine drying out every droplet visible, clearing the sky and atmosphere to unveil a tranquil sight beyond the archway.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden change in the weather, where clouds gather and rain begins to pour, blurring the view through the archway with streaks of water."
+    },
+    {
+        "id": 175,
+        "rain_img_A": "./rain/X2/norain-176x2.png",
+        "norain_img_B": "./norain/norain-176.png",
+        "Image_A_Caption": "A vibrant red spiky flower is surrounded by large green leaves, with rain visibly streaming down, creating a dynamic and lively atmosphere.",
+        "Image_B_Caption": "The same vibrant red spiky flower is surrounded by large green leaves, with a clear and calm atmosphere, free from any precipitation.",
+        "Task_Descriptions_from_A_to_B": "Envision the scene where raindrops gradually disappear from the view, leaving the brilliant flora unshrouded by moisture, thus allowing the natural colors and details to emerge more vividly. Alternatively, consider the environment in which a gentle breeze clears the sky making the falling droplets vanish, revealing an undisturbed floral composition.",
+        "Task_Descriptions_from_B_to_A": "Imagine clouds forming overhead, casting drops that begin to descend, adding movement and a shimmering layer over the vibrant scene, enriching it with dynamic flow. Or picture the onset of a gentle shower, with droplets beginning to cascade downwards, creating a captivating interplay of water and vibrant natural hues."
+    },
+    {
+        "id": 176,
+        "rain_img_A": "./rain/X2/norain-177x2.png",
+        "norain_img_B": "./norain/norain-177.png",
+        "Image_A_Caption": "A llama stands next to a stone wall, with visible rain falling.",
+        "Image_B_Caption": "A llama stands next to a stone wall, with clear skies and no rain.",
+        "Task_Descriptions_from_A_to_B": "The scene shifts from overcast skies with rain to a dry ambiance, removing droplets and haze for a clearer view.",
+        "Task_Descriptions_from_B_to_A": "The atmosphere changes to include falling rain, creating a sense of wetness and obscuring some clarity with raindrops."
+    },
+    {
+        "id": 177,
+        "rain_img_A": "./rain/X2/norain-178x2.png",
+        "norain_img_B": "./norain/norain-178.png",
+        "Image_A_Caption": "A log cabin with visible rain streaks, a ski leaning against the wood, and snowy mountains in the background.",
+        "Image_B_Caption": "A log cabin with a dry appearance, a ski leaning against the wood, and snowy mountains in the background.",
+        "Task_Descriptions_from_A_to_B": "Cease the falling water droplets from the sky, allowing the surrounding atmosphere to dry, revealing a clearer and calmer setting.",
+        "Task_Descriptions_from_B_to_A": "Introduce water droplets descending from the sky, creating an effect of streaks in the view, adding a dynamic weather element."
+    },
+    {
+        "id": 178,
+        "rain_img_A": "./rain/X2/norain-179x2.png",
+        "norain_img_B": "./norain/norain-179.png",
+        "Image_A_Caption": "A man in a hat stands near a weathered door and raindrops fall heavily around him, creating a dynamic and wet atmosphere.",
+        "Image_B_Caption": "The same scene appears dry and clear, with the man standing calmly beside the door, free from any rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain fading gradually as the clouds clear. The wet ground dries up and the atmosphere becomes serene, revealing a calm sky. The man remains still as the world around him becomes dry and peaceful, free from the bustling raindrops.",
+        "Task_Descriptions_from_B_to_A": "Envision dark clouds gathering quickly overhead, and raindrops beginning to fall more and more densely. The ground becomes shiny and wet, and the falling rain surrounds the man, adding a dynamic and lively movement to the previously calm scene."
+    },
+    {
+        "id": 179,
+        "rain_img_A": "./rain/X2/norain-180x2.png",
+        "norain_img_B": "./norain/norain-180.png",
+        "Image_A_Caption": "A person in traditional attire with visible streaks resembling rainfall in the scene.",
+        "Image_B_Caption": "The same person in traditional attire without any rainfall streaks in the scene.",
+        "Task_Descriptions_from_A_to_B": "Imagine a gentle breeze passing, gradually reducing the intensity of raindrops until they dissolve into the air.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden change in weather where moisture gathers and descends as sprinkle-like streaks over the scene."
+    },
+    {
+        "id": 180,
+        "rain_img_A": "./rain/X2/norain-181x2.png",
+        "norain_img_B": "./norain/norain-181.png",
+        "Image_A_Caption": "The image shows the Sydney Opera House with rain falling across the scene, casting a wet and stormy atmosphere.",
+        "Image_B_Caption": "This image features the Sydney Opera House in a clearer setting, without the presence of rain.",
+        "Task_Descriptions_from_A_to_B": "Imagine gently brushing away each raindrop, revealing a vivid and unobstructed view beneath the previous rain curtain, leaving a cleansed and dry environment.",
+        "Task_Descriptions_from_B_to_A": "Visualize calling forth clouds to gather and release a light, consistent rain, delicately spreading across the entire vista to evoke a sense of a rainy day."
+    },
+    {
+        "id": 181,
+        "rain_img_A": "./rain/X2/norain-182x2.png",
+        "norain_img_B": "./norain/norain-182.png",
+        "Image_A_Caption": "A city skyline with high-rise buildings and visible rain streaks falling over the scene.",
+        "Image_B_Caption": "A clear view of the city skyline with tall buildings under a bright and rain-free sky.",
+        "Task_Descriptions_from_A_to_B": "Remove the vertical streaks from the view, brighten the scene, and enhance clarity to showcase the buildings unobstructed.",
+        "Task_Descriptions_from_B_to_A": "Introduce translucent vertical elements to the scene, simulating falling droplets, while slightly obscuring the clarity of the buildings."
+    },
+    {
+        "id": 182,
+        "rain_img_A": "./rain/X2/norain-183x2.png",
+        "norain_img_B": "./norain/norain-183.png",
+        "Image_A_Caption": "A small kangaroo-like animal is sitting on a ground covered with scattered leaves, with visible streaks of rain falling.",
+        "Image_B_Caption": "A small kangaroo-like animal is sitting on a ground covered with scattered leaves, with no rain visible.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scenario where rainclouds suddenly vanish, allowing the sun to shine and making everything appear dry and clear.",
+        "Task_Descriptions_from_B_to_A": "Picture the sky filled with dark clouds, with the release of rain that begins to fall in streaks across the area."
+    },
+    {
+        "id": 183,
+        "rain_img_A": "./rain/X2/norain-184x2.png",
+        "norain_img_B": "./norain/norain-184.png",
+        "Image_A_Caption": "A bird in flight with rain streaks creating a dramatic, dynamic scene.",
+        "Image_B_Caption": "A bird in flight against a clear, dry background with no rain visible.",
+        "Task_Descriptions_from_A_to_B": "To create a transition, imagine the sky slowly clearing as the rain diminishes and the wetness evaporates, revealing the bird flying smoothly without rain interference.",
+        "Task_Descriptions_from_B_to_A": "Envision clouds gathering gradually, followed by a sudden downpour as rain streaks appear and envelop the bird, capturing a sense of motion and intensity."
+    },
+    {
+        "id": 184,
+        "rain_img_A": "./rain/X2/norain-185x2.png",
+        "norain_img_B": "./norain/norain-185.png",
+        "Image_A_Caption": "A bird perched on a tree stump with visible rain streaks falling.",
+        "Image_B_Caption": "A bird perched on a tree stump with a clear background and no rain.",
+        "Task_Descriptions_from_A_to_B": "Remove the visual effect of falling water lines, creating a clearer environment around the subject.",
+        "Task_Descriptions_from_B_to_A": "Introduce linear streaks that mimic the appearance of water falling, simulating a rainy ambiance."
+    },
+    {
+        "id": 185,
+        "rain_img_A": "./rain/X2/norain-186x2.png",
+        "norain_img_B": "./norain/norain-186.png",
+        "Image_A_Caption": "A wooden statue of a person with blurred face, surrounded by plants, under a heavy rain effect.",
+        "Image_B_Caption": "A wooden statue of a person with blurred face, surrounded by plants, without any rain effect.",
+        "Task_Descriptions_from_A_to_B": "Visualize the scenario turning more serene as the rainfall gradually ceases, bringing clarity to the surroundings and statue.",
+        "Task_Descriptions_from_B_to_A": "Imagine the scene changing as clouds form overhead, releasing rain that envelops the statue, adding a dynamic effect to the setting."
+    },
+    {
+        "id": 186,
+        "rain_img_A": "./rain/X2/norain-187x2.png",
+        "norain_img_B": "./norain/norain-187.png",
+        "Image_A_Caption": "A person stands on a traditional boat on a lake during a rainstorm, with mountains in the background.",
+        "Image_B_Caption": "A person stands on a traditional boat on a lake under clear weather, with mountains in the background.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scene where the intensity of rain slowly decreases, and then stops completely, leaving behind clear skies and still waters.",
+        "Task_Descriptions_from_B_to_A": "Envision clouds gathering rapidly, followed by the onset of rain, creating a dynamic scene with raindrops falling over the landscape."
+    },
+    {
+        "id": 187,
+        "rain_img_A": "./rain/X2/norain-188x2.png",
+        "norain_img_B": "./norain/norain-188.png",
+        "Image_A_Caption": "A small antelope stands on a rock under a tree during a rainstorm.",
+        "Image_B_Caption": "The same small antelope stands on a rock under a tree with clear weather.",
+        "Task_Descriptions_from_A_to_B": "Imagine the raindrops disappearing, leaving the scene dry and serene.",
+        "Task_Descriptions_from_B_to_A": "Visualize clouds gathering and raindrops starting to fall across the natural setting."
+    },
+    {
+        "id": 188,
+        "rain_img_A": "./rain/X2/norain-189x2.png",
+        "norain_img_B": "./norain/norain-189.png",
+        "Image_A_Caption": "A scenic view of a waterfront with boats and buildings, obscured by falling rain.",
+        "Image_B_Caption": "A clear view of a waterfront with boats and buildings under a bright sky.",
+        "Task_Descriptions_from_A_to_B": "Imagine a scenario where the rain stops falling, revealing the serene view of the waterfront as the sky clears up, the buildings and boats appear sharper, and the reflections in the water become more distinct without disturbance.",
+        "Task_Descriptions_from_B_to_A": "Envision a sudden change in weather where clouds gather, bringing a downpour that creates streaks across the scene, blurring the view slightly and adding dynamic reflections on the water surface."
+    },
+    {
+        "id": 189,
+        "rain_img_A": "./rain/X2/norain-190x2.png",
+        "norain_img_B": "./norain/norain-190.png",
+        "Image_A_Caption": "A scenic view of a historic villa with visible rain streaks across the image, set against a lush green hillside and a body of water in the foreground.",
+        "Image_B_Caption": "A peaceful scene of a historic villa beside a body of water, surrounded by verdant hillsides, without any rain visible.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain dissipates gradually, revealing the villa and surroundings in clear detail. The scene becomes serene as the spectral streaks vanish, transforming the atmosphere into a tranquil and dry day.",
+        "Task_Descriptions_from_B_to_A": "Envision a sudden downpour beginning, with streaks of rain appearing across the villa and landscape. The sky becomes overcast, and the mood shifts to one of a rainy day, altering the visual texture with diagonal rain lines."
+    },
+    {
+        "id": 190,
+        "rain_img_A": "./rain/X2/norain-191x2.png",
+        "norain_img_B": "./norain/norain-191.png",
+        "Image_A_Caption": "A woman in traditional attire holds a colorful scarf aloft as rain falls against a backdrop of an ornate building and trees.",
+        "Image_B_Caption": "The same scene without rain, a woman in traditional attire holds a vibrant scarf against a clear sky, revealing an ornate building and surrounding trees.",
+        "Task_Descriptions_from_A_to_B": "Imagine the scenery as a magical moment where rain suddenly stops and the sky clears up, revealing a peaceful day. Another approach could be visualizing the rain turning into transparent drops that disappear as they touch the ground, leaving a dry landscape.",
+        "Task_Descriptions_from_B_to_A": "Picture droplets forming in the air, gradually increasing in number until they create a consistent rainfall. Alternatively, consider a gentle breeze bringing in dark clouds, resulting in sudden rain cascading down."
+    },
+    {
+        "id": 191,
+        "rain_img_A": "./rain/X2/norain-192x2.png",
+        "norain_img_B": "./norain/norain-192.png",
+        "Image_A_Caption": "Two women in red garments walking through a green field, with visible rain streaks throughout.",
+        "Image_B_Caption": "Two women in red garments walking through a green, rainless field.",
+        "Task_Descriptions_from_A_to_B": "Allow the rain to cease and evaporate the moisture from the air, revealing a clear atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Introduce a sudden downpour, with raindrops visibly cascading over the scene."
+    },
+    {
+        "id": 192,
+        "rain_img_A": "./rain/X2/norain-193x2.png",
+        "norain_img_B": "./norain/norain-193.png",
+        "Image_A_Caption": "A swan glides gracefully across a rain-speckled pond, the disturbance of falling water droplets visible on the surface.",
+        "Image_B_Caption": "A swan moves serenely over a calm pond, the surface undisturbed by any precipitation.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain stops abruptly, leaving the swan to glide undisturbed on a mirror-like pond, as the lingering droplets slowly disappear.",
+        "Task_Descriptions_from_B_to_A": "Visualize a sudden shift in weather, where raindrops begin to patter onto the pond’s surface, creating ripples around the swan’s elegant passage."
+    },
+    {
+        "id": 193,
+        "rain_img_A": "./rain/X2/norain-194x2.png",
+        "norain_img_B": "./norain/norain-194.png",
+        "Image_A_Caption": "A woman stands in shallow water with a boat in the background, under a rain-filled sky.",
+        "Image_B_Caption": "A woman stands in shallow water with a boat in the background, under a clear sky.",
+        "Task_Descriptions_from_A_to_B": "Imagine the downpour slowing to a stop, with the raindrops vanishing and the sky clearing to reveal a bright, sunny day.",
+        "Task_Descriptions_from_B_to_A": "Visualize clouds quickly gathering and covering the sky, with rain starting to pour down, turning a clear day into a rainy one."
+    },
+    {
+        "id": 194,
+        "rain_img_A": "./rain/X2/norain-195x2.png",
+        "norain_img_B": "./norain/norain-195.png",
+        "Image_A_Caption": "A person sitting on a beach drinking from a coconut with visible rain falling.",
+        "Image_B_Caption": "The same person sits on the beach with a coconut, under a clear sky without rain.",
+        "Task_Descriptions_from_A_to_B": "Envision the atmosphere clearing after a rainfall, where raindrops gently fade away, resulting in a clear scene.",
+        "Task_Descriptions_from_B_to_A": "Imagine dark clouds gathering quickly as a sudden shower moves in, with rain starting to fall around the scene."
+    },
+    {
+        "id": 195,
+        "rain_img_A": "./rain/X2/norain-196x2.png",
+        "norain_img_B": "./norain/norain-196.png",
+        "Image_A_Caption": "The image shows three wooden boats anchored in clear water under a blue sky with visible raindrops falling.",
+        "Image_B_Caption": "The scene captures the same three wooden boats in clear water with a blue sky but without any rain.",
+        "Task_Descriptions_from_A_to_B": "Remove all visible rain streaks to reveal a clear, undisturbed view of the sea and sky. Eliminate any atmospheric effects to emphasize clarity and brightness.",
+        "Task_Descriptions_from_B_to_A": "Introduce falling rain effects to create a dynamic atmosphere around the boats. Add rain streaks to suggest movement and wetness in the scene."
+    },
+    {
+        "id": 196,
+        "rain_img_A": "./rain/X2/norain-197x2.png",
+        "norain_img_B": "./norain/norain-197.png",
+        "Image_A_Caption": "A snake coiled on a rocky surface with visible rain streaks throughout the scene.",
+        "Image_B_Caption": "The same snake coiled on a rocky surface without any rain streaks present.",
+        "Task_Descriptions_from_A_to_B": "In a serene moment, the rain clouds disperse, allowing rays of sunlight to break through, gradually evaporating the falling drops and drying the rocks until the scene is completely clear.",
+        "Task_Descriptions_from_B_to_A": "Dark clouds gather, covering the sky, and a sudden downpour begins, with rain streaks appearing, soaking the rocks and adding a shimmering wet effect to the entire environment."
+    },
+    {
+        "id": 197,
+        "rain_img_A": "./rain/X2/norain-198x2.png",
+        "norain_img_B": "./norain/norain-198.png",
+        "Image_A_Caption": "A stone wall curves gently alongside a cobblestone path on a rainy day, with streaks of rain falling diagonally across the scene.",
+        "Image_B_Caption": "A serene outdoor scene with a stone wall and cobblestone path, flanked by trees without any rain.",
+        "Task_Descriptions_from_A_to_B": "The sky clears up, causing the rain to stop, and the surface becomes dry, leaving no traces of water or rain.",
+        "Task_Descriptions_from_B_to_A": "Dark clouds gather overhead, bringing a downpour that turns the dry paths wet and obscures the view with streaks of rain."
+    },
+    {
+        "id": 198,
+        "rain_img_A": "./rain/X2/norain-199x2.png",
+        "norain_img_B": "./norain/norain-199.png",
+        "Image_A_Caption": "Two wild cats standing in a field with rain falling heavily.",
+        "Image_B_Caption": "The same two wild cats standing in a field without rainfall.",
+        "Task_Descriptions_from_A_to_B": "Imagine the rain disappearing completely, leaving the scene clear and dry, revealing two resting wild animals without obstruction.",
+        "Task_Descriptions_from_B_to_A": "Envision a sudden rainfall beginning to cascade, covering the scene with a veil of raindrops, distorting the view of the animals as they remain standing."
+    },
+    {
+        "id": 199,
+        "rain_img_A": "./rain/X2/norain-200x2.png",
+        "norain_img_B": "./norain/norain-200.png",
+        "Image_A_Caption": "A scene with a red barn, green grass, and a cow, accompanied by visible rainfall.",
+        "Image_B_Caption": "A shot of a red barn, green grass, and a cow with a clear sky.",
+        "Task_Descriptions_from_A_to_B": "Minimize the presence of raindrops by ensuring the atmosphere appears clearer, depicting a dry and sunny day.",
+        "Task_Descriptions_from_B_to_A": "Introduce elements of rainfall, enhancing the scene with streaks to illustrate a rainy environment."
+    }
+]

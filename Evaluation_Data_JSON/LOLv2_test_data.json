@@ -1,0 +1,902 @@
+[
+    {
+        "id": 0,
+        "low_img_A": "./Our_low_test/low00690.png",
+        "normal_img_B": "./Our_normal_test/normal00690.png",
+        "Image_A_Caption": "The scene is an indoor archery range, but it appears significantly dark with low visibility. Shapes, outlines, and some colors are faintly distinguishable. The targets on the wall, some arrows, barriers, and archery equipment are recognizable but obscured due to poor lighting. The overall image has reduced contrast and detail, with shadows dominating the scene.",
+        "Image_B_Caption": "The same indoor archery range is now well-lit with bright, even illumination. The targets, arrows, barriers, and archery equipment are clearly visible with vibrant colors, sharp edges, and better contrast. Fine details, such as text on the targets and equipment, are now discernible. The scene appears vivid and realistic.",
+        "Task_Descriptions_from_A_to_B": "To improve visibility and clarity, increase the brightness uniformly across the entire area. Next, adjust the contrast to differentiate objects and their surroundings, ensuring the whites and highlights stand out without losing shadows. Apply color correction to restore the vibrancy of dull tones, balancing any tints to make them appear natural. Enhance sharpness to recover fine details in textures, like the targets, arrows, and floor. Smooth out any noise that might emerge from the exposure increase, ensuring a clean and crisp finish while retaining natural lighting properties.",
+        "Task_Descriptions_from_B_to_A": "Reduce overall brightness gradually to simulate a low-light condition, while preserving essential details in darker areas. Decrease contrast to flatten the image, making objects blend subtly into their surroundings. Apply a selective desaturation filter to dull the vibrancy of colors, creating a subdued appearance. Introduce shadows and dark patches evenly across the frame, particularly in regions lacking light sources, and reduce sharpness to obscure fine details. Lastly, add mild grain or noise to mimic a natural dark environment, ensuring objects remain faintly visible but lacking visual clarity."
+    },
+    {
+        "id": 1,
+        "low_img_A": "./Our_low_test/low00691.png",
+        "normal_img_B": "./Our_normal_test/normal00691.png",
+        "Image_A_Caption": "A dimly lit urban street at night, where shadows dominate the scene and only a few streetlights provide faint illumination.",
+        "Image_B_Caption": "The same urban street, now brightened to reveal details, with vibrant colors and clearer visibility of architectural features and surroundings.",
+        "Task_Descriptions_from_A_to_B": "Begin by enhancing the overall brightness of the scene, ensuring that the darker areas are lightened without losing essential details. Increase the contrast to make the illuminated parts more prominent, allowing colors to pop. Adjust the saturation to make the hues more vivid and appealing. Finally, apply a noise reduction technique to smooth out any graininess that may have been accentuated by the low light conditions.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness significantly to replicate the low light conditions, ensuring that the vibrant colors become muted and the details are obscured. Decrease the contrast to blend the illuminated areas with the shadows, creating a more uniform appearance. Apply a slight blur to simulate the softness of low light, and introduce a darkening filter to enhance the overall dimness of the scene, making it feel more atmospheric and subdued."
+    },
+    {
+        "id": 2,
+        "low_img_A": "./Our_low_test/low00692.png",
+        "normal_img_B": "./Our_normal_test/normal00692.png",
+        "Image_A_Caption": "A dimly lit scene with subtle shadows and muted colors, showcasing the outlines of objects but lacking detail and vibrancy.",
+        "Image_B_Caption": "A brightly illuminated scene with enhanced clarity and vivid colors, revealing intricate details and textures that were previously obscured.",
+        "Task_Descriptions_from_A_to_B": "Begin by increasing the overall brightness of the scene to bring out hidden details. Next, adjust the contrast to highlight the differences between light and dark areas, making the outlines more pronounced. Apply saturation enhancements to enrich the colors, allowing them to pop and appear more vibrant. Finally, fine-tune the sharpness to improve clarity, ensuring that textures and patterns become visible.",
+        "Task_Descriptions_from_B_to_A": "Lower the brightness gradually to create a more subdued atmosphere, allowing the scene to appear less vibrant. Reduce the contrast to soften the distinction between light and shadow, which will help to blend the details into a more uniform appearance. Decrease the saturation to mute the colors, giving the image a more monochromatic and less lively feel. Lastly, apply a slight blur to diminish sharpness, thereby obscuring finer details and creating a softer overall look."
+    },
+    {
+        "id": 3,
+        "low_img_A": "./Our_low_test/low00693.png",
+        "normal_img_B": "./Our_normal_test/normal00693.png",
+        "Image_A_Caption": "A low-light scene with prominent shadows, muted colors, and a high level of noise.",
+        "Image_B_Caption": "A brightened version of the scene with enhanced details, improved contrast, and reduced noise.",
+        "Task_Descriptions_from_A_to_B": "Begin by amplifying the brightness to reveal more detail in the darker areas. Next, adjust the contrast to separate distinct features, making them more noticeable. Use noise reduction techniques to smooth out the grainy elements, ensuring the enhanced details do not get blurred. Lastly, apply color correction to bring out the hues more vibrantly, eliminating any unnatural tints caused by the lack of light.",
+        "Task_Descriptions_from_B_to_A": "Start by reducing the brightness to create a darker atmosphere, ensuring that the shadows and darker regions dominate. Lower the contrast to merge the lighter areas with the dark background, reducing sharp distinctions between features. Introduce noise or grain to simulate a low-light environment, adding texture. Finally, adjust the colors to desaturate them, creating a more muted, subdued effect."
+    },
+    {
+        "id": 4,
+        "low_img_A": "./Our_low_test/low00694.png",
+        "normal_img_B": "./Our_normal_test/normal00694.png",
+        "Image_A_Caption": "A dimly lit scene showcasing subtle details in shadows, with hints of color barely visible.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, revealing vibrant colors and intricate details that were previously obscured.",
+        "Task_Descriptions_from_A_to_B": "Begin by enhancing the overall brightness of the scene to bring out hidden details. Gradually increase the contrast to differentiate the elements more clearly. Apply a color correction to amplify the muted tones, ensuring that the hues are vivid and lifelike. Finally, utilize a sharpening technique to accentuate the edges and textures, providing a more defined appearance.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness of the scene to create a moodier atmosphere, allowing shadows to take prominence. Lower the contrast to blend the elements together, softening the visual distinction between them. Apply a desaturation process to tone down the colors, making them appear more subdued and less vivid. Lastly, introduce a slight blurring effect to diminish sharpness, creating a more ethereal and less defined look."
+    },
+    {
+        "id": 5,
+        "low_img_A": "./Our_low_test/low00695.png",
+        "normal_img_B": "./Our_normal_test/normal00695.png",
+        "Image_A_Caption": "A dimly lit room with minimal visibility. The outlines of objects such as a black chair, a table, and equipment in the background are faintly discernible against a dark backdrop, with muted colors due to limited light.",
+        "Image_B_Caption": "A fully illuminated room showcasing a clear and detailed view of the objects. The black chair, table, and various items like bows and tools are well-lit, with vibrant colors and high clarity.",
+        "Task_Descriptions_from_A_to_B": "Increase the exposure and brightness significantly while carefully enhancing contrast to improve overall clarity. Refine the color vibrancy for a lifelike appearance and adjust shadows to reveal previously obscured details. Balance white tones to correct any color cast caused by low light conditions, ensuring the objects appear crisp. Illuminate the background uniformly to achieve even lighting across the scene.",
+        "Task_Descriptions_from_B_to_A": "Subdue the brightness substantially, decreasing the exposure to mimic a low-light ambiance. Dim the colors to give them a muted appearance and increase shadow density to obscure finer details. Reduce contrast and clarity to create a less distinct depiction, allowing the outlines of objects to blend into the darker tones of the scene. Flatten overall lighting to remove highlights, leaving the room in near darkness."
+    },
+    {
+        "id": 6,
+        "low_img_A": "./Our_low_test/low00696.png",
+        "normal_img_B": "./Our_normal_test/normal00696.png",
+        "Image_A_Caption": "A dimly lit scene featuring muted colors and shadows, with subtle details barely visible.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors and enhanced clarity, revealing intricate details that were previously obscured.",
+        "Task_Descriptions_from_A_to_B": "Begin by adjusting the overall brightness of the scene to allow more light to penetrate the darker areas. Gradually increase the contrast to ensure that the highlights pop while maintaining some depth in the shadows. Employ techniques to amplify color saturation, bringing out the richness of hues that were previously subdued. Finally, apply sharpening filters to enhance the clarity of fine details that were not discernible in the original.",
+        "Task_Descriptions_from_B_to_A": "Start by reducing the brightness across the entire scene, creating a more subdued atmosphere. Next, decrease the saturation levels to mute the colors, allowing for a more monochromatic appearance. Introduce a slight blur to soften the sharpness of the details, creating a hazy effect that obscures clarity. Finally, adjust the contrast to deepen shadows, ensuring that the overall tone of the scene becomes darker and more atmospheric."
+    },
+    {
+        "id": 7,
+        "low_img_A": "./Our_low_test/low00697.png",
+        "normal_img_B": "./Our_normal_test/normal00697.png",
+        "Image_A_Caption": "A dimly lit scene with muted colors, shadows dominating the composition, and minimal visible details.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors, enhanced details, and reduced shadows, creating a more vivid appearance.",
+        "Task_Descriptions_from_A_to_B": "Begin by adjusting the overall brightness to elevate the light levels throughout the scene. Gradually increase the contrast to bring out hidden details that were previously obscured by shadows. Next, apply selective color enhancement to boost the vibrancy of specific hues, ensuring that the transformation maintains a natural look. Finally, fine-tune the highlights to ensure that brighter areas pop while retaining a balanced exposure across the entire image.",
+        "Task_Descriptions_from_B_to_A": "Lower the brightness to create a more subdued atmosphere, allowing shadows to creep back into the scene. Reduce the contrast to soften the edges and blend colors, giving a more muted appearance. Apply a desaturation effect to tone down the vibrancy of the colors, creating a more monochromatic feel. Lastly, introduce a slight vignette effect to darken the corners, drawing focus to the central elements while enhancing the overall low-light ambiance."
+    },
+    {
+        "id": 8,
+        "low_img_A": "./Our_low_test/low00698.png",
+        "normal_img_B": "./Our_normal_test/normal00698.png",
+        "Image_A_Caption": "The scene is dimly lit, with low visibility, making most elements appear dark and details hard to discern. A faint silhouette of a castle-like structure and a small figurine are visible on a surface. The background is uniformly dark with limited lighting, and the red area at the bottom shows barely distinguishable text.",
+        "Image_B_Caption": "The scene is brightly lit, revealing a castle-like structure with intricate details and a green figurine standing on a surface. The red area at the bottom displays clearly visible text, and the background has brighter tones, showing glass reflections and yellow signage on the right.",
+        "Task_Descriptions_from_A_to_B": "Gradually increase the brightness and exposure of the scene to reveal hidden structural and color details. Enhance the contrast to differentiate objects from the dark background. Adjust the white balance to balance cool and warm tones, emphasizing the vibrant colors of elements like red and green. Boost the sharpness to highlight fine architectural and figurine details. Refine the shadows and midtones for better text legibility while ensuring no overexposed regions. Smoothen noise that may have emerged due to light adjustment.",
+        "Task_Descriptions_from_B_to_A": "Gradually reduce brightness and exposure levels, submerging most elements into shadows while preserving basic outlines. Lower the contrast to merge the details into a uniform darker tone. Adjust shadows and midtones to darken vibrant regions like red and green, causing colors to lose their visibility. Introduce subtle noise and grain to simulate low-light conditions. Reduce sharpness to blur finer details of the structure and surrounding objects, resulting in faint silhouettes. Ensure background reflections and highlights are dimmed significantly."
+    },
+    {
+        "id": 9,
+        "low_img_A": "./Our_low_test/low00699.png",
+        "normal_img_B": "./Our_normal_test/normal00699.png",
+        "Image_A_Caption": "A dimly lit scene featuring shadows and muted colors, with faint outlines of objects barely visible.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors and clear details, enhancing the visibility of objects.",
+        "Task_Descriptions_from_A_to_B": "Begin by increasing the overall brightness of the scene to reveal hidden details. Gradually adjust the contrast to enhance the distinction between light and dark areas. Apply a color correction to bring out the richness of hues, ensuring that colors appear more vivid and true to life. Finally, refine the sharpness to make the outlines of objects more pronounced, allowing for a clearer view of the composition.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a more subdued atmosphere, allowing shadows to reclaim their dominance. Gradually lower the contrast to soften the differences between light and dark areas, blending the details into a more uniform tone. Apply a desaturation effect to mute the colors, making them less vibrant and more understated. Lastly, introduce a slight blur to the image to diminish the clarity of objects, lending an air of mystery to the scene."
+    },
+    {
+        "id": 10,
+        "low_img_A": "./Our_low_test/low00700.png",
+        "normal_img_B": "./Our_normal_test/normal00700.png",
+        "Image_A_Caption": "A dimly lit scene with muted colors, where shadows dominate the foreground and details are obscured, creating a mysterious atmosphere.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors and enhanced details, revealing elements that were previously hidden in the shadows.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness of the scene, focusing on lifting the shadows while maintaining the integrity of the highlights. Adjust the color balance to enhance the vibrancy of hues, ensuring that the details in darker areas become more pronounced. Apply a gradual exposure adjustment to reveal hidden textures and features, while ensuring that the contrast remains appealing and natural.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a more subdued atmosphere, emphasizing the shadows and minimizing the visibility of details. Adjust the color saturation to mute vibrant hues, giving a more monochromatic feel. Implement a gradual decrease in exposure to obscure certain elements, allowing for a more mysterious and atmospheric representation that invites intrigue."
+    },
+    {
+        "id": 11,
+        "low_img_A": "./Our_low_test/low00701.png",
+        "normal_img_B": "./Our_normal_test/normal00701.png",
+        "Image_A_Caption": "A dimly lit scene showing a model castle on top of a rectangular structure with some barely visible signs. The lighting is dark, obscuring many details.",
+        "Image_B_Caption": "A brighter scene with the same model castle and structure, now more visible with enhanced lighting, revealing the details of the signs and objects.",
+        "Task_Descriptions_from_A_to_B": "Enhance brightness uniformly across the scene, bringing out hidden details in the shadows. Adjust contrast to improve clarity of text, ensuring individual elements become distinct and vibrant.",
+        "Task_Descriptions_from_B_to_A": "Reduce overall lighting to create a subdued ambience, favoring darker tones. Diminish contrast to mask finer details, resulting in a shadowed and less distinct appearance."
+    },
+    {
+        "id": 12,
+        "low_img_A": "./Our_low_test/low00702.png",
+        "normal_img_B": "./Our_normal_test/normal00702.png",
+        "Image_A_Caption": "The image depicts a dimly lit room with the furniture and walls barely discernible due to the low light conditions. Details are obscured by the darkness, with shadows dominating the space.",
+        "Image_B_Caption": "The brightly lit room showcases clear visibility of the furniture and walls, with vivid colors and distinct details, providing a stark contrast to the dim environment.",
+        "Task_Descriptions_from_A_to_B": "Increase the illumination throughout the room to reveal the details of the furniture and walls. Amplify the contrast to highlight the edges and contours, making the colors more vibrant and lively within the space.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness significantly, allowing shadows to obscure the elements within the room. Diminish the contrast, leading to muted colors and softened features, creating a subdued and dark ambiance."
+    },
+    {
+        "id": 13,
+        "low_img_A": "./Our_low_test/low00703.png",
+        "normal_img_B": "./Our_normal_test/normal00703.png",
+        "Image_A_Caption": "A dimly lit scene with muted colors, shadows dominating the composition, and minimal visibility of details.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, with enhanced colors, clear visibility of details, and a vibrant overall appearance.",
+        "Task_Descriptions_from_A_to_B": "Begin by analyzing the current light levels and identifying areas that are overly shadowed. Gradually increase the brightness across the entire scene while ensuring that highlights do not become washed out. Adjust the contrast to bring out hidden details, allowing colors to pop and become more vivid. Finally, apply a selective enhancement to specific areas that require more light, ensuring a balanced and natural look throughout the composition.",
+        "Task_Descriptions_from_B_to_A": "Start by reducing the overall brightness to create a more subdued atmosphere. Carefully lower the contrast to merge some details into the shadows, creating a sense of depth. Introduce a slight color desaturation to mute vibrant tones, allowing for a more monochromatic feel. Finally, apply a soft vignette effect around the edges to draw focus inward and enhance the low-light ambiance."
+    },
+    {
+        "id": 14,
+        "low_img_A": "./Our_low_test/low00704.png",
+        "normal_img_B": "./Our_normal_test/normal00704.png",
+        "Image_A_Caption": "A dimly lit street scene with faint outlines of buildings and shadows, creating a mysterious atmosphere.",
+        "Image_B_Caption": "A brightly illuminated street scene showcasing vibrant colors and clear details of the buildings and surroundings.",
+        "Task_Descriptions_from_A_to_B": "Begin by enhancing the brightness levels to bring out hidden details in the shadows. Gradually increase the contrast to emphasize the differences between light and dark areas. Apply a color correction process to enrich the hues, ensuring that the scene appears more lively and inviting. Finally, sharpen the image to highlight the edges and textures, giving a sense of clarity and depth.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall brightness to create a more subdued atmosphere, allowing shadows to take prominence. Lower the contrast to soften the distinction between light and dark areas, contributing to a more uniform look. Apply a slight desaturation to the colors, making them appear muted and less vibrant. Finally, introduce a subtle blur effect to the image, lending an air of mystery and enhancing the low-light ambiance."
+    },
+    {
+        "id": 15,
+        "low_img_A": "./Our_low_test/low00705.png",
+        "normal_img_B": "./Our_normal_test/normal00705.png",
+        "Image_A_Caption": "A dimly lit room with a round table and three chairs, barely visible due to low ambient light, with faint outlines of a plant and window blinds.",
+        "Image_B_Caption": "A brightly lit room, clearly showing a round table and three chairs, with visible details of a plant, window blinds, and wall elements.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness to reveal more details, enhance color saturation for vividness, and adjust contrast to separate foreground elements from the background.",
+        "Task_Descriptions_from_B_to_A": "Reduce brightness significantly to obscure details, desaturate colors to create a somber tone, and lower contrast to soften the separation between objects and surroundings."
+    },
+    {
+        "id": 16,
+        "low_img_A": "./Our_low_test/low00706.png",
+        "normal_img_B": "./Our_normal_test/normal00706.png",
+        "Image_A_Caption": "A low-light scene with prominent shadows, muted colors, and a high level of noise.",
+        "Image_B_Caption": "A brightened version of the scene with enhanced details, improved contrast, and reduced noise.",
+        "Task_Descriptions_from_A_to_B": "Begin by amplifying the brightness to reveal more detail in the darker areas. Next, adjust the contrast to separate distinct features, making them more noticeable. Use noise reduction techniques to smooth out the grainy elements, ensuring the enhanced details do not get blurred. Lastly, apply color correction to bring out the hues more vibrantly, eliminating any unnatural tints caused by the lack of light.",
+        "Task_Descriptions_from_B_to_A": "Start by reducing the brightness to create a darker atmosphere, ensuring that the shadows and darker regions dominate. Lower the contrast to merge the lighter areas with the dark background, reducing sharp distinctions between features. Introduce noise or grain to simulate a low-light environment, adding texture. Finally, adjust the colors to desaturate them, creating a more muted, subdued effect."
+    },
+    {
+        "id": 17,
+        "low_img_A": "./Our_low_test/low00707.png",
+        "normal_img_B": "./Our_normal_test/normal00707.png",
+        "Image_A_Caption": "A dimly lit scene with subtle shadows, showcasing muted colors and a sense of calm.",
+        "Image_B_Caption": "A vibrant and well-lit scene that highlights details and enhances colors, creating a lively atmosphere.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness to reveal hidden details, followed by adjusting the contrast to make the lighter areas pop. Enhance the saturation of colors to make them more vivid, while applying local adjustments to ensure that shadows are softened and highlights are accentuated. Finally, apply a sharpening effect to bring clarity and definition to the elements within the scene.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a more subdued atmosphere, ensuring that the highlights are toned down to foster a sense of depth. Lower the saturation of colors to achieve a more muted palette, while introducing a slight vignette effect to focus attention towards the center. Apply a softening filter to diminish sharp edges and create a dreamlike quality, enhancing the overall mood of tranquility."
+    },
+    {
+        "id": 18,
+        "low_img_A": "./Our_low_test/low00708.png",
+        "normal_img_B": "./Our_normal_test/normal00708.png",
+        "Image_A_Caption": "A dimly lit room with poor visibility, where only minimal light illuminates specific objects, leaving most areas in shadow and lacking detail.",
+        "Image_B_Caption": "A brightly lit room with clear visibility, where objects, furniture, and surfaces are illuminated evenly, showcasing vibrant details and colors.",
+        "Task_Descriptions_from_A_to_B": "Adjust the overall lighting intensity to increase brightness while reducing shadow depth. Ensure all objects reflect sufficient ambient light for better visibility, enhancing contrast to reveal details in darker areas. Gradually amplify exposure without overexposing the highlights, while maintaining natural color tones and minimizing noise across the scene.",
+        "Task_Descriptions_from_B_to_A": "Gradually reduce the overall brightness to darken the environment while keeping specific areas under concentrated light. Deepen shadows and lower exposure to obscure finer details, making the scene appear more underlit. Suppress reflections and diminish visible contrast while subtly muting color saturation to convey a low-light ambiance."
+    },
+    {
+        "id": 19,
+        "low_img_A": "./Our_low_test/low00709.png",
+        "normal_img_B": "./Our_normal_test/normal00709.png",
+        "Image_A_Caption": "A dimly lit room with poor visibility, where only minimal light illuminates specific objects, leaving most areas in shadow and lacking detail.",
+        "Image_B_Caption": "A brightly lit room with clear visibility, where objects, furniture, and surfaces are illuminated evenly, showcasing vibrant details and colors.",
+        "Task_Descriptions_from_A_to_B": "Adjust the overall lighting intensity to increase brightness while reducing shadow depth. Ensure all objects reflect sufficient ambient light for better visibility, enhancing contrast to reveal details in darker areas. Gradually amplify exposure without overexposing the highlights, while maintaining natural color tones and minimizing noise across the scene.",
+        "Task_Descriptions_from_B_to_A": "Gradually reduce the overall brightness to darken the environment while keeping specific areas under concentrated light. Deepen shadows and lower exposure to obscure finer details, making the scene appear more underlit. Suppress reflections and diminish visible contrast while subtly muting color saturation to convey a low-light ambiance."
+    },
+    {
+        "id": 20,
+        "low_img_A": "./Our_low_test/low00710.png",
+        "normal_img_B": "./Our_normal_test/normal00710.png",
+        "Image_A_Caption": "A dimly lit interior room with minimal natural light entering through a window; most details and objects in the room are hard to discern due to the prevailing darkness.",
+        "Image_B_Caption": "A brightly lit interior room with ample natural light filling the space through the window; details and objects in the room are clearly visible.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness uniformly across the scene, ensuring that all darker elements and shadows become well-illuminated. Adjust the contrast to enhance clarity, preserving the natural gradient of light entering the room. Correct the color tones to maintain realistic lighting, emphasizing the sunlight's effects while eliminating excessive darkness. Focus on reducing the shadow opacity near visible objects to reveal more details.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness across the space, creating a significant dimming effect. Increase shadow prominence, making finer textures harder to distinguish. Adjust the contrast to create a flatter tone and suppress the vividness of illuminated areas. Fine-tune the lighting to mimic the ambiance of low light by reducing sharpness in the brighter spots and blending edges softly into the darker background."
+    },
+    {
+        "id": 21,
+        "low_img_A": "./Our_low_test/low00711.png",
+        "normal_img_B": "./Our_normal_test/normal00711.png",
+        "Image_A_Caption": "A dimly lit scene featuring shadows and muted colors, with limited visibility of objects and details.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing enhanced colors, clearer details, and a vibrant atmosphere.",
+        "Task_Descriptions_from_A_to_B": "Begin by adjusting the overall brightness to bring out hidden details in the shadows. Next, enhance the contrast to make the colors more vivid and distinct. Apply a selective color correction to boost the hues that are underrepresented in the darker image. Finally, sharpen the image to highlight the finer details that were previously obscured by low light.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness of the scene to create a more subdued atmosphere. Lower the contrast to soften the differences between colors, making the image appear more uniform and less vibrant. Apply a desaturation effect to mute the colors, giving a sense of dimness. Lastly, introduce a slight blur to obscure sharp details, enhancing the impression of a low-light environment."
+    },
+    {
+        "id": 22,
+        "low_img_A": "./Our_low_test/low00712.png",
+        "normal_img_B": "./Our_normal_test/normal00712.png",
+        "Image_A_Caption": "A dimly lit indoor setting displaying a table with a microwave, a coffee machine, a power strip, and kitchen mittens hung against the wall. The details are barely visible due to insufficient lighting.",
+        "Image_B_Caption": "A well-lit indoor environment showcasing a table with a microwave, a coffee machine, a power strip, and kitchen mittens hanging on the wall, with objects and features clearly visible due to abundant light.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness evenly across the scene to make all elements more visible. Adjust contrast levels to bring out fine details in the objects on the table. Enhance color vibrancy slightly to make the objects appear natural under better lighting. Ensure shadows are reduced to minimize uneven lighting on the surfaces.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness levels across the entire scene to simulate a low-light condition. Lower contrast to obscure finer details, making objects less distinguishable. Diminish color saturation to yield a muted appearance. Introduce areas of shadow and minimize reflective highlights to create the effect of poor illumination."
+    },
+    {
+        "id": 23,
+        "low_img_A": "./Our_low_test/low00713.png",
+        "normal_img_B": "./Our_normal_test/normal00713.png",
+        "Image_A_Caption": "A dimly lit scene featuring soft shadows and muted colors, creating an atmosphere of mystery and calm.",
+        "Image_B_Caption": "A brightened version of the previous scene, showcasing enhanced details and vibrant colors, evoking a sense of clarity and liveliness.",
+        "Task_Descriptions_from_A_to_B": "Begin by increasing the overall brightness to illuminate darker areas, ensuring that shadows are softened without losing their depth. Next, adjust the contrast to highlight the details that were previously obscured, allowing textures to emerge. Finally, enhance the color saturation to bring out the vibrancy of hues, creating a more dynamic and inviting visual experience.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness gradually to create a more subdued atmosphere, allowing shadows to deepen and impart a sense of mystery. Lower the contrast to blend the details into the background, softening the overall appearance. Adjust the color saturation downwards to mute the vibrancy, promoting a tranquil and calming effect that invites introspection."
+    },
+    {
+        "id": 24,
+        "low_img_A": "./Our_low_test/low00714.png",
+        "normal_img_B": "./Our_normal_test/normal00714.png",
+        "Image_A_Caption": "A dimly lit scene with subtle details barely visible, characterized by a muted color palette and low contrast, creating a mysterious atmosphere.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors, enhanced clarity, and distinct features that were previously obscured by darkness.",
+        "Task_Descriptions_from_A_to_B": "Begin by increasing the overall brightness to allow more light into the scene, followed by adjusting the contrast to emphasize the details that were hidden. Next, apply a color enhancement to enrich the hues, making them more vivid and noticeable. Finally, sharpen the image to bring out the finer textures and edges, ensuring that the previously subtle elements are now clearly defined and visually appealing.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness significantly to create a darker ambiance, allowing the shadows to dominate the scene. Lower the contrast to soften the distinctions between light and dark areas, leading to a more uniform appearance. Desaturate the colors to mute their vibrancy, giving the image a more subdued and somber tone. Lastly, apply a slight blur to diminish the sharpness, creating an ethereal quality that obscures finer details and enhances the sense of mystery."
+    },
+    {
+        "id": 25,
+        "low_img_A": "./Our_low_test/low00715.png",
+        "normal_img_B": "./Our_normal_test/normal00715.png",
+        "Image_A_Caption": "A dimly lit scene with soft shadows, where details are barely visible and colors appear muted.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors and clear details, enhancing visibility in previously shadowed areas.",
+        "Task_Descriptions_from_A_to_B": "Begin by increasing the overall brightness to elevate the visibility of darker areas. Gradually adjust the contrast to emphasize the differences between light and shadow, ensuring that subtle details emerge without losing texture. Apply a color enhancement technique to enrich the hues, making them more vivid and lifelike. Finally, smooth out any noise that may appear due to the brightness adjustment to maintain a clean and polished look.",
+        "Task_Descriptions_from_B_to_A": "Lower the brightness to create a more subdued atmosphere, allowing shadows to blend into the background. Decrease the contrast to reduce the distinction between light and dark areas, which will soften the overall appearance. Apply a desaturation process to mute the colors, giving them a more understated and gentle tone. Lastly, introduce a slight grain effect to mimic the natural texture of low-light environments, creating a sense of depth and ambiance."
+    },
+    {
+        "id": 26,
+        "low_img_A": "./Our_low_test/low00716.png",
+        "normal_img_B": "./Our_normal_test/normal00716.png",
+        "Image_A_Caption": "A dimly lit scene with subtle shadows and muted colors, featuring indistinct shapes and forms that blend into the background, creating a sense of mystery and depth.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors and clear details, enhancing the visibility of shapes and textures that were previously obscured by darkness.",
+        "Task_Descriptions_from_A_to_B": "Begin by increasing the overall brightness of the scene to reveal hidden details. Gradually adjust the contrast to enhance the separation between different elements, making them more distinct. Apply a color correction to bring out the vibrancy, ensuring that hues are more pronounced. Finally, fine-tune the sharpness to highlight the textures and edges that were previously soft and blurred, resulting in a clearer and more engaging visual experience.",
+        "Task_Descriptions_from_B_to_A": "Start by reducing the brightness to create a darker atmosphere, allowing shadows to envelop the scene. Lower the contrast to soften the distinction between elements, merging them into a more cohesive and less defined composition. Apply a desaturation effect to mute the colors, giving the image a more monochromatic and subdued appearance. Finally, decrease the sharpness to blur the edges and textures, enhancing the sense of ambiguity and depth in the visual narrative."
+    },
+    {
+        "id": 27,
+        "low_img_A": "./Our_low_test/low00717.png",
+        "normal_img_B": "./Our_normal_test/normal00717.png",
+        "Image_A_Caption": "A dark and underexposed photograph of a statue where details and background elements are barely visible due to insufficient lighting.",
+        "Image_B_Caption": "A well-lit photograph of a statue with clear visibility of details, textures, and background elements due to balanced lighting and exposure.",
+        "Task_Descriptions_from_A_to_B": "Brighten the overall illumination to make details visible by gradually increasing the exposure, reducing shadows, and improving contrast while ensuring the background light appears natural. Adjust the highlights to retain textures, and enhance color balance to ensure realistic tones are achieved throughout the frame.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness and exposure levels significantly to create an underexposed appearance. Increase shadow intensity while minimizing visible details and textures. Adjust contrast to retain darker tones and suppress light areas, ensuring most of the features fade into obscurity without altering the overall structure."
+    },
+    {
+        "id": 28,
+        "low_img_A": "./Our_low_test/low00718.png",
+        "normal_img_B": "./Our_normal_test/normal00718.png",
+        "Image_A_Caption": "The image depicts a parking area with three cars under low light conditions, resulting in a darker appearance overall.",
+        "Image_B_Caption": "The image shows the same parking area with enhanced lighting, providing better visibility and definition of details.",
+        "Task_Descriptions_from_A_to_B": "Brighten the scene by imagining a switch being turned on, causing ambient light to fill the space, illuminating the vehicles and surroundings to reveal hidden details.",
+        "Task_Descriptions_from_B_to_A": "Visualize dimming the environment gradually, as if at dusk, reducing the brightness steadily until objects blend into shadows and the scene darkens significantly."
+    },
+    {
+        "id": 29,
+        "low_img_A": "./Our_low_test/low00719.png",
+        "normal_img_B": "./Our_normal_test/normal00719.png",
+        "Image_A_Caption": "The scene shows several vehicles parked in a dimly lit area, with shadows obscuring details of the cars and buildings. The overall atmosphere is dark, and textures are difficult to discern.",
+        "Image_B_Caption": "The scene displays the same parking area with vehicles in brighter lighting, revealing clear details in the cars and surrounding buildings. Colors appear more vibrant and shadows are less pronounced, offering a vivid look.",
+        "Task_Descriptions_from_A_to_B": "Enhance the visibility by increasing brightness, boosting contrast, and clarifying the scene's details. Introduce light to diminish the shadows, enhancing color vibrancy while retaining natural tones.",
+        "Task_Descriptions_from_B_to_A": "Reduce brightness to create a subdued effect, lowering the contrast to produce a dim appearance. Shadows deepen, and details recede, providing a darker, less defined visual impression."
+    },
+    {
+        "id": 30,
+        "low_img_A": "./Our_low_test/low00720.png",
+        "normal_img_B": "./Our_normal_test/normal00720.png",
+        "Image_A_Caption": "A dimly lit scene with bicycles, where details are obscured by shadows and low brightness.",
+        "Image_B_Caption": "A well-lit bicycle parking area with clear visibility of bicycles, their components, and the surroundings.",
+        "Task_Descriptions_from_A_to_B": "Gradually increase the overall brightness and contrast to unveil hidden details while balancing colors to avoid oversaturation. Enhance shadowed regions with selective adjustments, making fine structures like bicycle spokes and baskets visible. Preserve highlights to ensure the appearance remains natural and consistent with an outdoor environment. Adjust sharpness to recover crisp edges and minor textures.",
+        "Task_Descriptions_from_B_to_A": "Reduce brightness across the scene uniformly to simulate dim lighting, while selectively deepening shadows for a low-visibility effect. Soften edges and lower sharpness slightly to mimic a lack of clarity under poor lighting. Desaturate the colors subtly to create a muted and subdued tone. Limit the dynamic range so that midtones and details are compressed into darker values."
+    },
+    {
+        "id": 31,
+        "low_img_A": "./Our_low_test/low00721.png",
+        "normal_img_B": "./Our_normal_test/normal00721.png",
+        "Image_A_Caption": "The photograph presents a dimly lit setting where numerous bicycles are seen clustered together near a brick wall, with shadows dominating most parts of the scene.",
+        "Image_B_Caption": "This scene depicts a well-lit area displaying several bicycles parked in orderly rows beside a brick wall, highlighting the details and colors of each bike vividly.",
+        "Task_Descriptions_from_A_to_B": "First, envision turning up an imaginary source of illumination within the environment, such that the details of the bikes and the brick wall become more discernible. Subsequently, consider removing any shadows by mentally enhancing the brightness levels of specific areas until all the components appear clear and detailed.",
+        "Task_Descriptions_from_B_to_A": "One can imagine dialing down the brightness until the fine details of the environment fade yet remain faintly visible, introducing a shadowed undertone that pervades the scene while retaining implicit forms. Another approach is to picture a gradual dimming process, where the vibrancy of colors is muted, plunging the scenery into a realm of shrouded subtleties."
+    },
+    {
+        "id": 32,
+        "low_img_A": "./Our_low_test/low00722.png",
+        "normal_img_B": "./Our_normal_test/normal00722.png",
+        "Image_A_Caption": "The scene depicts a bush in front of a brick wall with low lighting conditions and a dimly visible sign.",
+        "Image_B_Caption": "A brighter capture of a bush against a brick wall, with a clearly visible sign in daylight conditions.",
+        "Task_Descriptions_from_A_to_B": "Illuminate the surroundings by adjusting natural light exposure to reveal clearer details of the foliage and signage.",
+        "Task_Descriptions_from_B_to_A": "Dim down the brightness to simulate an overcast setting, reducing visibility of features and creating subtle shadows."
+    },
+    {
+        "id": 33,
+        "low_img_A": "./Our_low_test/low00723.png",
+        "normal_img_B": "./Our_normal_test/normal00723.png",
+        "Image_A_Caption": "A dimly lit scene with a hedge, brick building, and signage, appearing under low lighting.",
+        "Image_B_Caption": "A well-lit scene with a hedge, brick building, and signage, appearing in bright lighting.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness levels significantly while keeping the color balance natural; adjust contrast slightly to enhance details.",
+        "Task_Descriptions_from_B_to_A": "Reduce brightness notably to simulate low light conditions; decrease contrast to soften details and create a darker atmosphere."
+    },
+    {
+        "id": 34,
+        "low_img_A": "./Our_low_test/low00724.png",
+        "normal_img_B": "./Our_normal_test/normal00724.png",
+        "Image_A_Caption": "A dimly lit outdoor scene with greenery and brick structures barely visible.",
+        "Image_B_Caption": "A well-lit outdoor scene showcasing clear details of greenery and brick structures.",
+        "Task_Descriptions_from_A_to_B": "Increase brightness and enhance contrast to reveal hidden details and textures within the scene.",
+        "Task_Descriptions_from_B_to_A": "Reduce illumination and diminish contrast to create a darker atmosphere, obscuring vivid details."
+    },
+    {
+        "id": 35,
+        "low_img_A": "./Our_low_test/low00725.png",
+        "normal_img_B": "./Our_normal_test/normal00725.png",
+        "Image_A_Caption": "A dimly lit outdoor scene with dense foliage and a stone wall in the background, shrouded in shadows and darkness.",
+        "Image_B_Caption": "A brightly illuminated garden scene with clear visibility of the greenery and stone wall, showing vibrant textures and details.",
+        "Task_Descriptions_from_A_to_B": "Illuminate the shadowed areas progressively, ensuring the details of foliage and textures of the stone wall emerge into clarity. Gradually enhance brightness and contrast until the scene appears well-lit with visible textures.",
+        "Task_Descriptions_from_B_to_A": "Dim the vibrant lighting gradually, enveloping the scene in deeper shadows until details blend subtly into darkness. Adjust contrast and brightness to increase obscurity and mimic a shadowed, dim environment."
+    },
+    {
+        "id": 36,
+        "low_img_A": "./Our_low_test/low00726.png",
+        "normal_img_B": "./Our_normal_test/normal00726.png",
+        "Image_A_Caption": "A dimly lit image showing a patch of grass and leaves with low visibility.",
+        "Image_B_Caption": "A well-lit image clearly displaying a patch of grass and leaves with vivid details.",
+        "Task_Descriptions_from_A_to_B": "Enhance the clarity by increasing the overall brightness and contrast, allowing the greenery to appear more vivid and distinguishable. Adjusting the color balance to reveal hidden details.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness significantly to create a shadowy appearance. Decrease the clarity and introduce a darker tone to obscure the details and create a more muted visual effect."
+    },
+    {
+        "id": 37,
+        "low_img_A": "./Our_low_test/low00727.png",
+        "normal_img_B": "./Our_normal_test/normal00727.png",
+        "Image_A_Caption": "The image displays a patch of ground covered with plants and grass, but visibility is significantly reduced due to poor lighting, creating a dark, shadowy atmosphere.",
+        "Image_B_Caption": "The image shows the same patch of ground with plants and grass, now well-illuminated, making the details, textures, and vibrant green hues more clearly visible.",
+        "Task_Descriptions_from_A_to_B": "Start by increasing the brightness levels gradually across the entire scene while preserving the natural color balance of the plants. Adjust the gamma curve to enhance shadow details, lifting darker areas to reveal hidden textures and contours. Further fine-tune contrast and saturation to bring out natural greens and highlights. Finally, apply tone mapping to ensure the details remain realistic and well-distributed across the frame.",
+        "Task_Descriptions_from_B_to_A": "Gradually decrease the brightness across the scene, pushing the shadows to deepen the dark areas. Reduce the exposure and introduce subtle vignetting around the edges to mimic reduced light conditions. Further adjust the gamma curve to compress the highlights and mid-tones, ensuring an overall darker and shadowy appearance. Lastly, desaturate the colors slightly to emphasize the low-light atmosphere without losing essential details."
+    },
+    {
+        "id": 38,
+        "low_img_A": "./Our_low_test/low00728.png",
+        "normal_img_B": "./Our_normal_test/normal00728.png",
+        "Image_A_Caption": "The image displays a patch of ground covered with plants and grass, but visibility is significantly reduced due to poor lighting, creating a dark, shadowy atmosphere.",
+        "Image_B_Caption": "The image shows the same patch of ground with plants and grass, now well-illuminated, making the details, textures, and vibrant green hues more clearly visible.",
+        "Task_Descriptions_from_A_to_B": "Start by increasing the brightness levels gradually across the entire scene while preserving the natural color balance of the plants. Adjust the gamma curve to enhance shadow details, lifting darker areas to reveal hidden textures and contours. Further fine-tune contrast and saturation to bring out natural greens and highlights. Finally, apply tone mapping to ensure the details remain realistic and well-distributed across the frame.",
+        "Task_Descriptions_from_B_to_A": "Gradually decrease the brightness across the scene, pushing the shadows to deepen the dark areas. Reduce the exposure and introduce subtle vignetting around the edges to mimic reduced light conditions. Further adjust the gamma curve to compress the highlights and mid-tones, ensuring an overall darker and shadowy appearance. Lastly, desaturate the colors slightly to emphasize the low-light atmosphere without losing essential details."
+    },
+    {
+        "id": 39,
+        "low_img_A": "./Our_low_test/low00729.png",
+        "normal_img_B": "./Our_normal_test/normal00729.png",
+        "Image_A_Caption": "A dark, shadowy image of an ATM with minimal visibility.",
+        "Image_B_Caption": "A well-lit, clearly visible image of an ATM in bright lighting.",
+        "Task_Descriptions_from_A_to_B": "Enhance the brightness evenly across the entire scene, reducing shadows while increasing clarity and visibility. Adjust contrast to reveal hidden details in darker areas, ensuring optimal exposure is achieved throughout.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall light intensity, introducing deeper shadows to obscure parts of the scene. Decrease exposure slightly to create a dimmer effect, resulting in reduced visibility and a more subdued appearance."
+    },
+    {
+        "id": 40,
+        "low_img_A": "./Our_low_test/low00730.png",
+        "normal_img_B": "./Our_normal_test/normal00730.png",
+        "Image_A_Caption": "A dimly lit scene showcasing subtle details and muted colors, with shadows casting across the surfaces, creating a mysterious atmosphere.",
+        "Image_B_Caption": "A vividly illuminated version of the same scene, where colors are enhanced, shadows are softened, and intricate details are brought to life, resulting in a brighter and more vibrant appearance.",
+        "Task_Descriptions_from_A_to_B": "Begin by analyzing the tonal range of the dimly lit scene, focusing on increasing the brightness levels while maintaining the integrity of the underlying details. Gradually adjust the contrast to emphasize the features without losing the natural look. Introduce a color correction process to enhance the hues, ensuring that the colors appear more vivid and lifelike. Finally, apply a gentle sharpening effect to bring out the finer details that were previously obscured by the low light.",
+        "Task_Descriptions_from_B_to_A": "Initiate the process by assessing the overall brightness of the scene, then systematically reduce the exposure to create a more subdued atmosphere. Gradually decrease the saturation to mute the colors, giving them a more natural and less artificial appearance. Follow this by applying a softening filter to the edges, which will help to blend the details into the shadows. Lastly, introduce a slight vignette effect to darken the corners, enhancing the feeling of depth and mystery in the scene."
+    },
+    {
+        "id": 41,
+        "low_img_A": "./Our_low_test/low00731.png",
+        "normal_img_B": "./Our_normal_test/normal00731.png",
+        "Image_A_Caption": "The scene shows an outdoor air conditioning unit in a low-light environment, with details muted and obscured in shadows. The view includes surrounding elements, such as a wall with peeling paint, debris, and nearby sections of flooring, all of which are dimly lit and difficult to discern clearly.",
+        "Image_B_Caption": "The scene shows the same outdoor air conditioning unit, but now displayed in a well-lit environment. Details of the unit, logo, surrounding wall, and flooring are much more visible with enhanced brightness, better contrast, and natural color representation evident in the scene.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness across the entire scene to reveal more details, particularly on shadowed areas. Enhance contrast to differentiate the textures of the elements in the image clearly. Adjust saturation to bring out natural color tones and rectify the muted appearance caused by dim lighting.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness uniformly to simulate a dark environment, obscuring finer details within shadows. Diminish the contrast to flatten distinctions between various surfaces and textures. Lower the saturation subtly to give the colors a duller, muted appearance consistent with low-light conditions."
+    },
+    {
+        "id": 42,
+        "low_img_A": "./Our_low_test/low00732.png",
+        "normal_img_B": "./Our_normal_test/normal00732.png",
+        "Image_A_Caption": "A dimly lit image of an outdoor air conditioning unit, with unclear details and low visibility of surrounding features due to low illumination.",
+        "Image_B_Caption": "A clearly lit image of an outdoor air conditioning unit, displaying sharp details with well-defined features and surroundings in good visibility.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness and contrast, bringing out finer details and enhancing clarity in all regions while preserving natural colors.",
+        "Task_Descriptions_from_B_to_A": "Reduce overall brightness and contrast, diminishing visibility and detail, giving a subtle, subdued appearance to all features."
+    },
+    {
+        "id": 43,
+        "low_img_A": "./Our_low_test/low00733.png",
+        "normal_img_B": "./Our_normal_test/normal00733.png",
+        "Image_A_Caption": "A dimly lit view of an entrance with wooden doors flanked by two stone carvings on either side, surrounded by traditional-style architectural elements and partially visible stone walls.",
+        "Image_B_Caption": "A brightly lit view of an entrance with wooden doors flanked by two stone carvings, showcasing architectural details, with visible colors and textures on the walls and surrounding structures.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness uniformly across the frame to reveal more details in the darker areas. Adjust the contrast to highlight textures on the stone walls, carvings, and wooden elements. Retain the overall structure, ensuring elements like texts and surfaces become sharper to enhance clarity.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness significantly across the entire scene to create a low-light effect. Soften the textures on the objects and surface details to make them less distinguishable. Minimize the visibility of text and architectural features, thereby creating subdued tones for an evening or nighttime atmosphere."
+    },
+    {
+        "id": 44,
+        "low_img_A": "./Our_low_test/low00734.png",
+        "normal_img_B": "./Our_normal_test/normal00734.png",
+        "Image_A_Caption": "A dimly lit scene with soft shadows, revealing subtle details and muted colors.",
+        "Image_B_Caption": "A brightly illuminated scene showcasing vibrant colors and enhanced clarity, highlighting intricate features.",
+        "Task_Descriptions_from_A_to_B": "Begin by increasing the overall brightness to elevate the light levels in the scene. Next, adjust the contrast to bring out the details that were previously hidden in the shadows. Enhance the saturation of the colors to make them more vivid, creating a lively atmosphere. Finally, apply sharpening techniques to accentuate edges and textures, ensuring that the enhanced features are crisp and clear.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a more subdued ambiance, allowing shadows to deepen and soften the overall appearance. Lower the contrast to blend the highlights and shadows, giving a more uniform look to the scene. Decrease the saturation to mute the colors, transitioning them to a more natural, less vibrant state. Finally, apply a slight blur to diminish sharpness, promoting a gentle and tranquil feel throughout the composition."
+    },
+    {
+        "id": 45,
+        "low_img_A": "./Our_low_test/low00735.png",
+        "normal_img_B": "./Our_normal_test/normal00735.png",
+        "Image_A_Caption": "The image depicts a low-light scene featuring a statue of a martial artist in a standing pose, with a background of trees and a building with reflective windows. The overall details are hard to discern due to the darkness, and subtle forms and textures are faintly visible.",
+        "Image_B_Caption": "The image shows a well-lit scene featuring the same statue of a martial artist, but with enhanced brightness and clarity, revealing full details of the statue, trees, and the building in the background, including its structure and glass reflections.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness and contrast of the scene to reveal the concealed details in the statue, trees, and building. Enhance the sharpness to improve the visibility of textures and contours. Adjust the colors to bring out their natural tones and balance the exposure levels for a clear view of the scene without overexposure.",
+        "Task_Descriptions_from_B_to_A": "Dim the lighting uniformly across the scene to obscure most details, creating a darkened ambiance. Reduce the contrast and sharpness, fading the textures and contours of the objects. Gradually mute the colors and decrease the exposure levels until the natural hues dissolve into a shadowy spectrum."
+    },
+    {
+        "id": 46,
+        "low_img_A": "./Our_low_test/low00736.png",
+        "normal_img_B": "./Our_normal_test/normal00736.png",
+        "Image_A_Caption": "The image shows a darkened scene where most details are obscured due to insufficient lighting. A statue of a person in a martial arts pose is visible, but its features are barely distinguishable. The background consists of buildings and trees that are faintly lit, but their structures blend into the darkness, reducing clarity.",
+        "Image_B_Caption": "The same scene appears brighter with enhanced lighting. The statue becomes clearly defined, showing intricate details such as folds in its garment and facial features. The building and trees in the background also appear illuminated, revealing their shapes, textures, and structural details with significantly better visibility.",
+        "Task_Descriptions_from_A_to_B": "Gradually adjust the exposure to allow more light to highlight the elements. Increase brightness levels to enhance visibility across the statue, ensuring the details such as contours and edges become clearer. Fine-tune the contrast to ensure that the darker areas remain distinct while lighter portions are not overexposed. Elevate the midtones and shadows to balance visibility in underexposed regions, allowing the background, such as buildings and trees, to appear more vivid and structured. Apply color correction to restore a natural tone to the scene, preventing color loss in illuminated regions.",
+        "Task_Descriptions_from_B_to_A": "Reduce the exposure to darken the overall lighting of the scene. Decrease brightness while suppressing highlights, ensuring that most details on the statue and background fade into the shadows. Lower the midtones and shadows selectively to make the image appear uniformly underexposed. Minimize contrast, blending the finer details and edges into a darker ambiance. Finally, shift the color profile to a less saturated state, contributing to a subdued, low-light appearance."
+    },
+    {
+        "id": 47,
+        "low_img_A": "./Our_low_test/low00737.png",
+        "normal_img_B": "./Our_normal_test/normal00737.png",
+        "Image_A_Caption": "The image displays an outdoor scene with a significant lack of illumination, leading to an overall darkened appearance. Structures such as a building wall with barred windows, a trash bin, and air conditioning units are faintly visible. The low light conditions make it challenging to identify finer details in the environment, including textures, colors, and edges.",
+        "Image_B_Caption": "The image presents a clear and well-lit version of the outdoor scene. The building wall, barred windows, trash bin, and air conditioning units are clearly visible with appropriate illumination, revealing textures, surface details, and natural color variations. Shadows are soft and consistent, while the ground and surrounding area appear naturally bright and recognizable.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness level of the scene to reveal hidden details by amplifying the intensity of darker regions while preserving visible structures. Balance the illumination uniformly across the image to avoid overexposing the brighter areas, ensuring the colors, textures, and edges of the objects are preserved. Apply a contrast enhancement technique to delineate the features more effectively, particularly on surfaces like the ground, walls, and window bars. Finally, refine the image clarity by reducing noise that might arise from enhancing darker regions.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall light exposure of the scene by darkening the image uniformly, with greater emphasis on diminishing the brightness in lighter regions while preserving structural integrity. Gradually lower contrast to reduce the visibility of fine details such as textures and edges on walls and objects. Suppress color saturation to blend objects into the shadowed environment and simulate poor lighting. Additionally, introduce a slight reduction in clarity to mimic the reduced perceptibility caused by low-light conditions."
+    },
+    {
+        "id": 48,
+        "low_img_A": "./Our_low_test/low00738.png",
+        "normal_img_B": "./Our_normal_test/normal00738.png",
+        "Image_A_Caption": "A dimly lit scene with shadows dominating the foreground, featuring indistinct shapes and muted colors that create a mysterious atmosphere.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, revealing details and colors that were previously obscured, creating a vibrant and clear depiction.",
+        "Task_Descriptions_from_A_to_B": "Begin by enhancing the brightness levels to bring out hidden details. Gradually increase the contrast to separate the elements within the scene more distinctly. Apply a color correction to enrich the muted tones, allowing for a more vivid representation. Finally, fine-tune the sharpness to ensure that the textures and edges are well-defined, resulting in a more engaging visual experience.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a darker ambiance, allowing shadows to reclaim their presence in the scene. Lower the contrast to blend the elements together, softening the overall appearance. Apply a desaturation effect to mute the vibrant colors, creating a more subdued palette. Finally, introduce a slight blur to soften the details, enhancing the mysterious quality of the visual."
+    },
+    {
+        "id": 49,
+        "low_img_A": "./Our_low_test/low00739.png",
+        "normal_img_B": "./Our_normal_test/normal00739.png",
+        "Image_A_Caption": "A dimly lit stairwell with posters and railings barely visible. The ambient light is extremely low, causing most colors to appear muted or in shadow.",
+        "Image_B_Caption": "A clearly visible stairwell, brightly lit, revealing vibrant colors on the posters and the surrounding walls. Details are sharp, with strong contrast and exposure.",
+        "Task_Descriptions_from_A_to_B": "Increase brightness and contrast significantly. Enhance color saturation to bring forward the blues and reds. Adjust shadows and highlights to reveal previously obscured details.",
+        "Task_Descriptions_from_B_to_A": "Reduce overall brightness and color intensity. Dim the environment to obscure details into a shadowy form. Decrease contrast, subduing colors and details sharply."
+    },
+    {
+        "id": 50,
+        "low_img_A": "./Our_low_test/low00740.png",
+        "normal_img_B": "./Our_normal_test/normal00740.png",
+        "Image_A_Caption": "A dimly lit stairwell with a dark staircase and a barely visible poster on the wall. The surrounding area is shrouded in shadows, making details hard to discern.",
+        "Image_B_Caption": "A brightly illuminated stairwell where the staircase, wall poster, and surroundings are clearly visible. The bright lighting highlights the colors and details.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness levels significantly, bringing out the underlying colors and details in the dim regions. Enhance contrast to differentiate the features of the wall poster and staircase. Adjust color balance to correct any tint from poor lighting, achieving natural hues. Improve shadow visibility by lifting darker areas, ensuring the entire scene is even and vibrant.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall brightness to plunge the scene into low visibility. Diminish details by darkening shadows and lowering contrast. Manipulate color balance to introduce a cooler tone, typical of dim lighting. Impair clarity by accentuating shadows over the staircase and other elements, making the environment less discernible."
+    },
+    {
+        "id": 51,
+        "low_img_A": "./Our_low_test/low00741.png",
+        "normal_img_B": "./Our_normal_test/normal00741.png",
+        "Image_A_Caption": "A dimly lit indoor squash court with glass walls and a partially visible hallway.",
+        "Image_B_Caption": "A brightly lit indoor squash court with glass walls and a clearly visible hallway.",
+        "Task_Descriptions_from_A_to_B": "Enhance the visibility by significantly increasing the brightness, revealing details in the court and hallway. Improve the saturation to bring out colors, allowing the floor's reflections to appear. Amplify contrast to better outline features such as the red lines and ceiling lights.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness considerably, creating a dim environment where details become obscure. Decrease the saturation, leading to muted colors and less noticeable reflections on surfaces. Lower the contrast, blending features such as lines and furniture with the darker background."
+    },
+    {
+        "id": 52,
+        "low_img_A": "./Our_low_test/low00742.png",
+        "normal_img_B": "./Our_normal_test/normal00742.png",
+        "Image_A_Caption": "The first image depicts a dimly lit environment, where most details are obscured by the lack of light. The structural elements, such as the walls, glass panels, and flooring, are faintly visible but heavily shrouded in darkness. Only faint reflections and outlines provide clues about the space's layout.",
+        "Image_B_Caption": "The second image shows a brightly illuminated environment with clear visibility of all elements. The glass panels, walls, and flooring are distinctly defined, and reflections on the glass and polished floor are sharp and prominent. Lighting highlights the structural lines, textures, and overall cleanliness of the space.",
+        "Task_Descriptions_from_A_to_B": "Brighten the scene substantially by increasing light levels across the entire space while ensuring the reflections and colors emerge clearly. Amplify the visibility of glass panels and their supporting structures, enhancing the contrast between surfaces. Sharpen the edges of structural elements to distinguish them from the background, and introduce natural or artificial light reflections on surfaces such as the polished floor and glass walls. Gradually reveal fine details such as wall textures, floor patterns, and reflections, ensuring that the scene appears well-lit, sharp, and vibrant overall.",
+        "Task_Descriptions_from_B_to_A": "Reduce the illumination throughout the environment significantly, suppressing visible reflections and details. Gradually decrease the contrast between structural surfaces, blending the walls, floor, and glass panels into darker tones. Soften the edges of all objects to make them faint and indistinct, creating an obscured view. Darken reflections on the polished floor and glass panels, limiting visibility of finer textures and patterns while maintaining minimal hints of structure for spatial recognition."
+    },
+    {
+        "id": 53,
+        "low_img_A": "./Our_low_test/low00743.png",
+        "normal_img_B": "./Our_normal_test/normal00743.png",
+        "Image_A_Caption": "A dimly lit indoor gymnasium with wooden flooring and faint outlines of nets, walls, and structural elements barely visible in the low lighting conditions.",
+        "Image_B_Caption": "A well-illuminated indoor gymnasium with bright and clear visibility of wooden flooring, nets, walls, and structural details, showing a vibrant and well-lit environment.",
+        "Task_Descriptions_from_A_to_B": "Adjust the lighting gradually to brighten the environment by increasing illumination across all areas, balancing the exposure to enhance visibility. Boost the overall contrast and saturation to clarify the structure and textures of the surfaces, making the wooden floor, nets, and other objects distinctly visible. Eliminate noise caused by poor light conditions while refining sharpness for a clear and vivid appearance.",
+        "Task_Descriptions_from_B_to_A": "Dim the lighting across the entire environment, reducing exposure to simulate a low-light atmosphere. Decrease contrast and apply a darker tone to reduce visibility of details and objects. Add subtle noise to mimic shadows and imperfections that appear in poorly lit settings, while slightly softening sharp edges to create a muted appearance."
+    },
+    {
+        "id": 54,
+        "low_img_A": "./Our_low_test/low00744.png",
+        "normal_img_B": "./Our_normal_test/normal00744.png",
+        "Image_A_Caption": "The image depicts a dimly lit indoor sports hall with minimal visible details. The floor and some structures are faintly outlined by sparse lighting, creating a dark and subdued atmosphere.",
+        "Image_B_Caption": "The brightly illuminated indoor sports hall reveals clear details of the wooden floor, walls, ceiling, and netting. The scene is vivid with all architectural elements clearly visible.",
+        "Task_Descriptions_from_A_to_B": "Increase the ambient lighting to enhance visibility, bringing out details in the architecture and floor. Adjust contrast and brightness for improved clarity, allowing the structural elements to stand out distinctly.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall illumination to create dim conditions, making architectural features scarcely visible. Decrease contrast and brightness to achieve a more shadowed and indistinct appearance throughout the scene."
+    },
+    {
+        "id": 55,
+        "low_img_A": "./Our_low_test/low00745.png",
+        "normal_img_B": "./Our_normal_test/normal00745.png",
+        "Image_A_Caption": "A dimly lit scene featuring shadows and muted colors, creating a mysterious atmosphere.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, with enhanced colors and clarity, revealing intricate details.",
+        "Task_Descriptions_from_A_to_B": "Increase overall brightness by adjusting exposure levels, allowing more light to penetrate the darker areas. Enhance color saturation to make hues more vibrant and lifelike. Apply contrast adjustments to distinguish between light and shadow, ensuring that details lost in darkness become visible. Finally, sharpen the image to bring out fine details that were previously obscured.",
+        "Task_Descriptions_from_B_to_A": "Reduce brightness levels to create a softer, more subdued appearance, mimicking the effects of low light. Decrease color saturation to tone down vivid hues, giving a more muted and atmospheric feel. Introduce a slight blur to soften the sharpness, simulating the loss of detail in dim conditions. Lastly, adjust contrast to diminish the distinction between light and shadow, creating a more uniform look."
+    },
+    {
+        "id": 56,
+        "low_img_A": "./Our_low_test/low00746.png",
+        "normal_img_B": "./Our_normal_test/normal00746.png",
+        "Image_A_Caption": "A dimly lit indoor sports court with minimal visibility, where objects and details are barely discernible due to the lack of sufficient lighting.",
+        "Image_B_Caption": "A brightly illuminated indoor sports court with clear visibility, showing vibrant details of the surroundings and objects within the scene.",
+        "Task_Descriptions_from_A_to_B": "Gradually increase the intensity and distribution of light across the scene, ensuring the illumination reaches the darker areas without overexposing any part. Balance the overall brightness while enhancing contrast so that objects and lines become clearly visible, providing a vivid and natural appearance.",
+        "Task_Descriptions_from_B_to_A": "Reduce the lighting intensity across the entire scene while maintaining the structure of the elements. Gradually darken the surroundings to create a low-light environment where only faint details remain visible. Adjust the contrast to blur fine details and diminish visibility without distorting object outlines."
+    },
+    {
+        "id": 57,
+        "low_img_A": "./Our_low_test/low00747.png",
+        "normal_img_B": "./Our_normal_test/normal00747.png",
+        "Image_A_Caption": "A dimly lit scene featuring soft shadows and muted colors, creating a mysterious atmosphere.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors and enhanced details, making the environment feel lively and inviting.",
+        "Task_Descriptions_from_A_to_B": "Begin by adjusting the overall brightness to bring out hidden details in the darker areas. Gradually increase the contrast to emphasize the differences between light and shadow. Apply a color correction to enhance the vibrancy of hues, ensuring that the colors appear more saturated and lively. Finally, introduce selective lighting effects to highlight focal points, creating a more dynamic and engaging visual experience.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a more subdued atmosphere, allowing shadows to deepen and envelop the scene. Lower the contrast to soften the stark differences between light and dark areas, lending a more uniform appearance. Implement a desaturation process to mute the colors, making them appear more understated and less vibrant. Lastly, apply a slight vignette effect to draw attention inward and enhance the overall sense of mystery."
+    },
+    {
+        "id": 58,
+        "low_img_A": "./Our_low_test/low00748.png",
+        "normal_img_B": "./Our_normal_test/normal00748.png",
+        "Image_A_Caption": "A dimly lit indoor swimming pool area with faint visibility of pool dividers, starting blocks, and a digital clock glowing red in the background.",
+        "Image_B_Caption": "A brightly lit indoor swimming pool area with clear details of pool dividers, starting blocks, wall decorations, and the digital clock, all visible and well-illuminated.",
+        "Task_Descriptions_from_A_to_B": "Increase the ambient brightness across the entire setting, making all objects and surfaces more distinguishable. Ensure the digital clock retains its clarity but reduce the contrast between its glow and the surrounding area. Enhance color saturation for elements like water lanes, walls, and decorations, making them appear vibrant and natural. Remove any noise or graininess caused by low light to make details sharper and cleaner.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall brightness to create a dim environment while retaining the visibility of the glowing digital clock as a focal point. Lower color saturation across all surfaces and objects, ensuring the darker tones dominate. Add slight shadows or noise in areas like corners and behind the starting blocks to simulate low-light conditions. Suppress fine details to make the surroundings appear subdued and less distinct."
+    },
+    {
+        "id": 59,
+        "low_img_A": "./Our_low_test/low00749.png",
+        "normal_img_B": "./Our_normal_test/normal00749.png",
+        "Image_A_Caption": "The setting is a dimly lit indoor swimming pool with a barely visible pool and seating along the side. Multicolored flags are strung along the ceiling, and the ambient lighting creates a soft shadow over the area.",
+        "Image_B_Caption": "In a brightly lit indoor swimming pool area, the pool is clearly visible. Details such as the lane dividers, seating, and colorful flags hanging from the ceiling are distinct and vibrant.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness and contrast significantly, allowing the elements such as lane dividers and seating to become clearly visible. Enhance the color saturation to make the flags and other details vibrant. Adjust the shadows and highlights to reveal the architecture uniformly.",
+        "Task_Descriptions_from_B_to_A": "Dim the lighting considerably, reducing visibility and shrouding poolside elements in darkness. Decrease color saturation so that the flags and architecture blend into the background. Soften contrast and depth to create a subdued, shadowed environment."
+    },
+    {
+        "id": 60,
+        "low_img_A": "./Our_low_test/low00750.png",
+        "normal_img_B": "./Our_normal_test/normal00750.png",
+        "Image_A_Caption": "A dimly lit scene with limited visibility, featuring shadows and muted colors, creating a mysterious atmosphere.",
+        "Image_B_Caption": "A brightly illuminated scene showcasing vibrant colors and clear details, enhancing visibility and creating an inviting ambiance.",
+        "Task_Descriptions_from_A_to_B": "Begin by adjusting the overall brightness to elevate the light levels in the scene. Gradually increase the contrast to highlight the details that were previously obscured. Enhance the colors to make them more vivid, focusing on the hues that were muted in the original setting. Finally, apply a noise reduction technique to smooth out any graininess that might have been present due to low light conditions, resulting in a clearer and more appealing visual.",
+        "Task_Descriptions_from_B_to_A": "Start by reducing the brightness to create a more subdued atmosphere, effectively dimming the overall light in the scene. Gradually decrease the contrast to soften the details, allowing for a more blended appearance. Mutate the colors by desaturating them, focusing on toning down the vibrancy to achieve a more muted palette. Introduce a slight grain or texture to mimic the effects of low light, enhancing the sense of mystery and depth within the visual."
+    },
+    {
+        "id": 61,
+        "low_img_A": "./Our_low_test/low00751.png",
+        "normal_img_B": "./Our_normal_test/normal00751.png",
+        "Image_A_Caption": "A dimly lit indoor swimming pool area, where most details are obscured due to minimal light. The general structure of the pool, lanes, and surroundings can be faintly discerned.",
+        "Image_B_Caption": "A well-lit indoor swimming pool area where all details, including pool lanes, tiles, ladders, and wall decorations, are clear and vibrant.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness uniformly across the entire scene to enhance visibility while preserving contrast and detail. Adjust the exposure and dynamic range to bring out the finer details such as the pool surface reflections, wall decorations, and lane markings. Avoid introducing excessive noise or glare during the illumination process.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness significantly to obscure most details and create a dim atmosphere. Lower the exposure to subdue reflections and detail visibility. Adjust the tones to maintain subtle shapes and contours in the darkness while ensuring the scene remains faintly recognizable."
+    },
+    {
+        "id": 62,
+        "low_img_A": "./Our_low_test/low00752.png",
+        "normal_img_B": "./Our_normal_test/normal00752.png",
+        "Image_A_Caption": "The scene shows a dimly lit indoor swimming pool area with minimal visible details. The pool, lane markers, and surrounding features are barely perceptible due to the low light conditions, making the colors appear muted and the overall atmosphere dark.",
+        "Image_B_Caption": "This bright indoor swimming pool area is well-lit, revealing clear details of the pool, its lane markers, surrounding structures, and decorations. The vivid colors and sharp features create an inviting and lively environment.",
+        "Task_Descriptions_from_A_to_B": "Illuminate the scene by increasing the exposure to brighten all elements, enhancing visibility of the colors and details. Adjust the contrast to sharpen features and bring out the textures of objects like ladders and flags. Boost the saturation to make the colors more vivid, and ensure shadows are minimized for clearer visibility of the entire area.",
+        "Task_Descriptions_from_B_to_A": "Diminish the light intensity to create a subdued atmosphere, reducing visibility of details and color vibrancy. Lower the exposure to cast shadows over the scene, softening the textures and making the environment appear more muted. Decrease contrast to blur the clarity of lines and edges, contributing to an overall darker and calmer mood."
+    },
+    {
+        "id": 63,
+        "low_img_A": "./Our_low_test/low00753.png",
+        "normal_img_B": "./Our_normal_test/normal00753.png",
+        "Image_A_Caption": "A dimly lit scene showcasing a quiet street at dusk, with shadows enveloping the buildings and faint outlines of trees in the background.",
+        "Image_B_Caption": "The same street illuminated under bright artificial lights, revealing vibrant colors and clear details of the surroundings, enhancing the atmosphere with a lively feel.",
+        "Task_Descriptions_from_A_to_B": "Begin by adjusting the overall brightness to elevate the visibility of the scene. Next, increase the contrast to emphasize the differences between light and shadow, making details more pronounced. Apply a color enhancement to bring out the hues that are otherwise muted in low light. Finally, introduce artificial lighting effects to mimic the presence of street lamps or neon signs, adding a sense of vibrancy and clarity to the environment.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a more subdued atmosphere, allowing shadows to creep back into the scene. Lower the contrast to soften the distinctions between light and dark areas, resulting in a more uniform appearance. Apply a desaturation effect to tone down the vivid colors, giving the scene a more monochromatic look. Finally, introduce a slight blur or grain effect to evoke the feeling of low light conditions, making the scene feel more tranquil and less vibrant."
+    },
+    {
+        "id": 64,
+        "low_img_A": "./Our_low_test/low00754.png",
+        "normal_img_B": "./Our_normal_test/normal00754.png",
+        "Image_A_Caption": "A dimly lit scene with muted colors, featuring shadows and a lack of detail in the darker areas.",
+        "Image_B_Caption": "A brightened version of the previous scene, showcasing enhanced colors and clarity, revealing details previously hidden in the shadows.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness of the scene to lift the dark areas, allowing more light to penetrate the shadows. Adjust the contrast to emphasize the differences between light and dark, making the lighter areas pop. Apply a color enhancement to saturate the hues, bringing out the vibrancy that was previously obscured. Gradually reveal hidden details by fine-tuning the exposure, ensuring that highlights do not become overly bright while maintaining the integrity of the overall composition.",
+        "Task_Descriptions_from_B_to_A": "Lower the brightness level to create a more subdued atmosphere, allowing the darker areas to regain their depth. Decrease the saturation of colors to mute the vibrancy, lending a more monochromatic feel to the scene. Adjust the contrast downward to soften the distinctions between light and dark, blending the elements together. Introduce a slight vignette effect to darken the edges, drawing focus inward and enhancing the overall low-light ambiance."
+    },
+    {
+        "id": 65,
+        "low_img_A": "./Our_low_test/low00755.png",
+        "normal_img_B": "./Our_normal_test/normal00755.png",
+        "Image_A_Caption": "The image depicts a dark climbing wall with multiple climbing holds attached to the surface. The visibility of the holds and wall details is extremely limited due to poor lighting conditions. Shadows dominate the scene, and only vague outlines of the holds are discernible, blending into the background.",
+        "Image_B_Caption": "The climbing wall is brightly illuminated, showing clear and distinct climbing holds attached to the surface. The wall's texture, colors, and variations in the holds are vivid, with sharp details and well-defined shadows enhancing the three-dimensional structure.",
+        "Task_Descriptions_from_A_to_B": "Increase overall brightness and adjust exposure to reveal hidden details in the dark regions. Enhance contrast to distinguish climbing holds from the background. Refine color balance to introduce natural hues for the climbing holds while ensuring uniform illumination across the wall. Reduce shadow intensity and optimize sharpness to bring out the textures of the wall and holds more clearly.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall brightness significantly to suppress the details of the climbing holds and wall. Decrease contrast to blend objects with the background. Introduce darker shadows to obscure the hold edges and textures. Apply desaturation to diminish the color vibrancy and create a low-visibility scene, ensuring a uniformly dim environment."
+    },
+    {
+        "id": 66,
+        "low_img_A": "./Our_low_test/low00756.png",
+        "normal_img_B": "./Our_normal_test/normal00756.png",
+        "Image_A_Caption": "A dimly lit scene with poor visibility, where the objects on the wall are barely discernible. Shadows dominate the frame, causing significant details to be obscured, and colors appear muted or almost absent.",
+        "Image_B_Caption": "A brighter and well-illuminated version of the same scene, with objects clearly visible. The wall and objects are well-defined, with distinct colors and sharper details under uniform lighting conditions.",
+        "Task_Descriptions_from_A_to_B": "To improve visibility and clarity, increase the overall brightness and exposure of the frame while maintaining contrast to prevent washout. Enhance saturation to reveal true color properties of the objects. Reduce noise caused by low light conditions and refine the edges of objects for better definition. Apply tonal correction to balance shadows and highlights, ensuring uniform lighting across the surface.",
+        "Task_Descriptions_from_B_to_A": "Reduce overall brightness to create a low-light effect while increasing shadows to obscure details and introduce darker tones. Desaturate the colors to mute their vibrancy, creating a subtle or washed-out appearance. Introduce grain or noise to simulate low-light imperfections, reducing sharpness in object contours. Adjust the exposure downwards to suppress illumination, emphasizing dark regions and softening the visibility of finer elements."
+    },
+    {
+        "id": 67,
+        "low_img_A": "./Our_low_test/low00757.png",
+        "normal_img_B": "./Our_normal_test/normal00757.png",
+        "Image_A_Caption": "The environment is dimly lit, with indistinct details and dark colors dominating the scene. The overall tone is muted and lacks clarity.",
+        "Image_B_Caption": "The scene is brightly illuminated, featuring vivid colors and sharp details. The environment is clearly visible with enhanced brightness and clarity.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness and contrast to bring out details hidden in shadows. Enhance color saturation to make elements pop and apply noise reduction to smooth out any graininess from lighting adjustments.",
+        "Task_Descriptions_from_B_to_A": "Reduce brightness and contrast to minimize visible details, creating a more shadowed look. Desaturate colors to give a muted appearance and potentially introduce grain to simulate lower light conditions."
+    },
+    {
+        "id": 68,
+        "low_img_A": "./Our_low_test/low00758.png",
+        "normal_img_B": "./Our_normal_test/normal00758.png",
+        "Image_A_Caption": "A dimly lit scene with muted colors, shadows dominate the composition, and details are obscured due to low light conditions.",
+        "Image_B_Caption": "A brightened version of the same scene, where colors are more vivid, shadows are softened, and previously hidden details are now visible, creating a clearer representation.",
+        "Task_Descriptions_from_A_to_B": "Begin by enhancing the overall brightness to allow light to penetrate the darker areas, followed by adjusting the contrast to highlight the differences between light and shadow. Next, apply a color correction to enrich the hues, making them more vibrant. Finally, utilize techniques to reduce noise while sharpening the edges to reveal finer details that were previously lost in the low light.",
+        "Task_Descriptions_from_B_to_A": "Start by reducing the brightness to create a more subdued atmosphere, which will help to reintroduce the original mood of the scene. Gradually lower the contrast to blend the lighter areas into the shadows, allowing them to merge seamlessly. Next, apply a desaturation effect to mute the colors, giving them a more subdued appearance. Lastly, introduce a slight blur to soften the edges and obscure finer details, evoking a sense of dimness."
+    },
+    {
+        "id": 69,
+        "low_img_A": "./Our_low_test/low00759.png",
+        "normal_img_B": "./Our_normal_test/normal00759.png",
+        "Image_A_Caption": "A dimly lit room with table tennis tables, where most details are shrouded in darkness. The overhead lights and faint outlines of furniture are visible, but lack clarity and definition.",
+        "Image_B_Caption": "A brightly lit room featuring table tennis tables. The overhead lights illuminate the area well, revealing clear details and the vividness of colors in the room's furnishings.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness and sharpness of the dimly lit environment, enhancing clarity. Adjust the light balance to bring out the details in the tables and decor, ensuring that colors are more defined and shadows reduced, revealing a vibrant and well-lit atmosphere.",
+        "Task_Descriptions_from_B_to_A": "Diminish the light intensity and reduce clarity to cast the room in shadows, creating a darker ambiance. Blur some of the details and lower visibility of colors to give an impression of a low-light setting with fewer discernible features."
+    },
+    {
+        "id": 70,
+        "low_img_A": "./Our_low_test/low00760.png",
+        "normal_img_B": "./Our_normal_test/normal00760.png",
+        "Image_A_Caption": "The scene depicts a dimly lit room containing table tennis tables, with minimal illumination from overhead lights creating a subdued atmosphere.",
+        "Image_B_Caption": "This image shows the same room, now brightly lit, where the table tennis tables and walls are clearly visible and detail-rich due to increased lighting.",
+        "Task_Descriptions_from_A_to_B": "Increase the intensity of the visible light sources, allowing for more light dispersion throughout the space. Amplify the overall brightness, enhancing visibility and clarity, ensuring surfaces and colors become pronounced. Adjust shadows and highlights to be more defined, revealing details obscured by darkness.",
+        "Task_Descriptions_from_B_to_A": "Dim the brightness substantially, reducing the effect of light across the space to create a more subdued environment. Decrease visibility of surfaces and colors, obscuring finer details present. Allow shadows to become more pronounced, merging into the background, and reduce the clarity of objects within the room."
+    },
+    {
+        "id": 71,
+        "low_img_A": "./Our_low_test/low00761.png",
+        "normal_img_B": "./Our_normal_test/normal00761.png",
+        "Image_A_Caption": "A table tennis table set in a dimly lit environment, creating a shadowy appearance with details largely obscured due to low light.",
+        "Image_B_Caption": "A brightly lit table tennis table, showcasing clear details with vibrant colors and sharp contrasts due to ample lighting.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness and contrast to reveal more details, enhancing the visibility of surface textures and colors. Adjust the color balance to bring warmth and vibrancy, highlighting the structural elements.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness and contrast to create a shadowy ambiance, diminishing visibility and merging elements into a cohesive dark scene. Apply a cooler color palette to suppress vibrant tones, emphasizing a muted appearance."
+    },
+    {
+        "id": 72,
+        "low_img_A": "./Our_low_test/low00762.png",
+        "normal_img_B": "./Our_normal_test/normal00762.png",
+        "Image_A_Caption": "A dimly lit scene featuring a blue table tennis table with visible outlines and faint structural details. Shadows dominate the space, reducing contrast and obscuring many finer elements like the wheels and table legs, though their silhouettes remain somewhat discernible.",
+        "Image_B_Caption": "A brightly illuminated view of the same table tennis table, with vibrant colors, high contrast, and clearly defined structural components such as the table surface, supporting legs, wheels, and the net assembly. The details are crisp and shadows are softened, improving visibility.",
+        "Task_Descriptions_from_A_to_B": "Gradually increase the light intensity across the entire frame, ensuring that shadows are reduced and contrast improves. Enhance the visibility of colors, starting with the table's blue surface, making it more vibrant and distinct. Bring clarity to the edges, making lines and boundaries sharper. Uncover hidden details, such as the texture of the table legs and wheels, by reducing darkness. Increase overall exposure while maintaining natural light distribution across the scene. Adjust reflections and highlights to reveal subtle features like the net structure and floor surface.",
+        "Task_Descriptions_from_B_to_A": "Lower the light intensity gradually until the scene becomes significantly dimmer, reducing visibility of details such as table legs, wheels, and the net. Introduce deeper shadows, softening or eliminating contrast in darker regions while retaining faint outlines. Subdue the vibrancy of the blue table surface, muting colors so they appear less distinct. Suppress highlights and reflections, particularly on metallic parts, while maintaining a shadowed texture. Reduce exposure progressively until the elements become faint silhouettes within a darker ambiance."
+    },
+    {
+        "id": 73,
+        "low_img_A": "./Our_low_test/low00763.png",
+        "normal_img_B": "./Our_normal_test/normal00763.png",
+        "Image_A_Caption": "The image displays a set of sports courts with low visibility, characterized by dark and muted tones, making it challenging to discern the details and lines on the court.",
+        "Image_B_Caption": "A clearer view of sports courts, with enhanced lighting that brings out the details of the court lines and the color contrast, making the area more visible.",
+        "Task_Descriptions_from_A_to_B": "Illuminate the scene, enhancing the brightness to bring out more details of the courts. Adjust color contrast to highlight the lines and features that were previously obscured by darkness.",
+        "Task_Descriptions_from_B_to_A": "Diminish the light exposure, reducing brightness to create a dimmer atmosphere. Soften the color contrast, allowing the lines and details to recede into the shadows, giving the courts a subdued appearance."
+    },
+    {
+        "id": 74,
+        "low_img_A": "./Our_low_test/low00764.png",
+        "normal_img_B": "./Our_normal_test/normal00764.png",
+        "Image_A_Caption": "A dimly lit scene with dark tones and minimal visibility, making it challenging to distinguish objects and details clearly.",
+        "Image_B_Caption": "A brightly lit scene with clear details, visible structures, and defined objects, offering better visibility and contrast.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness levels gradually while preserving details, adjust the contrast to enhance object edges, and balance the color levels to reduce darkness without causing overexposure.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness significantly to create a low-light effect, adjust the contrast to soften details, and darken shadows and midtones to create a more subdued and less distinguishable appearance."
+    },
+    {
+        "id": 75,
+        "low_img_A": "./Our_low_test/low00765.png",
+        "normal_img_B": "./Our_normal_test/normal00765.png",
+        "Image_A_Caption": "A dimly lit scene with muted colors and shadows, where details are obscured, creating a sense of mystery.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors and sharp details, enhancing the overall clarity.",
+        "Task_Descriptions_from_A_to_B": "Begin by adjusting the overall brightness to elevate the visibility of darker areas. Increase contrast to highlight the differences between light and shadow, making features stand out more distinctly. Apply a color enhancement technique to enrich the hues present in the original scene, ensuring that colors appear more vivid and true to life. Finally, fine-tune the sharpness to bring out intricate details that were previously hidden in the low light.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a more subdued atmosphere, allowing shadows to deepen and blend into one another. Lower the contrast to soften the differences between light and dark areas, resulting in a more uniform appearance. Desaturate the colors slightly to mute their vibrancy, creating a more monochromatic feel. Introduce a slight blur effect to obscure finer details, enhancing the sense of mystery and low visibility within the scene."
+    },
+    {
+        "id": 76,
+        "low_img_A": "./Our_low_test/low00766.png",
+        "normal_img_B": "./Our_normal_test/normal00766.png",
+        "Image_A_Caption": "A dimly lit street scene with shadows obscuring details, featuring muted colors and low visibility.",
+        "Image_B_Caption": "The same street scene illuminated with vibrant colors, revealing intricate details and enhancing the overall visibility.",
+        "Task_Descriptions_from_A_to_B": "Begin by adjusting the brightness levels to increase overall illumination. Gradually enhance the contrast to make the details more pronounced. Apply a color correction to boost saturation, ensuring that colors appear more vivid and lively. Finally, sharpen the image to enhance edges and textures, bringing out finer details that were previously lost in the shadows.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a more subdued atmosphere, simulating low-light conditions. Lower the contrast to blend colors and soften the edges, making the scene appear less distinct. Apply a desaturation effect to mute the colors, giving the scene a more monochromatic look. Finally, introduce a slight blur to obscure fine details, enhancing the feeling of dim lighting and obscured visibility."
+    },
+    {
+        "id": 77,
+        "low_img_A": "./Our_low_test/low00767.png",
+        "normal_img_B": "./Our_normal_test/normal00767.png",
+        "Image_A_Caption": "A dimly lit arrangement of stadium seats with subdued blue tones, obscured details, and low visibility.",
+        "Image_B_Caption": "A bright and vividly colored sequence of stadium seats with clear blue tones and well-defined details under ample lighting.",
+        "Task_Descriptions_from_A_to_B": "Illuminate the scene to reveal hidden details and enrich the colors. Enhance overall brightness, ensuring that the blue hues become vibrant and the surrounding elements become discernible. Adjust contrast levels to bring out the clarity and definition of each seat.",
+        "Task_Descriptions_from_B_to_A": "Reduce the illumination to create a moody atmosphere with subdued colors. Decrease brightness significantly, allowing the blue tones to fade into near obscurity. Lower the contrast to obscure finer details, resulting in a shadowed, indistinct view of the seating arrangement."
+    },
+    {
+        "id": 78,
+        "low_img_A": "./Our_low_test/low00768.png",
+        "normal_img_B": "./Our_normal_test/normal00768.png",
+        "Image_A_Caption": "An image of a row of darkened blue seats in a dimly lit environment, with minimal visibility of the surrounding structure.",
+        "Image_B_Caption": "A brightly lit image showing a row of blue seats with clear visibility and details of the seats and ambient surrounding.",
+        "Task_Descriptions_from_A_to_B": "Increase illumination levels to reveal more details, bringing out the vibrant blue color of the seats. Enhance contrast to distinguish individual seats more clearly. Adjust shadows and highlights to uncover structural elements around and beneath the seats.",
+        "Task_Descriptions_from_B_to_A": "Reduce overall brightness to create a darker atmosphere, masking finer details and blending the seats into the shadow. Lower contrast to soften the visibility of individual seats. Dim ambient lighting to obscure the surrounding environment and details."
+    },
+    {
+        "id": 79,
+        "low_img_A": "./Our_low_test/low00769.png",
+        "normal_img_B": "./Our_normal_test/normal00769.png",
+        "Image_A_Caption": "A dimly lit interior space with patterned flooring and large windows partially illuminating the area.",
+        "Image_B_Caption": "A brightly lit interior space with visible details on the floor pattern and enhanced visibility of the surroundings through large windows.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness levels significantly while maintaining the balance to reveal features. Enhance contrasts to make floor patterns clearly visible. Accentuate window light, illuminating more space. Highlight structural elements to improve clarity and visibility.",
+        "Task_Descriptions_from_B_to_A": "Reduce brightness uniformly to create a shadowed ambiance. Subdue contrast, obscuring details on the flooring. Diminish light entering through windows, promoting a darker environment. Mask structural clarity to blend features into the shadows."
+    },
+    {
+        "id": 80,
+        "low_img_A": "./Our_low_test/low00770.png",
+        "normal_img_B": "./Our_normal_test/normal00770.png",
+        "Image_A_Caption": "The scene depicts an indoor space with minimal lighting where large portions of the image appear dark. Faint patches of light illuminate parts of the floor, but overall details, colors, and object boundaries are obscured due to insufficient brightness. Reflections and textures are not clearly distinguishable.",
+        "Image_B_Caption": "The indoor space is brightly illuminated with natural light streaming in, revealing the blue-tiled floor, surrounding structures, and other subtle details like reflections on surfaces and window frames. Colors, patterns, and structural clarity are significantly enhanced.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness across the entire scene uniformly to counteract the darkness. Focus on enhancing areas where faint light patches already exist to make them prominent while avoiding overexposure. Adjust the contrast to improve the separation between illuminated and shadowed regions. Gradually restore natural colors, emphasizing the vibrancy of the floor and visible architectural features. Highlight reflections to add realism to surfaces like mirrors or windows. Subtly reduce noise in darker areas to enhance texture clarity without distorting finer details.",
+        "Task_Descriptions_from_B_to_A": "Reduce the global brightness significantly, emphasizing shadows and limiting light diffusion across the scene. Gradually dampen vibrant colors, desaturating regions like the floor and background elements while making them less distinguishable. Introduce deeper shadows, obscuring intricate textures and reflections in surfaces, such as mirrors or windows. Apply mild noise in darker areas to simulate visual degradation. Smoothen the transition between light patches and surrounding darkness to create a low-light environment while retaining a minimal sense of depth and spatial structure."
+    },
+    {
+        "id": 81,
+        "low_img_A": "./Our_low_test/low00771.png",
+        "normal_img_B": "./Our_normal_test/normal00771.png",
+        "Image_A_Caption": "A dimly lit scene showcasing subtle details and shadows, with a warm color palette that emphasizes the low light ambiance.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, where details are enhanced and colors appear more vibrant, creating a lively atmosphere.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness and contrast of the scene to reveal hidden details while maintaining the integrity of the original colors. Gradually adjust the exposure settings to allow more light to enter, focusing on enhancing the midtones and highlights. Apply selective adjustments to areas that require more visibility, ensuring that shadows remain rich yet defined. Finally, refine the color balance to elevate the vibrancy of the hues present in the scene.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness and contrast of the scene to create a more subdued atmosphere, focusing on preserving the essence of the original lighting. Gradually lower the exposure settings to simulate the effect of reduced ambient light, allowing shadows to deepen and colors to soften. Apply a gentle vignette effect to draw attention to the center while darkening the edges, enhancing the low-light feel. Finally, adjust the color saturation to introduce a warmer tone, reminiscent of a natural low-light environment."
+    },
+    {
+        "id": 82,
+        "low_img_A": "./Our_low_test/low00772.png",
+        "normal_img_B": "./Our_normal_test/normal00772.png",
+        "Image_A_Caption": "A dimly lit scene with shadows dominating the corners, featuring soft colors and subtle details that evoke a sense of mystery.",
+        "Image_B_Caption": "A brightly illuminated scene showcasing vibrant colors and clear details, creating an inviting and lively atmosphere.",
+        "Task_Descriptions_from_A_to_B": "Begin by enhancing the overall brightness of the scene, increasing exposure to bring out hidden details. Adjust the contrast to make the lighter areas pop while softening the shadows. Introduce a color correction process to shift the hues towards warmer tones, enriching the vibrancy of the colors. Finally, apply a sharpening filter to enhance clarity and detail, ensuring that the image feels lively and well-defined.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness of the scene, applying a dimming effect that softens the overall exposure. Introduce a gradient filter to darken the corners and create depth. Adjust the color balance to incorporate cooler tones, giving the image a more subdued and moody atmosphere. Apply a slight blur to reduce sharpness, allowing for a more dreamlike quality that emphasizes the shadows and softens the vibrant details."
+    },
+    {
+        "id": 83,
+        "low_img_A": "./Our_low_test/low00773.png",
+        "normal_img_B": "./Our_normal_test/normal00773.png",
+        "Image_A_Caption": "A dimly lit corridor where most details are obscured due to low light conditions. Faint outlines of walls, doors, and a reflective floor can be observed, but colors and finer details are hardly distinguishable.",
+        "Image_B_Caption": "A brightly lit corridor with walls, doors, and a reflective floor clearly visible. Colors, signs, and structural details are vivid and sharply defined under ample lighting.",
+        "Task_Descriptions_from_A_to_B": "Boost the brightness uniformly across the entire area to reveal hidden details and enhance visibility. Increase the clarity and saturation to highlight colors and refine visible surfaces and textures. Adjust the contrast to correct ambient lighting differences, ensuring a sharp definition of outlines. Manage noise levels for a smooth and natural appearance while introducing realistic lighting reflections on the floor and walls.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall brightness significantly to create an environment where most details are shrouded in darkness. Subdue the saturation and deliberately obscure textures to simulate low-visibility conditions. Diminish sharpness and contrast to blur vivid details, and lower the ambient lighting, maintaining the reflections on surfaces but with a faint and diffused effect."
+    },
+    {
+        "id": 84,
+        "low_img_A": "./Our_low_test/low00774.png",
+        "normal_img_B": "./Our_normal_test/normal00774.png",
+        "Image_A_Caption": "A dimly lit indoor hallway, with walls, windows, and minimal details barely visible under low light conditions. The corridor has a mix of shadows and sparse illumination, and most of the features are obscured by darkness.",
+        "Image_B_Caption": "A well-lit indoor hallway with vibrant colors on the walls. The details of the environment, including wall textures, signs, and reflections on the floor, are clearly visible under bright, evenly distributed lighting.",
+        "Task_Descriptions_from_A_to_B": "Alter the brightness uniformly, enhancing visibility and revealing previously obscured details. Emphasize color saturation and clarity, ensuring that textures and structural details stand out prominently. Adjust contrasts to bring out finer features while ensuring even lighting distribution across the scene.",
+        "Task_Descriptions_from_B_to_A": "Dim the overall lighting significantly, reducing the clarity and visibility of most details. Suppress color vibrancy and texture detail to create a predominantly shadowed appearance, while maintaining faint traces of illumination to minimally outline key structures."
+    },
+    {
+        "id": 85,
+        "low_img_A": "./Our_low_test/low00775.png",
+        "normal_img_B": "./Our_normal_test/normal00775.png",
+        "Image_A_Caption": "The image is of a large indoor stadium or arena seating area under extremely low light conditions. The seats and surroundings are visible but obscured due to darkness. Minimal lighting creates faint outlines of the chairs, railings, and the court, while shadows dominate most of the image. The arena’s architectural elements, such as walls and barriers, are discernible but lack detail due to the absence of light.",
+        "Image_B_Caption": "The same stadium or arena is shown under bright and evenly distributed lighting. All elements, including rows of blue chairs, the red floor walkway, handrails, and the green playing court, are clearly visible. Colors are vivid and true to form, with bright yellow and blue decorations on the walls. The lighting allows for full clarity, revealing intricate details in the architecture and layout.",
+        "Task_Descriptions_from_A_to_B": "To achieve visibility in all areas, increase the intensity of light uniformly across the space. Brighten the seating rows, ensuring the blue chairs are clearly distinguishable and their individual contours become visible. Introduce more contrast between different sections of the arena by enhancing saturation to restore the blue, red, green, and yellow tones to their natural vivid state. Expand the dynamic range so that darker areas, such as shadows in the seats and corners, are illuminated without overexposing brighter regions. Lastly, enhance sharpness to reveal details of the court lines, textures, and railings that were previously hidden in darkness.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall brightness significantly to simulate a low-light environment. Gradually decrease visibility across the entire space, starting with a drop in the highlights to mute bright surfaces such as the floor and decorations. Lower the saturation of all colors so they appear muted and desaturated, matching the dark atmosphere. Introduce deep shadows in the seating areas and corners to obscure the chairs and railings, leaving only faint outlines. Finally, reduce the sharpness of fine details to mimic the effect of darkness where visual clarity is naturally diminished."
+    },
+    {
+        "id": 86,
+        "low_img_A": "./Our_low_test/low00776.png",
+        "normal_img_B": "./Our_normal_test/normal00776.png",
+        "Image_A_Caption": "A dimly lit scene featuring soft shadows and muted colors, with subtle details barely visible.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, showcasing vibrant colors and enhanced details that were previously hidden in the shadows.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness of the scene to reveal hidden details, adjusting the contrast to enhance the distinction between light and dark areas. Gradually apply a series of filters to amplify the vibrancy of colors, ensuring that the soft shadows transform into clearer outlines, while maintaining a natural appearance. Fine-tune the exposure settings to highlight previously obscured elements, creating a more dynamic and engaging visual experience.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness of the scene to create a more subdued atmosphere, carefully lowering the contrast to blend the colors into a more muted palette. Gradually apply a darkening filter to soften the edges and diminish the vibrancy, allowing for a gentle transition into shadows. Adjust the exposure settings to obscure finer details, fostering a sense of mystery and depth that invites closer inspection."
+    },
+    {
+        "id": 87,
+        "low_img_A": "./Our_low_test/low00777.png",
+        "normal_img_B": "./Our_normal_test/normal00777.png",
+        "Image_A_Caption": "The scene depicts a dimly lit auditorium with rows of seats barely visible, shrouded in darkness, offering minimal detail and depth in the shadows.",
+        "Image_B_Caption": "The auditorium is brightly lit, showcasing clear rows of seats and vivid colors on the walls and floor, with enhanced visibility of features and details.",
+        "Task_Descriptions_from_A_to_B": "Increase the overall brightness of the scene, enhancing contrast to reveal hidden details. Bring out the vivid colors by adjusting the saturation levels. Accentuate shadows to expose more depth and texture in the seats and surrounding materials.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness significantly, immersing the scene in shadow. Minimize color saturation to create a more muted, monochrome effect. Introduce a shadow overlay to obscure details, creating a low-visibility environment."
+    },
+    {
+        "id": 88,
+        "low_img_A": "./Our_low_test/low00778.png",
+        "normal_img_B": "./Our_normal_test/normal00778.png",
+        "Image_A_Caption": "A dimly lit scene where details are faint, dominated by shadows, muted colors, and significant noise, making objects in the environment difficult to distinguish.",
+        "Image_B_Caption": "A brightened version of the scene with enhanced visibility, improved color vibrancy, reduced noise, and clearly distinguishable features and textures across objects.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness uniformly across the entire scene, reduce shadow intensity to reveal obscured areas, amplify color saturation to restore vibrancy, and apply noise reduction techniques to smooth grainy regions while preserving fine details.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to subdue the overall lighting, darken areas to reintroduce prominent shadows, desaturate colors to make them appear more muted, and introduce subtle noise to emulate the graininess of a low-light environment."
+    },
+    {
+        "id": 89,
+        "low_img_A": "./Our_low_test/low00779.png",
+        "normal_img_B": "./Our_normal_test/normal00779.png",
+        "Image_A_Caption": "A dimly lit interior space with a tiled floor and large windows, with very low visibility of details.",
+        "Image_B_Caption": "A well-lit interior space with visible tiled floor and large windows, revealing clear details of the environment.",
+        "Task_Descriptions_from_A_to_B": "Increase the brightness levels significantly to reveal the hidden details within the space. Adjust the contrast to define the textures on the floor and enhance the visibility of objects and architectural features.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness of the scene drastically to obscure details, bringing the ambient lighting to a minimal level. Decrease the contrast so that textures become less distinguishable, simulating a low light environment."
+    },
+    {
+        "id": 90,
+        "low_img_A": "./Our_low_test/low00780.png",
+        "normal_img_B": "./Our_normal_test/normal00780.png",
+        "Image_A_Caption": "A dimly lit scene featuring a quiet street at night, with faint outlines of buildings and minimal light sources casting shadows.",
+        "Image_B_Caption": "A brightly illuminated version of the same street scene, showcasing vibrant colors and clear details of buildings and surroundings, creating a lively atmosphere.",
+        "Task_Descriptions_from_A_to_B": "Enhance the visibility by adjusting brightness levels to bring out hidden details. Gradually increase contrast to emphasize the structures and surroundings. Introduce color correction to add warmth and vibrancy, making the scene more inviting. Apply a soft light filter to simulate the effect of additional light sources, allowing the viewer to perceive the scene as if it were bathed in natural light.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness to create a more subdued atmosphere, allowing shadows to dominate the scene. Lower the contrast to soften the edges of structures, blending them into the background. Apply a desaturation effect to mute colors, giving the impression of a nighttime setting. Introduce a slight blur to mimic the effect of low light conditions, creating a sense of calm and quiet."
+    },
+    {
+        "id": 91,
+        "low_img_A": "./Our_low_test/low00781.png",
+        "normal_img_B": "./Our_normal_test/normal00781.png",
+        "Image_A_Caption": "A dimly lit scene with minimal visibility, featuring shadows and indistinct shapes, creating a mysterious atmosphere.",
+        "Image_B_Caption": "A brightly illuminated version of the previous scene, revealing details and colors that were previously obscured, enhancing clarity and vibrancy.",
+        "Task_Descriptions_from_A_to_B": "Begin by increasing the overall brightness to enhance visibility. Gradually adjust the contrast to bring out the details hidden in the shadows. Apply a color correction to enrich the hues and make them more vibrant. Use a noise reduction technique to smooth out any graininess that may have been amplified by the brightness adjustment. Finally, refine the sharpness to ensure that the newly revealed details are crisp and clear.",
+        "Task_Descriptions_from_B_to_A": "Start by reducing the brightness to create a more subdued atmosphere. Gradually lower the contrast to blend the details back into the shadows, giving a sense of depth and mystery. Apply a desaturation effect to mute the colors, allowing for a more monochromatic appearance. Introduce a slight grain or noise to the image to replicate the texture of low light conditions. Lastly, soften the sharpness to create a dreamy, indistinct quality that evokes a sense of intrigue."
+    },
+    {
+        "id": 92,
+        "low_img_A": "./Our_low_test/low00782.png",
+        "normal_img_B": "./Our_normal_test/normal00782.png",
+        "Image_A_Caption": "A dimly lit scene showing a partially obscured building, foliage, and a bicycle, creating a dark and shadowy ambiance.",
+        "Image_B_Caption": "A well-lit scene revealing detailed architecture, vibrant foliage, and a visible bicycle against a clear and bright background.",
+        "Task_Descriptions_from_A_to_B": "Enhance overall luminance uniformly, ensuring shadows are reduced and colors are balanced to improve visibility.",
+        "Task_Descriptions_from_B_to_A": "Decrease the brightness systematically while maintaining the visual structure, allowing shadows to create a darker atmosphere."
+    },
+    {
+        "id": 93,
+        "low_img_A": "./Our_low_test/low00783.png",
+        "normal_img_B": "./Our_normal_test/normal00783.png",
+        "Image_A_Caption": "A dimly lit scene showing a partially obscured building, foliage, and a bicycle, creating a dark and shadowy ambiance.",
+        "Image_B_Caption": "A well-lit scene revealing detailed architecture, vibrant foliage, and a visible bicycle against a clear and bright background.",
+        "Task_Descriptions_from_A_to_B": "Enhance overall luminance uniformly, ensuring shadows are reduced and colors are balanced to improve visibility.",
+        "Task_Descriptions_from_B_to_A": "Decrease the brightness systematically while maintaining the visual structure, allowing shadows to create a darker atmosphere."
+    },
+    {
+        "id": 94,
+        "low_img_A": "./Our_low_test/low00784.png",
+        "normal_img_B": "./Our_normal_test/normal00784.png",
+        "Image_A_Caption": "A dimly lit outdoor scene features an overgrown tree canopy extending from the top of a structure. Due to the low lighting conditions, many details of the surroundings are obscured, and the dark tones dominate the scene, blending tree branches, leaves, and structural elements into the shadows. The faint outlines of a bicycle and a gated area can barely be discerned, making the scene difficult to parse clearly.",
+        "Image_B_Caption": "The same outdoor environment is now clearly visible under improved lighting. The tree canopy is lush and green, with individual leaves and branches sharply defined. The surrounding structure, including the gated area, vertical bars, and wall textures, becomes prominent and easy to identify. A bicycle in the lower section is now well-illuminated and distinguishable, with bright tones providing contrast to the natural foliage.",
+        "Task_Descriptions_from_A_to_B": "Increase illumination across all parts of the scene, ensuring brighter tones in shadowed areas while preserving details. Introduce higher dynamic range to recover obscured elements, such as the branches, leaves, and structural textures, making them sharp and clear. Adjust the color saturation to enhance the natural hues of the foliage and man-made surfaces, ensuring vibrant greens and neutral grays emerge. Refine contrast to separate the individual objects, such as the bicycle and fence, from their surroundings while balancing the light intensity across the frame.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall lighting to darken the entire scene, creating deep shadows that obscure finer details. Lower the dynamic range to compress highlights and shadows, resulting in an almost monochromatic, darkened palette. Decrease color saturation to render the natural tones subdued and nearly invisible. Introduce noise or subtle gradients in darker areas to mimic low-light conditions, making objects like the bicycle, gate, and leaves less discernible. Flatten contrast so objects merge more into their background, leaving faint outlines of key elements in the environment."
+    },
+    {
+        "id": 95,
+        "low_img_A": "./Our_low_test/low00785.png",
+        "normal_img_B": "./Our_normal_test/normal00785.png",
+        "Image_A_Caption": "The scene is captured in extremely low light, with elements barely visible. Shadows dominate, and details are obscured in darkness.",
+        "Image_B_Caption": "The setting is well-lit, revealing clear details of the environment. Elements are bright, with minimal shadows and good color contrast.",
+        "Task_Descriptions_from_A_to_B": "Increase the exposure significantly and adjust the brightness to reveal hidden details. Enhance contrast to distinguish various elements clearly.",
+        "Task_Descriptions_from_B_to_A": "Reduce the brightness markedly, introducing deep shadows. Lower contrast to obscure the finer details, creating a dim and indistinct appearance."
+    },
+    {
+        "id": 96,
+        "low_img_A": "./Our_low_test/low00786.png",
+        "normal_img_B": "./Our_normal_test/normal00786.png",
+        "Image_A_Caption": "A dimly lit scene with a building facade partially visible through the darkness, obscured by shadows and with minimal detail discernible.",
+        "Image_B_Caption": "A well-lit scene revealing the detailed facade of a building, surrounded by lush greenery, with clear and bright elements throughout.",
+        "Task_Descriptions_from_A_to_B": "Enhance the visibility by increasing the brightness significantly, revealing hidden elements and details. Adjust the contrast to better distinguish between different areas, allowing textures and objects to emerge distinctly. Enhance color balance to bring out natural hues in the scene.",
+        "Task_Descriptions_from_B_to_A": "Reduce the overall brightness considerably, enveloping the scene in shadows. Lower the contrast to blend details into each other, creating a more obscure appearance. Desaturate colors to maintain a subdued tonality across the visible areas."
+    },
+    {
+        "id": 97,
+        "low_img_A": "./Our_low_test/low00787.png",
+        "normal_img_B": "./Our_normal_test/normal00787.png",
+        "Image_A_Caption": "A dimly lit scene with shadows dominating the foreground, highlighting subtle textures and muted colors.",
+        "Image_B_Caption": "A brightly illuminated version of the same scene, revealing vibrant colors and details previously obscured by darkness.",
+        "Task_Descriptions_from_A_to_B": "Begin by analyzing the existing light levels and identifying areas where shadows can be reduced. Gradually increase the brightness across the entire scene, paying special attention to the darker regions. Adjust the contrast to enhance the visibility of textures and colors, ensuring that highlights are not blown out. Apply a color correction to bring out the vibrancy of hues that were previously muted, creating a more inviting and lively atmosphere. Finally, refine the overall sharpness to ensure clarity in the details that emerge from the enhanced lighting.",
+        "Task_Descriptions_from_B_to_A": "Start by assessing the brightness and contrast levels of the scene. Gradually decrease the overall brightness to introduce a more subdued ambiance. Next, selectively darken specific areas to create shadows that add depth and intrigue, while ensuring that the lighter regions do not become overly dominant. Introduce a slight desaturation to the colors, allowing the scene to take on a more muted palette. Finally, apply a softening effect to reduce sharpness, creating a gentle and atmospheric quality that evokes a sense of calm and mystery."
+    },
+    {
+        "id": 98,
+        "low_img_A": "./Our_low_test/low00788.png",
+        "normal_img_B": "./Our_normal_test/normal00788.png",
+        "Image_A_Caption": "A dimly lit outdoor scene featuring bicycles and a scooter along with various background elements that are barely visible due to low light conditions.",
+        "Image_B_Caption": "A well-lit outdoor scene clearly showing bicycles and a scooter with vibrant colors and well-defined background elements.",
+        "Task_Descriptions_from_A_to_B": "Illuminate the scene significantly by enhancing brightness and contrast to reveal details and colors. Adjust shadows and highlights for clear definition of objects. Increase visual clarity to make outdoor elements stand out sharply.",
+        "Task_Descriptions_from_B_to_A": "Dim the lighting to create a low illumination environment where details fade into obscurity. Reduce contrast and brightness, casting shadows over the elements to obscure visibility. Softly blend colors and reduce sharpness to give a darker impression."
+    },
+    {
+        "id": 99,
+        "low_img_A": "./Our_low_test/low00789.png",
+        "normal_img_B": "./Our_normal_test/normal00789.png",
+        "Image_A_Caption": "A dimly lit scene with barely distinguishable shapes of a scooter, bicycles, and reels, captured in very low light.",
+        "Image_B_Caption": "A well-lit outdoor scene revealing a scooter, bicycles, and wooden reels next to a building, with clear visibility of details.",
+        "Task_Descriptions_from_A_to_B": "Enhance the brightness and contrast significantly to make the objects visible, unveiling the colors and shapes of the scooter, bicycles, and surrounding elements. Bring out details in shadowed areas and adjust the exposure to balance the light.",
+        "Task_Descriptions_from_B_to_A": "Dramatically reduce the exposure and brightness, plunging the scene into near darkness. Subdue colors and obscure details to mimic a night setting, making objects appear as indistinct silhouettes."
+    }
+]

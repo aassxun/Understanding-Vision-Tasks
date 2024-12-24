@@ -1,0 +1,272 @@
+[
+    {
+        "id": 0,
+        "display_img_A": "./val/display/0_display.png",
+        "gt_img_B": "./val/gt/0_gt.png",
+        "Image_A_Caption": "A dark, low contrast image of fern leaves.",
+        "Image_B_Caption": "A clearer, more defined image of fern leaves with higher contrast.",
+        "Task_Descriptions_from_A_to_B": "Enhance the brightness and contrast, adjusting the sharpness to reveal more detail in the leaves.",
+        "Task_Descriptions_from_B_to_A": "Reduce the contrast and brightness while slightly blurring details to create a more subdued appearance."
+    },
+    {
+        "id": 1,
+        "display_img_A": "./val/display/1_display.png",
+        "gt_img_B": "./val/gt/1_gt.png",
+        "Image_A_Caption": "A dimly lit library hall with an ornate ceiling, bookshelves line the walls.",
+        "Image_B_Caption": "A well-defined library hall with detailed ceiling artwork, clear bookshelves, and a statue.",
+        "Task_Descriptions_from_A_to_B": "Enhance the overall brightness and sharpness, bringing out details in the ceiling artwork and making the bookshelves more distinct.",
+        "Task_Descriptions_from_B_to_A": "Reduce the clarity and detail, creating a softer, more diffused appearance with less definition in the architectural elements."
+    },
+    {
+        "id": 2,
+        "display_img_A": "./val/display/2_display.png",
+        "gt_img_B": "./val/gt/2_gt.png",
+        "Image_A_Caption": "A blurred image of penguins sitting on rocky terrain, with details obscured by a softened focus.",
+        "Image_B_Caption": "A clear and sharp image of penguins on rocky terrain, showcasing distinct details and colors.",
+        "Task_Descriptions_from_A_to_B": "Sharpen the overall focus, enhancing the clarity of the penguins and the rocky background, ensuring all details are crisp and visible. Improve the contrast and brightness to bring out the natural colors and increase the image definition.",
+        "Task_Descriptions_from_B_to_A": "Apply a blur effect to obscure details and soften the focus of the entire image. Reduce the contrast and brightness, adding a slight haze effect to diminish clear boundaries and details."
+    },
+    {
+        "id": 3,
+        "display_img_A": "./val/display/3_display.png",
+        "gt_img_B": "./val/gt/3_gt.png",
+        "Image_A_Caption": "A blurry image of a rose with soft focus and dark background.",
+        "Image_B_Caption": "A sharper image of a rose with clear details against a dark background.",
+        "Task_Descriptions_from_A_to_B": "Enhancing clarity and adjusting focus to bring out details in the flower, while maintaining contrast against the backdrop.",
+        "Task_Descriptions_from_B_to_A": "Introducing a soft blur across the floral elements, reducing sharpness to achieve a gentle, diffused appearance."
+    },
+    {
+        "id": 4,
+        "display_img_A": "./val/display/4_display.png",
+        "gt_img_B": "./val/gt/4_gt.png",
+        "Image_A_Caption": "A person in a red jacket and helmet is climbing a snowy surface with ice axes, the image is rotated sideways.",
+        "Image_B_Caption": "A person in a red jacket and helmet is climbing a snowy surface with ice axes, displayed upright.",
+        "Task_Descriptions_from_A_to_B": "Rotate the sideways image to bring the climber into an upright position, aligning the ground with the horizontal base.",
+        "Task_Descriptions_from_B_to_A": "Tilt the upright image clockwise so the climber is positioned parallel to the right edge, creating a sideways orientation."
+    },
+    {
+        "id": 5,
+        "display_img_A": "./val/display/5_display.png",
+        "gt_img_B": "./val/gt/5_gt.png",
+        "Image_A_Caption": "A blurred image depicting a view from the ground looking up at skyscrapers forming a symmetrical pattern against the sky.",
+        "Image_B_Caption": "A clear image showing a similar view from the ground of skyscrapers forming a symmetrical pattern, sharp and well-defined against the sky.",
+        "Task_Descriptions_from_A_to_B": "Introduce a sharpening process to enhance focus and clarity, center the perspective symmetrically, and adjust contrast to bring out details more distinctly.",
+        "Task_Descriptions_from_B_to_A": "Apply a diffusion effect to obscure fine details, shift the perspective off-center slightly to introduce blurring, and decrease contrast to soften the image overall."
+    },
+    {
+        "id": 6,
+        "display_img_A": "./val/display/6_display.png",
+        "gt_img_B": "./val/gt/6_gt.png",
+        "Image_A_Caption": "The image depicts a slightly tilted view of a skyscraper with some distortion and a blurred effect, set against a cloudy sky.",
+        "Image_B_Caption": "The image shows a centered, clear, and sharp view of a skyscraper with clean lines and a bright sky.",
+        "Task_Descriptions_from_A_to_B": "To achieve precision, adjust the visual alignment, reduce the distortion, and enhance clarity for a sharper appearance.",
+        "Task_Descriptions_from_B_to_A": "Introduce a slight tilt and blur to create a more dynamic view, adding some distortion for a unique perspective."
+    },
+    {
+        "id": 7,
+        "display_img_A": "./val/display/7_display.png",
+        "gt_img_B": "./val/gt/7_gt.png",
+        "Image_A_Caption": "A vintage car is parked on a street outside a building with multiple flags hanging overhead. The image appears blurry.",
+        "Image_B_Caption": "A clear image of a vintage car parked on a street outside a building, with various flags hanging above.",
+        "Task_Descriptions_from_A_to_B": "Sharpen the details by focusing the image to enhance clarity and definition.",
+        "Task_Descriptions_from_B_to_A": "Apply a blur effect over the entire scene, reducing sharpness to produce an unfocused appearance."
+    },
+    {
+        "id": 8,
+        "display_img_A": "./val/display/8_display.png",
+        "gt_img_B": "./val/gt/8_gt.png",
+        "Image_A_Caption": "A slightly blurred overhead view of a dining table with four plates of food, including burgers and vegetables, with glasses and utensils around.",
+        "Image_B_Caption": "A clear overhead view of a dining table with four plates of food, featuring burgers and vegetables, with glasses and utensils around.",
+        "Task_Descriptions_from_A_to_B": "Enhance the overall sharpness and adjust the focus to bring clarity. Refine the details of the food items and surrounding objects, ensuring a crisp presentation.",
+        "Task_Descriptions_from_B_to_A": "Introduce a soft blur effect to create a slightly out-of-focus appearance. Reduce definition in the details of the food and surrounding items to achieve a gentler visual impression."
+    },
+    {
+        "id": 9,
+        "display_img_A": "./val/display/9_display.png",
+        "gt_img_B": "./val/gt/9_gt.png",
+        "Image_A_Caption": "A blurred image of a dense tree canopy with visible branches and leaves, displaying a mix of green and brown hues.",
+        "Image_B_Caption": "A clearer image of the same tree canopy, with sharper detail in the branches and leaves, and a combination of green and dark tones.",
+        "Task_Descriptions_from_A_to_B": "Increase the clarity by enhancing the sharpness and contrast, bringing out the definition in the branches and leaves, making the image appear more detailed and vivid.",
+        "Task_Descriptions_from_B_to_A": "Reduce the sharpness and soften the contrasts, creating a more blurred and indistinct look where the details of branches and leaves are less pronounced."
+    },
+    {
+        "id": 10,
+        "display_img_A": "./val/display/10_display.png",
+        "gt_img_B": "./val/gt/10_gt.png",
+        "Image_A_Caption": "A slightly blurry image of a train station with a blue train, people on the platform, and surrounding hills.",
+        "Image_B_Caption": "A clearer image of the same train station with improved sharpness and visibility of details.",
+        "Task_Descriptions_from_A_to_B": "Enhance the clarity and sharpness to improve visibility of details. Adjust the focus to bring elements into better view.",
+        "Task_Descriptions_from_B_to_A": "Introduce a slight blur to create a softer, dreamlike appearance. Reduce sharpness for a more abstract visual effect."
+    },
+    {
+        "id": 11,
+        "display_img_A": "./val/display/11_display.png",
+        "gt_img_B": "./val/gt/11_gt.png",
+        "Image_A_Caption": "A night view of a large metal structure with spheres illuminated by small lights, against a clear dark blue sky.",
+        "Image_B_Caption": "A sharper night view of a large metal structure with illuminated spheres and lights, featuring a deeper contrast with the dark blue sky.",
+        "Task_Descriptions_from_A_to_B": "Begin by adjusting the focus to enhance the clarity and definition of the structural elements. Increase the contrast to emphasize the brighter light points against the dark background. Finally, refine the edges of the spheres for a crisp, detailed appearance.",
+        "Task_Descriptions_from_B_to_A": "Start by softening the edges to create a blurred effect over the structural outlines. Reduce the contrast to diminish the sharpness of the lights against the backdrop. Finish by slightly distorting the clarity to achieve a diffused, dreamy quality overall."
+    },
+    {
+        "id": 12,
+        "display_img_A": "./val/display/12_display.png",
+        "gt_img_B": "./val/gt/12_gt.png",
+        "Image_A_Caption": "A dark, blurry image of a forest scene with a faint waterfall and surrounding trees.",
+        "Image_B_Caption": "A clearer image of the same forest scene with enhanced details and visibility of the waterfall and trees.",
+        "Task_Descriptions_from_A_to_B": "Enhance the image by increasing brightness and sharpness, focusing on defining the waterfall and tree details more clearly.",
+        "Task_Descriptions_from_B_to_A": "Reduce the clarity and brightness to create a softer, more ambiguous appearance, obscuring the detailed features initially present."
+    },
+    {
+        "id": 13,
+        "display_img_A": "./val/display/13_display.png",
+        "gt_img_B": "./val/gt/13_gt.png",
+        "Image_A_Caption": "A slightly blurred image of a vibrant red bird perched on a branch with striking red flowers against a dark background.",
+        "Image_B_Caption": "A sharp and clear image of a bright red bird on a branch with vivid red flowers, set against a dark background.",
+        "Task_Descriptions_from_A_to_B": "To achieve clarity, enhance the sharpness and contrast, bringing out the vividness of colors and details, focusing on making edges crisp and highlights pronounced.",
+        "Task_Descriptions_from_B_to_A": "Introduce a soft blur, reducing the sharpness and slightly toning down the contrast, creating a softer and more diffused appearance overall."
+    },
+    {
+        "id": 14,
+        "display_img_A": "./val/display/14_display.png",
+        "gt_img_B": "./val/gt/14_gt.png",
+        "Image_A_Caption": "A slightly blurred image of a large ancient amphitheater under a clear blue sky.",
+        "Image_B_Caption": "A clear and sharp image of the same ancient amphitheater under a clear blue sky.",
+        "Task_Descriptions_from_A_to_B": "Enhance the focus and clarity to remove any blurriness, making details sharper and more defined.",
+        "Task_Descriptions_from_B_to_A": "Apply a soft blur effect to reduce the sharpness, creating a gently unfocused appearance across the image."
+    },
+    {
+        "id": 15,
+        "display_img_A": "./val/display/15_display.png",
+        "gt_img_B": "./val/gt/15_gt.png",
+        "Image_A_Caption": "The image shows a person with long, dark hair wearing a blue hat and gray knit sweater against a gray backdrop.",
+        "Image_B_Caption": "The image features a person with long, dark hair wearing a blue hat and a gray knit sweater against a gray backdrop.",
+        "Task_Descriptions_from_A_to_B": "Adjust the overall brightness and contrast to make the image slightly darker, bringing out more detail in the shadows.",
+        "Task_Descriptions_from_B_to_A": "Increase the brightness and lift the shadows to give a softer and more diffused appearance."
+    },
+    {
+        "id": 16,
+        "display_img_A": "./val/display/16_display.png",
+        "gt_img_B": "./val/gt/16_gt.png",
+        "Image_A_Caption": "A dark, blurred image of a forest scene with reddish-brown tones and indistinct shapes.",
+        "Image_B_Caption": "A clearer image of a forest scene showcasing vivid reddish-brown leaves and distinct tree trunks.",
+        "Task_Descriptions_from_A_to_B": "Improve the clarity and focus to reveal sharper details and enhance color vibrancy, ensuring that outlines and textures become more distinguishable.",
+        "Task_Descriptions_from_B_to_A": "Introduce a blur effect to diffuse details and create a sense of softness while muting colors to obscure the distinct outlines and elements."
+    },
+    {
+        "id": 17,
+        "display_img_A": "./val/display/17_display.png",
+        "gt_img_B": "./val/gt/17_gt.png",
+        "Image_A_Caption": "A soft-focused image of a plant with subtle shades of blue and minimal details in the center.",
+        "Image_B_Caption": "A sharp-focused image of the same plant, with distinct details and deeper blue hues.",
+        "Task_Descriptions_from_A_to_B": "Enhance the clarity and sharpness to highlight the leaf edges, while deepening the blue tones to add vibrancy and contrast.",
+        "Task_Descriptions_from_B_to_A": "Reduce the sharpness to create a softer look, and adjust the blues to be more muted, minimizing detail contrast."
+    },
+    {
+        "id": 18,
+        "display_img_A": "./val/display/18_display.png",
+        "gt_img_B": "./val/gt/18_gt.png",
+        "Image_A_Caption": "The image portrays a textured, earthy mushroom with a slightly blurred background of dark, forest floor elements.",
+        "Image_B_Caption": "This image showcases the same earthy mushroom in sharper detail, with a clearer view of the surrounding forest floor.",
+        "Task_Descriptions_from_A_to_B": "Enhance the clarity and focus to achieve a more detailed view, possibly adjusting the sharpness and contrast to bring out the finer textures.",
+        "Task_Descriptions_from_B_to_A": "Introduce a subtle blur effect, reducing sharpness and contrast to soften the textures and blend more with the background elements."
+    },
+    {
+        "id": 19,
+        "display_img_A": "./val/display/19_display.png",
+        "gt_img_B": "./val/gt/19_gt.png",
+        "Image_A_Caption": "A slightly blurred image of a crocodile on sandy terrain with some water in the background.",
+        "Image_B_Caption": "A clear and sharp image of a crocodile on sandy terrain with visible texture and some water in the background.",
+        "Task_Descriptions_from_A_to_B": "Enhance clarity by reducing blur, increase contrast to bring out textures, and adjust brightness to reveal details.",
+        "Task_Descriptions_from_B_to_A": "Introduce a slight blur, reduce contrast to soften details, and decrease brightness for a more subdued appearance."
+    },
+    {
+        "id": 20,
+        "display_img_A": "./val/display/20_display.png",
+        "gt_img_B": "./val/gt/20_gt.png",
+        "Image_A_Caption": "A group of hikers walking along a trail in a forested area with soft and muted colors.",
+        "Image_B_Caption": "A group of hikers walking along a trail in a forested area with vivid and clear details.",
+        "Task_Descriptions_from_A_to_B": "Enhance the visual clarity and contrast to bring out the details of the scene. Adjust the color saturation and sharpness to achieve a more vibrant and detailed effect.",
+        "Task_Descriptions_from_B_to_A": "Soften the overall focus and reduce the color intensity to create a subtle, muted appearance. Lower the contrast and sharpness to give a gentle and dreamy effect."
+    },
+    {
+        "id": 21,
+        "display_img_A": "./val/display/21_display.png",
+        "gt_img_B": "./val/gt/21_gt.png",
+        "Image_A_Caption": "A slightly blurred view of a suspension bridge framed by buildings and trees, with overcast skies.",
+        "Image_B_Caption": "A clear, sharp view of a suspension bridge framed by buildings and trees, under similar overcast skies.",
+        "Task_Descriptions_from_A_to_B": "To achieve a sharp image, enhance clarity and focus while maintaining the overall lighting. Adjust the contrast and details, making sure to bring out the structural elements of the bridge and surrounding buildings.",
+        "Task_Descriptions_from_B_to_A": "Introduce a slight blur to soften the details of the architectural elements. Reduce sharpness and clarity, ensuring the overall textures are smooth while retaining the composition and atmosphere."
+    },
+    {
+        "id": 22,
+        "display_img_A": "./val/display/22_display.png",
+        "gt_img_B": "./val/gt/22_gt.png",
+        "Image_A_Caption": "A blurred image of a fox curled up on snow with a calm and serene background of blues and whites.",
+        "Image_B_Caption": "A clear and sharp image of a fox curled up on snow, details in the fox's fur and the snowy landscape are visible.",
+        "Task_Descriptions_from_A_to_B": "Enhance the image clarity by focusing on the subject for a sharper detail, bringing out the textures of fur and the contrast between the fox and the background, which would enhance the viewer's attention to specific features.",
+        "Task_Descriptions_from_B_to_A": "Reduce the sharpness and introduce a gentle blur across the entire scene, giving it a softer and dream-like quality, while maintaining the overall composition and color balance to evoke a sense of tranquility."
+    },
+    {
+        "id": 23,
+        "display_img_A": "./val/display/23_display.png",
+        "gt_img_B": "./val/gt/23_gt.png",
+        "Image_A_Caption": "A cheetah standing with its body covered in distinctive spots against a natural backdrop, with a blurred effect present.",
+        "Image_B_Caption": "A clear view of a cheetah standing in a natural setting, showcasing its spotted fur and profile with visible greenery.",
+        "Task_Descriptions_from_A_to_B": "Enhance the clarity by reducing any obstructions, focus on sharpening the image, and bring out the natural colors and textures.",
+        "Task_Descriptions_from_B_to_A": "Introduce elements that obscure part of the view, apply a softening effect, and decrease the image sharpness to mimic a blurred appearance."
+    },
+    {
+        "id": 24,
+        "display_img_A": "./val/display/24_display.png",
+        "gt_img_B": "./val/gt/24_gt.png",
+        "Image_A_Caption": "A dimly lit, slightly blurred image of an ancient stone structure with multiple arches.",
+        "Image_B_Caption": "A clearer view of an ancient stone structure with pronounced details and sharper arches.",
+        "Task_Descriptions_from_A_to_B": "Increase the sharpness and clarity, enhancing the details and accentuating the contrasts in the stonework.",
+        "Task_Descriptions_from_B_to_A": "Introduce a slight blur and soften the overall structure, reducing detail clarity and muting the contrasts."
+    },
+    {
+        "id": 25,
+        "display_img_A": "./val/display/25_display.png",
+        "gt_img_B": "./val/gt/25_gt.png",
+        "Image_A_Caption": "A blurred image of a historic stone building with towers, reflected in water under a partly cloudy sky.",
+        "Image_B_Caption": "A sharp and detailed image of a historic stone building with towers, reflected in water under a partly cloudy sky.",
+        "Task_Descriptions_from_A_to_B": "Enhance clarity by increasing sharpness and detail, correcting focus to bring architectural features into clear view.",
+        "Task_Descriptions_from_B_to_A": "Introduce a blur effect to reduce sharpness; create a softer focus that obscures fine details of the architecture."
+    },
+    {
+        "id": 26,
+        "display_img_A": "./val/display/26_display.png",
+        "gt_img_B": "./val/gt/26_gt.png",
+        "Image_A_Caption": "A blurry image of a penguin standing on rocky ground with uneven focus.",
+        "Image_B_Caption": "A clear, focused image of a penguin standing on rocky ground.",
+        "Task_Descriptions_from_A_to_B": "Enhance the clarity of the scene by sharpening the details and improving focus to reveal textures and features.",
+        "Task_Descriptions_from_B_to_A": "Introduce a soft, unfocused effect by reducing sharpness and creating a gradual blur across the scene."
+    },
+    {
+        "id": 27,
+        "display_img_A": "./val/display/27_display.png",
+        "gt_img_B": "./val/gt/27_gt.png",
+        "Image_A_Caption": "A blurred image of a bookshelf filled with various colorful books stacked vertically in rows.",
+        "Image_B_Caption": "A clear image of a bookshelf with neatly arranged books in diverse colors and titles.",
+        "Task_Descriptions_from_A_to_B": "Introduce clarity by adjusting focus and eliminating blurriness. Enhance sharpness to reveal details and edges. Reinforce color accuracy by adjusting brightness and contrast.",
+        "Task_Descriptions_from_B_to_A": "Create a softened perspective by reducing sharpness and introducing a subtle blur. Slightly distort the edges and reduce detail visibility to give a more abstract appearance."
+    },
+    {
+        "id": 28,
+        "display_img_A": "./val/display/28_display.png",
+        "gt_img_B": "./val/gt/28_gt.png",
+        "Image_A_Caption": "A statue with a halo of stars against a cloudy sky, appearing slightly blurred with muted colors.",
+        "Image_B_Caption": "A statue with a halo of stars in focus against a clearer background, having more detailed definition and vibrant colors.",
+        "Task_Descriptions_from_A_to_B": "Increase sharpness and detail, enhance color vibrancy, and refine edges to reduce blur.",
+        "Task_Descriptions_from_B_to_A": "Apply a blurring effect to decrease sharpness, desaturate colors slightly, and soften the edges to give a muted appearance."
+    },
+    {
+        "id": 29,
+        "display_img_A": "./val/display/29_display.png",
+        "gt_img_B": "./val/gt/29_gt.png",
+        "Image_A_Caption": "The image shows a close-up of a cat lying down, with warm lighting creating a slightly soft and blurred appearance.",
+        "Image_B_Caption": "The image features the same cat, now appearing sharper with enhanced contrast and clarity, showcasing more defined features.",
+        "Task_Descriptions_from_A_to_B": "Begin by increasing sharpness to enhance the details. Adjust contrast and brightness to balance light and shadows, making features more defined. Fine-tune saturation subtly to enrich colors while maintaining a natural look.",
+        "Task_Descriptions_from_B_to_A": "Soften the sharpness to create a gentle effect. Reduce the contrast slightly to blend shadows, giving a more even tone. Lower brightness a bit to achieve a subdued, warm ambiance."
+    }
+]
