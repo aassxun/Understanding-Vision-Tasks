@@ -56,7 +56,7 @@ Dataset and code will be available in two months.
 |:---------------------:|:----------------------------:|:---------------------:|:----------------------:|
 | <img src="assets/seg_input_1.jpg" alt="Input Image 1-1" height="60"/> <span style="display:inline;"> <sub>**Input Image**</sub></span> | `Apply a pink color overlay to bicycles, completely matching their shapes.` | <img src="assets/seg_output_1.jpg" alt="Output Image" height="60"/> <span style="display:inline;"> <sub>**Output Image**</sub></span> | <img src="assets/seg_gt_1.jpg" alt="Ground Truth" height="60"/> <span style="display:inline;"> <sub>**Ground Truth**</sub></span> |
 | <img src="assets/seg_input_2.jpg" alt="Input Image 1-2" height="70"/> <span style="display:inline;"> <sub>**Input Image**</sub></span> | `Apply a solid grey color tint to fully cover one banana instance.Paint over each stove with a powderblue color.` | <img src="assets/seg_output_2.jpg" alt="Output Image" height="70"/> <span style="display:inline;"> <sub>**Output Image**</sub></span> | <img src="assets/seg_gt_2.jpg" alt="Ground Truth" height="70"/> <span style="display:inline;"> <sub>**Ground Truth**</sub></span> |
-| <img src="assets/seg_input_3.jpg" alt="Input Image 1-3" height="120"/> <span style="display:inline;"> <sub>**Input Image**</sub></span> | `Spectral\_r is the reversed version of Spectral, transitioning through red, yellow, green, and blue. Based on the previously defined colors, help me complete the segmentation task below. Color all instances of bucket, toilet using Spectral\_r colors, following their contours precisely.` | <img src="assets/seg_output_3.jpg" alt="Output Image" height="120"/> <span style="display:inline;"> <sub>**Output Image**</sub></span> | <img src="assets/seg_gt_3.jpg" alt="Ground Truth" height="120"/> <span style="display:inline;"> <sub>**Ground Truth**</sub></span> |
+| <img src="assets/seg_input_3.jpg" alt="Input Image 1-3" height="120"/> <span style="display:inline;"> <sub>**Input Image**</sub></span> | `Spectral_r is the reversed version of Spectral, transitioning through red, yellow, green, and blue. Based on the previously defined colors, help me complete the segmentation task below. Color all instances of bucket, toilet using Spectral_r colors, following their contours precisely.` | <img src="assets/seg_output_3.jpg" alt="Output Image" height="120"/> <span style="display:inline;"> <sub>**Output Image**</sub></span> | <img src="assets/seg_gt_3.jpg" alt="Ground Truth" height="120"/> <span style="display:inline;"> <sub>**Ground Truth**</sub></span> |
 
 ---
 
@@ -160,3 +160,4 @@ Dataset and code will be available in two months.
   <b>Resolution:</b> 
   <i>448×448.</i> 
 </p>
+
