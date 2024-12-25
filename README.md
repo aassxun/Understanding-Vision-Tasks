@@ -1,6 +1,6 @@
 # Understanding Vision Tasks
 
-Our paper ''The Key of Understanding Vision Tasks: Explanatory Instructions'' is available at xxx.
+Our paper ''The Key of Understanding Vision Tasks: Explanatory Instructions'' is available at [https://arxiv.org/abs/2412.18525](https://arxiv.org/abs/2412.18525).
 
 Dataset and code will be available in two months.
 
