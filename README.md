@@ -1,6 +1,6 @@
 # Explanatory Instructions: Towards Unified Vision Tasks Understanding and Zero-shot Generalization
 
-Our paper "Explanatory Instructions: Towards Unified Vision Tasks Understanding and Zero-shot Generalization" is available at [https://arxiv.org/abs/2412.18525](https://arxiv.org/abs/2412.18525). (Due to some issues with the submission to arXiv, please refer to the paper.pdf file in the GitHub repository for the paper.)
+Our paper "Explanatory Instructions: Towards Unified Vision Tasks Understanding and Zero-shot Generalization" is available at [https://arxiv.org/abs/2412.18525](https://arxiv.org/abs/2412.18525).
 
 Dataset and code will be available in two months.
 
