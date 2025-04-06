@@ -3,9 +3,9 @@
 Our paper "Explanatory Instructions: Towards Unified Vision Tasks Understanding and Zero-shot Generalization" is available at [https://arxiv.org/abs/2412.18525](https://arxiv.org/abs/2412.18525).
 
 
-[📚Dataset (Explanatory-based Vison Tasks)](https://huggingface.co/datasets/axxkaya/UVT-Explanatory-based-Vision-Tasks) | [📚Dataset (Terminological-based Vision Tasks)](https://huggingface.co/datasets/axxkaya/UVT-Terminological-based-Vision-Tasks)
+[📚Dataset (Explanatory-based Vison Tasks)](https://huggingface.co/datasets/axxkaya/UVT-Explanatory-based-Vision-Tasks) | [📚Dataset (Terminological-based Vision Tasks)](https://huggingface.co/datasets/axxkaya/UVT-Terminological-based-Vision-Tasks) | [🤗 Model (UVT-7B-448)](https://huggingface.co/axxkaya/UVT-7B-448)
 
-Model and codes are preparing.
+Codes will be released when the paper is accepted.
 
 ### Samples for Zero-shot Capabilities on Vision Tasks (Relatively Simple Samples)
 
