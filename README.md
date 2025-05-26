@@ -85,6 +85,12 @@ You can deal with your own dataset by following these stages, or you can downloa
 #### 2. Training
 Please refer to exps/7B.sh
 
+### Evaluation
+#### Evaluation Environment
+Additional environment for [ControlNet++](https://github.com/liming-ai/ControlNet_Plus_Plus) is required for the evaluation stage.
+#### Evaluation Data and stage
+We provide json for evalution data in 'Evaluation_Data_JSON'. Then you have to follow these json files to generate images and evaluate them respectively. 
+
 ### Samples for Zero-shot Capabilities on Vision Tasks (Relatively Simple Samples)
 
 #### Instruction-level Zero-shot Samples (Depth Estimation)
