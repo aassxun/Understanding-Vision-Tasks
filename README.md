@@ -5,7 +5,62 @@ Our paper "Explanatory Instructions: Towards Unified Vision Tasks Understanding 
 
 [📚Dataset (Explanatory-based Vison Tasks)](https://huggingface.co/datasets/axxkaya/UVT-Explanatory-based-Vision-Tasks) | [📚Dataset (Terminological-based Vision Tasks)](https://huggingface.co/datasets/axxkaya/UVT-Terminological-based-Vision-Tasks) | [🤗 Model (UVT-7B-448)](https://huggingface.co/axxkaya/UVT-7B-448)
 
-Codes will be released when the paper is accepted.
+### Code Base
+We build our code based on [Chameleon](https://github.com/facebookresearch/chameleon), [Luminar-mGPT](https://github.com/Alpha-VLLM/Lumina-mGPT) and [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory). 
+
+### ⚙️ Installation
+1. conda create -n py310 python=3.10 -y
+2. conda install cudatoolkit=11.8 -y
+3. conda activate py310
+4. pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+5. wget https://github.com/Dao-AILab/flash-attention/releases/download/v2.6.3/flash_attn-2.6.3+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+6. pip install flash_attn-2.6.3+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl --no-build-isolation
+5. pip install -r requirements.txt
+
+### Simple Inference
+
+The simplest code for inference (refer to demo_inference.py):
+
+```python
+from inference_solver import FlexARInferenceSolver
+from PIL import Image
+import os
+import torch
+import random
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+inference_solver = FlexARInferenceSolver(
+    model_path = "UVT_7B_448", #path to your model
+    precision="fp16", #bf16
+    target_size=448, #fixed 448
+)
+
+max_out = 1
+for i in range(max_out):
+    set_seed(i)
+    
+    qas = [["Acknowledge the spatial structure and identify variations in light intensity, translating these into a gradient scale representing distances. Accentuate regions where light diminishes gradually, enhancing the perception of depth by dimming peripheral areas. Adjust the distribution of luminance to highlight the central vanishing point, converting detailed textures into smooth transitions of grayscale." + " <|image|>", None]]
+    images = [Image.open("./demo_input/rain_1.jpg")]
+
+    generated = inference_solver.generate(
+        images=images,
+        qas=qas,
+        max_gen_len=4096,
+        temperature=1.0,
+        logits_processor=inference_solver.create_logits_processor(cfg=1., image_top_k=2048),
+    )
+    new_image = generated[1][0]
+    new_image.save(f'./test_output_{i}.png', format='PNG')
+```
 
 ### Samples for Zero-shot Capabilities on Vision Tasks (Relatively Simple Samples)
 
