@@ -9,6 +9,18 @@ Our paper "Explanatory Instructions: Towards Unified Vision Tasks Understanding 
 We build our code based on [Chameleon](https://github.com/facebookresearch/chameleon), [Luminar-mGPT](https://github.com/Alpha-VLLM/Lumina-mGPT) and [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory). 
 
 ### ⚙️ Installation
+#### Chameleon VQ-VAE
+Since currently the Chameleon implementation in transformers does not contain the VQ-VAE decoder, please manually download the original VQ-VAE weights [provided by Meta](https://github.com/facebookresearch/chameleon) and
+put them to the following directory:
+```
+- ckpts/
+    - chameleon/
+        - tokenizer/
+            - text_tokenizer.json
+            - vqgan.yaml
+            - vqgan.ckpt
+```
+#### Python Environment
 1. conda create -n py310 python=3.10 -y
 2. conda install cudatoolkit=11.8 -y
 3. conda activate py310
@@ -61,6 +73,17 @@ for i in range(max_out):
     new_image = generated[1][0]
     new_image.save(f'./test_output_{i}.png', format='PNG')
 ```
+
+### Training
+#### 1. Pre-Tokenization
+This stage tokenizes each data point, consisting of interleaved image and text, into a single sequence of integer tokens. After tokenization, the sequence is saved to disk for trainining-time usage. Together with the saved tokens, a json-formatted record file is also generated for indexing all the saved token files. For faster tokenization, you may use multiple GPUs and dispatch different subsets of data to them.
+
+We provide pre-tokenization samples in './pre_tokenize'. Running commend can refer to the 'py' files in the folder.We also provide samples for output files, please refer to './json/edit_resolution_448/Allweather'.
+
+You can deal with your own dataset by following these stages, or you can download dataset wo provide in Huggingface and write a simple Pre-Tokenization script.
+
+#### 2. Training
+Please refer to exps/7B.sh
 
 ### Samples for Zero-shot Capabilities on Vision Tasks (Relatively Simple Samples)
 
