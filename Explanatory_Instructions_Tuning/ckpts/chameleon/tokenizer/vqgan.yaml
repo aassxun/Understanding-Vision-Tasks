@@ -1,0 +1,57 @@
+model:
+  base_learning_rate: 4.5e-06
+  target: taming.models.vqgan.VQModel
+  params:
+    embed_dim: 256
+    n_embed: 8192
+    ddconfig:
+      double_z: false
+      z_channels: 256
+      resolution: 512
+      in_channels: 3
+      out_ch: 3
+      ch: 128
+      ch_mult:
+      - 1
+      - 1
+      - 2
+      - 2
+      - 4
+      num_res_blocks: 2
+      attn_resolutions: []
+      dropout: 0.0
+    # lossconfig:
+    #   target: taming.modules.losses.vqperceptual_vit_vqgan.VQLPIPSWithDiscriminator
+    #   params:
+    #     disc_start: 100001
+    #     perceptual_weight: 1.0
+    #     adversarial_weight: 0.5
+    #     disc_params:
+    #       size: 512
+    ckpt_path: manifold://fair_onellm_checkpoints/tree/v2/tokenizer/vqgan_wm_0209.ckpt
+data:
+  target: main.DataModuleFromConfig
+  params:
+    batch_size: 4
+    num_workers: 10
+    image_size: 512
+    filter_image_size: 512
+    dataset: coco
+    aesthetics_th: 0
+    clipsim_th: 0
+--distributed-world-size: null
+'32': null
+--distributed-port: null
+'17338': null
+--save-dir: null
+/checkpoint/shellysheynin/shutterstock/512x512_1024tokens_4node_shutterstock_laion_no_attn_styleGAN:
+  log_every-500:
+    ngpu32: null
+--tensorboard-logdir: null
+/checkpoint/shellysheynin/tensorboard_logs/2023-03-30/512x512_1024tokens_4node_shutterstock_laion_no_attn_styleGAN:
+  log_every-500:
+    ngpu32: null
+'14561': null
+/checkpoint/shellysheynin/tensorboard_logs/2023-04-02/512x512_1024tokens_4node_shutterstock_laion_no_attn_styleGAN:
+  log_every-500:
+    ngpu32: null
