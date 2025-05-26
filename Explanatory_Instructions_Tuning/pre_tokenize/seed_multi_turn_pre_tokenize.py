@@ -45,7 +45,7 @@ class ItemProcessor(FlexARItemProcessor):
                 target_image = Image_Paths[j+1]
                 edit_task = {
                     "conversations": [
-                        {"from": "human", "value": "<|image|>" + combined_instruction},
+                        {"from": "human", combined_instruction + "value": "<|image|>"},
                         {"from": "gpt", "value": "<|image|>"}
                     ],
                     "image": [source_image, target_image]
@@ -59,7 +59,7 @@ class ItemProcessor(FlexARItemProcessor):
                 target_image = Image_Paths[-(i+1)]
                 edit_task = {
                     "conversations": [
-                        {"from": "human", "value": "<|image|>" + combined_inverse_instruction},
+                        {"from": "human", combined_inverse_instruction + "value": "<|image|>"},
                         {"from": "gpt", "value": "<|image|>"}
                     ],
                     "image": [source_image, target_image]

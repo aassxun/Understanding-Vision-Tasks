@@ -31,7 +31,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_1 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_A_to_B']},
+                {"from": "human", raw_item['Task_Descriptions_from_A_to_B'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_A, Image_B]
@@ -40,7 +40,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_2 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_B_to_A']},
+                {"from": "human", raw_item['Task_Descriptions_from_B_to_A'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_B, Image_A]

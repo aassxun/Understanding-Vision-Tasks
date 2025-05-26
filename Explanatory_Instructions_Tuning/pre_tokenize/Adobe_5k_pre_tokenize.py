@@ -35,7 +35,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_1 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_A_to_B']},
+                {"from": "human", raw_item['Task_Descriptions_from_A_to_B'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_A, Image_B]
@@ -44,7 +44,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_2 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_B_to_A']},
+                {"from": "human", raw_item['Task_Descriptions_from_B_to_A'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_B, Image_A]
@@ -53,7 +53,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_3 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_A_to_C']},
+                {"from": "human", raw_item['Task_Descriptions_from_A_to_C'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_A, Image_C]
@@ -62,7 +62,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_4 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_C_to_A']},
+                {"from": "human", raw_item['Task_Descriptions_from_C_to_A'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_C, Image_A]
@@ -71,7 +71,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_5 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_A_to_D']},
+                {"from": "human", raw_item['Task_Descriptions_from_A_to_D'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_A, Image_D]
@@ -80,7 +80,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_6 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_D_to_A']},
+                {"from": "human", raw_item['Task_Descriptions_from_D_to_A'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_D, Image_A]
@@ -89,7 +89,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_7 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_A_to_E']},
+                {"from": "human", raw_item['Task_Descriptions_from_A_to_E'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_A, Image_E]
@@ -98,7 +98,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_8 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_E_to_A']},
+                {"from": "human", raw_item['Task_Descriptions_from_E_to_A'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_E, Image_A]
@@ -107,7 +107,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_9 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_A_to_F']},
+                {"from": "human", raw_item['Task_Descriptions_from_A_to_F'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_A, Image_F]
@@ -116,7 +116,7 @@ class ItemProcessor(FlexARItemProcessor):
 
         edit_task_10 = {
             "conversations": [
-                {"from": "human", "value": "<|image|>" + raw_item['Task_Descriptions_from_F_to_A']},
+                {"from": "human", raw_item['Task_Descriptions_from_F_to_A'] + "value": "<|image|>"},
                 {"from": "gpt", "value": "<|image|>"}
             ],
             "image": [Image_F, Image_A]

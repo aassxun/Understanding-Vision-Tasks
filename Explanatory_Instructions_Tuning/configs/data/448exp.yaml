@@ -1,0 +1,10 @@
+META:
+  - path: './json/edit_resolution_448/Adobe_5k/record.json'
+    ratio: 2.0
+  - path: './json/edit_resolution_448/Allweather/record.json'
+    ratio: 2.0
+  - path: './json/edit_resolution_448/SEED/Real_Editing/record.json'
+    ratio: 2.0
+  - path: './json/edit_resolution_448/SEED/Multi_Turn/record.json'
+    ratio: 2.0
+
